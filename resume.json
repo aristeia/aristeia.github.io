@@ -1,0 +1,126 @@
+{
+    "bio": {
+	"firstName": "Jon",
+	"lastName": "Sims",
+	"email": {
+	    "personal": "jsims@pugetsound.edu"
+	},
+	"phone": {
+	    "personal": "(239) 994-3049"
+	},
+	"location": {
+	    "city": "Clarendon Hills",
+	    "state": "Illinois"
+	}
+    },
+    "skills": [
+	{
+	    "name": "Languages",
+	    "level": "Master",
+	    "keywords": [
+		"Python",
+		"SQL",
+		"PL/SQL",
+		"Java",
+		"C/C++",
+		"Bash",
+		"Haskell",
+		"Prolog",
+		"HTML/CSS",
+		"Assembly",
+		"Common Lisp",
+		"Bash"
+	    ]
+	},
+	{
+	    "name": "Databases",
+	    "level": "Master",
+	    "keywords": [
+		"Oracle Database 12c",
+		"MySQL"
+		]
+	},
+	{
+	    "name": "Other Technologies",
+	    "level": "Master",
+	    "keywords": [
+		"Oracle Peopletools 8.53",
+		"Enterprise Linux Systems (Debian, Fedora, Ubuntu)",
+		"SVN"
+	    ]
+	}
+    ],
+    "work": [
+      {
+	  "company": "University of Puget Sound",
+	  "position": "Junior Database Analyst",
+	  "location": "Tacoma, WA",
+	  "startDate": "September, 2013",
+	  "endDate": "May, 2014",
+	  "summary": "I am a work study student working with the university’s databases to replace their legacy db structure with the newer Oracle Database 12c and Oracle Peopletools. I designed queries and views in PL/SQL for various academic and financial departments. Initially, I worked as part of the “Optimize Team”, but we’ve now moved onto the “Maximize” phase. Same job and work, but slightly different titles. I will not be working in the summer of 2014, but will most likely resume my position in the fall when school resumes.",
+	  "highlights": [
+              "I’ve successfully replaced many legacy reports with Peoplesoft queries.",
+	      "I work under the senior developers who build the university’s SQL database in the first place, thus have picked up a foundational understanding on the administration of databases and general SQL."
+	  ]
+      },
+      {
+	  "company": "Risk Technology Solutions",
+	  "position": "Junior Linux Systems Administrator",
+	  "location": "Charlotte, NC",
+	  "startDate": "June, 2013",
+	  "endDate": "August, 2013",
+	  "summary": "I installed several programs onto their servers for the purpose of analyzing stock positions and portfolios. Risktech writes customized software for individual firms based on their market analysis needs. Rather than rewriting redundant code for similar problems, they want to look into an open source platform on which to write customized software.",
+	  "highlights": [
+              "My role was to install and test the Opengamma platform for them in order to achieve an open source solution.",
+	      "I analysed the potential costs and benefits of developing atop Opengamma."
+	  ]
+      },
+      {
+	  "company": "Freelance Web Developer",
+	  "website": "jonsims.me",
+	  "startDate": "December, 2012",
+	  "endDate": "Present",
+	  "summary": "I’ve developed several websites for a variety of clients over the years. In addition, I also set up this website on my home server.",
+	  "highlights": [
+              "In 2012, my uncle needed a website to show off his restaurant to the world. I wrote the websites code and set up its hosting. It existed at tomsgrill.com, but has since been deactivated as he sold the restaurant earlier this year.",
+	      "I am designing a website now at jwalking.biz for another client, whose progress can be viewed here." 
+	  ]
+      }
+    ],
+    "education": [
+	{
+	    "institution": "University of Puget Sound",
+	    //"location": "Tacoma, Washington",
+	    "startDate": "August, 2013",
+	    "endDate": "May, 2016",
+	    //"area": "B.S. in Compuer Science and Mathematics (double major)",
+	    "courses": [
+		"Honors Program",
+		"3.67 GPA in Major"
+	    ],
+	    //"studyType": "I am currently a sophomore, but will have enough credits to be considered a junior by this fall."
+	}
+    ],
+    "organizations": [
+	{
+	    "company": "Association for Computing Machinery",
+	    "position": "Project Organizer",
+	    "startDate": "August, 2013",
+	    "endDate": "Present",
+	    "location": "University of Puget Sound",
+	    "summary": "I’ve participated in this club through a couple of projects since the beginning of the school year. In the first semester, we helped each other master the language Python and put on a hackathon. This past semester, we’ve begun work on an IOS/Android app, LoggerBytes, which queries the universitys database for how many dining dollars a student has left. We’ve also constructed a pseudosupercomputer, which can successfully run programs in parallel, out of several raspberry pi computers. This fall, I will be taking on a leadership position in the club as the project organizer."
+	},
+	{
+	    "company": "Puget Sound Outdoors",
+	    "startDate": "August, 2013",
+	    "endDate": "Present",
+	    "location": "University of Puget Sound",
+	    "summary": " I’ve taken several day hikes and spelunking trips with the club, and will be taking on a leadership position next fall. Currently, I am certified to perform CPR, WFA certified, and next fall, I will take the clubs OLE leadership course."
+	}
+    ],
+    "references": [
+	{
+	    "name": "Available upon request"
+	}
+    ]
+}
