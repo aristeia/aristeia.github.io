@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Zarvox Automated DJ Demo">
+	    <meta name="author" content="Jon Sims">
+	    <link rel="icon" href="../favicon.ico" />
+
+
+		<title>Zarvox</title>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+		<link href="../css/cover.css" rel="stylesheet">
+		<link href="../css/bootstrap-combobox.css" rel="stylesheet">
+		<script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap-combobox.js"></script>
+
+
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+    </script>
+	</head>
+	<body>
+
+
+	    <div class="site-wrapper">
+
+	      <div class="site-wrapper-inner">
+
+	        <div class="cover-container">
+
+	          <div class="masthead clearfix">
+	            <div class="inner">
+	              <h3 class="masthead-brand">Jon's Webpage</h3>
+	              <nav>
+	                <ul class="nav masthead-nav">
+	                  <li><a href="/index.html">Resume</a></li>
+	                  <li class="active"><a href="#">Code Demos</a></li>
+	                </ul>
+	              </nav>
+	            </div>
+	          </div>
+
+	          <div class="inner cover" id="zarv">
+	            <h1 style="font-family: 'Audiowide', cursive, Veranda, serif;">ZARVOX</h1> <br>
+				<p class="lead" id="zarv-text"></p>
+	          </div>
+
+	          <!-- <div class="mastfoot">
+	            <div class="inner">
+	              <p></p>
+	            </div>
+	          </div> -->
+
+	        </div>
+
+	      </div>
+
+	    </div>
+
+		<script type="text/javascript">
+			var albums = [];
+			var subgenres = [];
+			var termOut = $.get('./zarvox_term.out', {},
+			  	function(data){
+				    var dataStr = new String(data);
+				    var lines = dataStr.split(/\n/).filter(function(str){
+				    	return str.length>3; } );
+				    var start;
+				    var end;
+				    if (isNaN(lines[0]))
+					    start = new Date(0);
+					else
+						start = new Date(parseInt(lines[0]));
+				    if (isNaN(lines.slice(-1)[0]))
+					    end = new Date(0);
+					else
+						end = new Date(parseInt(lines.slice(-1)[0]));
+					console.log(start,end);
+				    if (start.getFullYear() > 2015) {
+				    	if (end.getFullYear() > 2015) {
+				    		document.getElementById("zarv-text").innerHTML = "You can demo the zarvox radio automation software by generating a playlist with one of the following three parameter options:<br>";
+				    		$("div#zarv").append( $( '<div class="btn-group" data-toggle="buttons">  <div class="row"><div class="col-md-4"><label id="option1" class="btn btn-primary active">    <input id="option1-button" type="radio" name="options"  autocomplete="off" checked> Random playlist  </label></div>  <div class="col-md-4"><label id="option2" class="btn btn-primary">    <input id="option2-button" type="radio" name="options" autocomplete="off"> Playlist based on a<br>genre/subgenre pair</label></div>  <div class="col-md-4"><label id="option3" class="btn btn-primary">    <input  id="option3-button"type="radio" name="options" autocomplete="off"> Playlist based on an<br>album/artist pair</label></div></div></div>' ));			    		
+				    		adOption = document.createElement( "P" );
+				    		adOption.className = 'lead';
+				    		adOption.innerHTML = "<br>Additional options:";
+				    		$("div#zarv").append(adOption);
+				    		$("div#zarv").append($( '<div class="row"> <form class="form-inline"> <div class="col-md-6"> <div class="form-group"> <select class="combobox" id="adOption1">  <option value="PA">Pennsylvania</option>  <option value="CT">Connecticut</option>  <option value="NY">New York</option>  <option value="MD">Maryland</option>  <option value="VA">Virginia</option></select></div></div> <div class="col-md-6"> <div class="form-group"> <select class="combobox" id="adOption2">  <option value="PA">Pennsylvania</option>  <option value="CT">Connecticut</option>  <option value="NY">New York</option>  <option value="MD">Maryland</option>  <option value="VA">Virginia</option></select></div></div></form></div>' ));
+
+				    		$( "#option1-button" ).click(function() {
+								$("#option1").addClass("active");
+								$("#option2").removeClass("active");
+								$("#option3").removeClass("active");
+							});
+				    		$( "#option2-button" ).click(function() {
+								$("#option2").addClass("active");
+								$("#option1").removeClass("active");
+								$("#option3").removeClass("active");
+							});
+				    		$( "#option3-button" ).click(function() {
+								$("#option3").addClass("active");
+								$("#option2").removeClass("active");
+								$("#option1").removeClass("active");
+							});
+							
+				    	}
+				    	else {
+				    		document.getElementById("zarv-text").innerHTML = "Error with demo: another user is currently generating a playlist with Zarvox. Due to several issues, we cannot currently let multiple playlists be generated at once. However, you can look at their playlist being generated <a href='playlist.html'>here.</a>";
+						}
+				    }
+				    else {
+				    	document.getElementById("zarv-text").innerHTML = "Error with Zarvox program; contact Jon for questions";
+
+				    }
+
+				    // return lines.slice(0,10);
+			}, 'text text');
+		</script>
+	<script type="text/javascript">
+    dealWithCSV = function(data){
+		var dataStr = new String(data);
+		var lines = dataStr.split(/\n/).filter( function(str) {
+			return str.length>3; })
+		var db = [];
+		lines.forEach( function(line) {
+			newline = line.split(',');
+			if (!(newline[0] in db))
+				db[newline[0]] = []
+			db[newline[0]].push(newline.splice(1))
+		})
+		return db;
+	}
+
+    $( window ).load(function() {
+    	while ($("#zarv-text").html().length < 1)
+    		window.setTimeout(function(){},50)
+		if ($("#zarv-text").html().slice(0,5) !== "Error") {
+		    $('.combobox').combobox({bsVersion: '3'});
+			// albums = $.get('./albums.csv', {}, dealWithCSV, 'text text');
+			// subgenres = $.get('./subgenres.csv', {}, dealWithCSV, 'text text');
+
+		}
+    });
+	</script>
+
+
+	</body>
+</html>
