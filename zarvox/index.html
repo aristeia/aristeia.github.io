@@ -138,12 +138,14 @@
 	}
 
     $( window ).load(function() {
-    	while ($("#zarv-text").html().length < 1)
-    		window.setTimeout(function(){},50)
+    	// while ($("#zarv-text").html().length < 1){
+    	// 	console.log("Waiting...");
+    	// 	window.setTimeout(function(){},500);
+    	// }
 		if ($("#zarv-text").html().slice(0,5) !== "Error") {
 		    $('.combobox').combobox({bsVersion: '3'});
-			// albums = $.get('./albums.csv', {}, dealWithCSV, 'text text');
-			// subgenres = $.get('./subgenres.csv', {}, dealWithCSV, 'text text');
+			albums = $.get('./albums.csv', {}, dealWithCSV, 'text text');
+			subgenres = $.get('./subgenres.csv', {}, dealWithCSV, 'text text');
 
 		}
     });
