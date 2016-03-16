@@ -49,7 +49,60 @@
 
 	          <div class="inner cover" id="zarv">
 	            <h1 style="font-family: 'Audiowide', cursive, Veranda, serif;">ZARVOX</h1> <br>
-				<p class="lead" id="zarv-text"></p>
+	            <div id="zarv-good" style="display:none">
+					<p class="lead">
+						You can demo the zarvox radio automation software by generating a playlist with one of the following three parameter options:
+					</p>
+					<br>
+					<div class="row">
+						<div class="btn-group" data-toggle="buttons">  
+							<div class="col-md-4">
+								<label id="option1" class="btn btn-primary active">    
+									<input id="option1-button" type="radio" name="options"  autocomplete="off" checked> Random playlist  
+								</label>
+							</div>  
+							<div class="col-md-4">
+								<label id="option2" class="btn btn-primary">    
+									<input id="option2-button" type="radio" name="options" autocomplete="off"> Playlist based on a<br>genre/subgenre pair
+								</label>
+							</div>  
+							<div class="col-md-4">
+								<label id="option3" class="btn btn-primary">    
+									<input  id="option3-button"type="radio" name="options" autocomplete="off"> Playlist based on<br>an album/artist pair
+								</label>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row" id="adOptions" style="display:none"> 
+						<p class="lead">Additional options:</p>
+						<br>
+						<form class="form-inline"> 
+							<div class="col-md-6"> 
+								<div class="form-group"> 
+									<select class="combobox form-control" id="adOption1">  
+								</div>
+							</div> 
+							<div class="col-md-6"> 
+								<div class="form-group"> 
+									<select class="combobox form-control" id="adOption2">  
+									</select>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div id="zarv-meh" style="display:none">
+					<p class="lead">
+						Error with demo: another user is currently generating a playlist with Zarvox. Due to this project not yet being completely implemented, such that multiple instances can be run by one person's credentials, we cannot currently let multiple playlists be generated at once. However, you can look at their playlist being generated <a href='playlist.html'>here.</a>
+					</p>
+				</div>
+				<div id="zarv-bad" style="display:none">
+					<p class="lead" >
+						Error with Zarvox program; contact Jon for questions.
+					</p>
+				</div>
+				
 	          </div>
 
 	          <!-- <div class="mastfoot">
@@ -65,92 +118,135 @@
 	    </div>
 
 		<script type="text/javascript">
-			var albums = [];
-			var subgenres = [];
-			var termOut = $.get('./zarvox_term.out', {},
-			  	function(data){
-				    var dataStr = new String(data);
-				    var lines = dataStr.split(/\n/).filter(function(str){
-				    	return str.length>3; } );
-				    var start;
-				    var end;
-				    if (isNaN(lines[0]))
-					    start = new Date(0);
-					else
-						start = new Date(parseInt(lines[0]));
-				    if (isNaN(lines.slice(-1)[0]))
-					    end = new Date(0);
-					else
-						end = new Date(parseInt(lines.slice(-1)[0]));
-					console.log(start,end);
-				    if (start.getFullYear() > 2015) {
-				    	if (end.getFullYear() > 2015) {
-				    		document.getElementById("zarv-text").innerHTML = "You can demo the zarvox radio automation software by generating a playlist with one of the following three parameter options:<br>";
-				    		$("div#zarv").append( $( '<div class="btn-group" data-toggle="buttons">  <div class="row"><div class="col-md-4"><label id="option1" class="btn btn-primary active">    <input id="option1-button" type="radio" name="options"  autocomplete="off" checked> Random playlist  </label></div>  <div class="col-md-4"><label id="option2" class="btn btn-primary">    <input id="option2-button" type="radio" name="options" autocomplete="off"> Playlist based on a<br>genre/subgenre pair</label></div>  <div class="col-md-4"><label id="option3" class="btn btn-primary">    <input  id="option3-button"type="radio" name="options" autocomplete="off"> Playlist based on an<br>album/artist pair</label></div></div></div>' ));			    		
-				    		adOption = document.createElement( "P" );
-				    		adOption.className = 'lead';
-				    		adOption.innerHTML = "<br>Additional options:";
-				    		$("div#zarv").append(adOption);
-				    		$("div#zarv").append($( '<div class="row"> <form class="form-inline"> <div class="col-md-6"> <div class="form-group"> <select class="combobox" id="adOption1">  <option value="PA">Pennsylvania</option>  <option value="CT">Connecticut</option>  <option value="NY">New York</option>  <option value="MD">Maryland</option>  <option value="VA">Virginia</option></select></div></div> <div class="col-md-6"> <div class="form-group"> <select class="combobox" id="adOption2">  <option value="PA">Pennsylvania</option>  <option value="CT">Connecticut</option>  <option value="NY">New York</option>  <option value="MD">Maryland</option>  <option value="VA">Virginia</option></select></div></div></form></div>' ));
+		    dealWithCSV = function(data){
+				var dataStr = new String(data);
+				var lines = dataStr.split(/\n/).filter( function(str) {
+					return str.length>3; });
+				var db = [];
+				lines.forEach( function(line) {
+					newline = line.split(',');
+					if (!(newline[0] in db))
+						db[newline[0]] = []
+					db[newline[0]].push(newline.splice(1))
+				});
+				return db;
+			}
+			dealWithGets = function(get) {
+				if ("responseText" in get)
+					return get["responseText"];
+				console.log("Error with obj text");
+				console.log(get);
+				return []
+			}
 
-				    		$( "#option1-button" ).click(function() {
-								$("#option1").addClass("active");
-								$("#option2").removeClass("active");
-								$("#option3").removeClass("active");
-							});
-				    		$( "#option2-button" ).click(function() {
-								$("#option2").addClass("active");
-								$("#option1").removeClass("active");
-								$("#option3").removeClass("active");
-							});
-				    		$( "#option3-button" ).click(function() {
-								$("#option3").addClass("active");
-								$("#option2").removeClass("active");
-								$("#option1").removeClass("active");
-							});
-							
-				    	}
-				    	else {
-				    		document.getElementById("zarv-text").innerHTML = "Error with demo: another user is currently generating a playlist with Zarvox. Due to several issues, we cannot currently let multiple playlists be generated at once. However, you can look at their playlist being generated <a href='playlist.html'>here.</a>";
-						}
-				    }
-				    else {
-				    	document.getElementById("zarv-text").innerHTML = "Error with Zarvox program; contact Jon for questions";
+			var adOptionsData = [];
+			var termOut;
+			termOut = dealWithGets(
+				$.get('./zarvox_term.out', {},
+				  	function(data){
+					    var dataStr = new String(data);
+					    var lines = dataStr.split(/\n/).filter(function(str){
+					    	return str.length>3; } );
+					    var start;
+					    var end;
+					    if (isNaN(lines[0]))
+						    start = new Date(0);
+						else
+							start = new Date(parseInt(lines[0]));
+					    if (isNaN(lines.slice(-1)[0]))
+						    end = new Date(0);
+						else
+							end = new Date(parseInt(lines.slice(-1)[0]));
+						console.log(start,end);
+					    if (start.getFullYear() > 2015) {
+					    	if (end.getFullYear() > 2015) {
+								adOptionsData.push(
+									dealWithGets(
+										$.get('./albums.csv', {}, dealWithCSV, 'text text'))
+									);
+								adOptionsData.push(
+									dealWithGets(
+										$.get('./subgenres.csv', {}, dealWithCSV, 'text text'))
+									);
+					    		$("#zarv-good").toggle();
+								$(document).ready(function () {
+					    			$('.combobox').combobox({bsVersion: '3'});
+					    		});
+					    		var adOptionsKeys = [["an Artist", "a Genre"], ["an Album", "a Subgenre"]]
+					    		optChange1 = function(i) {
 
-				    }
+					    			var $dropdown = $("#adOption1");
+									
+									$dropdown.empty();
+									$dropdown.append('<option value="" selected="selected">Select '+adOptionsKeys[0][i]+'</option>');
+									$.each(adOptionsData[i], function(key, value) {
+										$dropdown.append('<option value="'+key+'">' + key + '</option>');
+									});
+					    		}
+								optChange2 = function(i) {
 
-				    // return lines.slice(0,10);
-			}, 'text text');
+									var $dropdown = $("#adOption1");
+									
+									var key = $dropdown.val();
+
+									var $secondChoice = $("#adOption2");
+									$secondChoice.empty();
+									$secondChoice.append('<option value="" selected="selected">Select '+adOptionsKeys[1][i]+'</option>');
+									adOptionsData[i][key].forEach( function(value) {
+										$secondChoice.append('<option value="'+value+'">' + value + '</option>');
+									});
+								}
+								optChange2Albums = function(){
+									return optChange2(0)
+								}
+								optChange2Subgenres = function(){
+									return optChange2(1)
+								}
+
+					    		$( "#option1-button" ).click(function() {
+					    			if ($("#adOptions").css("display") !== "none"){
+					    				$("#adOptions").toggle();}
+									$("#option1").addClass("active");
+									$("#option2").removeClass("active");
+									$("#option3").removeClass("active");
+								});
+					    		$( "#option2-button" ).click(function() {
+					    			if (! $("#option2").hasClass("active")) {
+										$("#option2").addClass("active");
+										$("#option1").removeClass("active");
+										$("#option3").removeClass("active");
+						    			if ($("#adOptions").css("display") === "none"){
+						    				$("#adOptions").toggle();}
+						    			optChange1(0);
+										$("#adOption1").change(optChange2Albums);
+									}	
+								});
+					    		$( "#option3-button" ).click(function() {
+					    			if (! $("#option3").hasClass("active")) {
+										$("#option3").addClass("active");
+										$("#option2").removeClass("active");
+										$("#option1").removeClass("active");
+						    			if ($("#adOptions").css("display") === "none"){
+						    				$("#adOptions").toggle();}
+						    			optChange1(1);
+										$("#adOption1").change(optChange2Subgenres);
+									}
+								});
+								
+					    	}
+					    	else {
+					    		$("#zarv-meh").toggle();
+							}
+					    }
+					    else {
+					    		$("#zarv-bad").toggle();
+
+					    }
+						    
+					    // return lines.slice(0,10);
+				}, 'text text')
+			);
 		</script>
-	<script type="text/javascript">
-    dealWithCSV = function(data){
-		var dataStr = new String(data);
-		var lines = dataStr.split(/\n/).filter( function(str) {
-			return str.length>3; })
-		var db = [];
-		lines.forEach( function(line) {
-			newline = line.split(',');
-			if (!(newline[0] in db))
-				db[newline[0]] = []
-			db[newline[0]].push(newline.splice(1))
-		})
-		return db;
-	}
-
-    $( window ).load(function() {
-    	// while ($("#zarv-text").html().length < 1){
-    	// 	console.log("Waiting...");
-    	// 	window.setTimeout(function(){},500);
-    	// }
-		if ($("#zarv-text").html().slice(0,5) !== "Error") {
-		    $('.combobox').combobox({bsVersion: '3'});
-			albums = $.get('./albums.csv', {}, dealWithCSV, 'text text');
-			subgenres = $.get('./subgenres.csv', {}, dealWithCSV, 'text text');
-
-		}
-    });
-	</script>
-
 
 	</body>
 </html>
