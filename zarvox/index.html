@@ -62,33 +62,36 @@
 								</label>
 							</div>  
 							<div class="col-md-4">
+								<label id="option3" class="btn btn-primary">    
+									<input  id="option3-button"type="radio" name="options" autocomplete="off"> Playlist based on<br>an artist/album pair
+								</label>
+							</div>
+							<div class="col-md-4">
 								<label id="option2" class="btn btn-primary">    
 									<input id="option2-button" type="radio" name="options" autocomplete="off"> Playlist based on a<br>genre/subgenre pair
 								</label>
 							</div>  
-							<div class="col-md-4">
-								<label id="option3" class="btn btn-primary">    
-									<input  id="option3-button"type="radio" name="options" autocomplete="off"> Playlist based on<br>an album/artist pair
-								</label>
-							</div>
 						</div>
 					</div>
 					<br>
 					<div class="row" id="adOptions" style="display:none"> 
 						<p class="lead">Additional options:</p>
 						<br>
-						<form class="form-inline"> 
-							<div class="col-md-6"> 
-								<div class="form-group"> 
-									<select class="combobox form-control" id="adOption1">  
+						<form class="form"> 
+							<div class="form-group"> 
+								<div class="col-md-6"> 
+									<label class="control-label" id="adOption1Label">lol</label>
+									<select class="combobox input-large form-control" id="adOption1">  
+            						</select>
 								</div>
 							</div> 
-							<div class="col-md-6"> 
-								<div class="form-group"> 
-									<select class="combobox form-control" id="adOption2">  
-									</select>
+							<div class="form-group"> 
+								<div class="col-md-6"> 
+									<label class="control-label" id="adOption2Label">lllooll</label>
+									<select class="combobox input-large form-control" id="adOption2"> 
+           							</select> 
 								</div>
-							</div>
+							</div> 
 						</form>
 					</div>
 				</div>
@@ -118,6 +121,9 @@
 	    </div>
 
 		<script type="text/javascript">
+			var adOptionsData = [];
+			var termOut;
+
 		    dealWithCSV = function(data){
 				var dataStr = new String(data);
 				var lines = dataStr.split(/\n/).filter( function(str) {
@@ -129,123 +135,114 @@
 						db[newline[0]] = []
 					db[newline[0]].push(newline.splice(1))
 				});
-				return db;
-			}
-			dealWithGets = function(get) {
-				if ("responseText" in get)
-					return get["responseText"];
-				console.log("Error with obj text");
-				console.log(get);
-				return []
+				adOptionsData.push(db);
 			}
 
-			var adOptionsData = [];
-			var termOut;
-			termOut = dealWithGets(
-				$.get('./zarvox_term.out', {},
-				  	function(data){
-					    var dataStr = new String(data);
-					    var lines = dataStr.split(/\n/).filter(function(str){
-					    	return str.length>3; } );
-					    var start;
-					    var end;
-					    if (isNaN(lines[0]))
-						    start = new Date(0);
-						else
-							start = new Date(parseInt(lines[0]));
-					    if (isNaN(lines.slice(-1)[0]))
-						    end = new Date(0);
-						else
-							end = new Date(parseInt(lines.slice(-1)[0]));
-						console.log(start,end);
-					    if (start.getFullYear() > 2015) {
-					    	if (end.getFullYear() > 2015) {
-								adOptionsData.push(
-									dealWithGets(
-										$.get('./albums.csv', {}, dealWithCSV, 'text text'))
-									);
-								adOptionsData.push(
-									dealWithGets(
-										$.get('./subgenres.csv', {}, dealWithCSV, 'text text'))
-									);
-					    		$("#zarv-good").toggle();
-								$(document).ready(function () {
-					    			$('.combobox').combobox({bsVersion: '3'});
-					    		});
-					    		var adOptionsKeys = [["an Artist", "a Genre"], ["an Album", "a Subgenre"]]
-					    		optChange1 = function(i) {
+			$.get('./zarvox_term.out', {},
+			  	function(data){
+				    var dataStr = new String(data);
+				    termOut = dataStr.split(/\n/).filter(function(str){
+				    	return str.length>3; } );
 
-					    			var $dropdown = $("#adOption1");
-									
-									$dropdown.empty();
-									$dropdown.append('<option value="" selected="selected">Select '+adOptionsKeys[0][i]+'</option>');
-									$.each(adOptionsData[i], function(key, value) {
-										$dropdown.append('<option value="'+key+'">' + key + '</option>');
-									});
-					    		}
-								optChange2 = function(i) {
+				    var start;
+				    var end;
+				    if (isNaN(termOut[0]))
+					    start = new Date(0);
+					else
+						start = new Date(parseInt(termOut[0]));
+				    if (isNaN(termOut.slice(-1)[0]))
+					    end = new Date(0);
+					else
+						end = new Date(parseInt(termOut.slice(-1)[0]));
 
-									var $dropdown = $("#adOption1");
-									
-									var key = $dropdown.val();
+				    if (start.getFullYear() > 2015) {
+				    	if (end.getFullYear() > 2015) {
+							$.get('./albums.csv', {}, dealWithCSV, 'text text');
+							$.get('./subgenres.csv', {}, dealWithCSV, 'text text');
+				    		$("#zarv-good").toggle();
+							$(document).ready(function () {
+				    			$('.combobox').combobox({bsVersion: '3'});
+				    		});
+				    		var adOptionsKeys = [["an Artist", "a Genre"], ["an Album", "a Subgenre"]]
+				    		optChange1 = function(i) {
+				    			var $dropdown = $("#adOption1");
+								$dropdown.empty();
+								$dropdown.append($('<option selected="selected"></option>').val("").html("Select "+adOptionsKeys[0][i]));
 
-									var $secondChoice = $("#adOption2");
-									$secondChoice.empty();
-									$secondChoice.append('<option value="" selected="selected">Select '+adOptionsKeys[1][i]+'</option>');
+								Object.keys(adOptionsData[i]).forEach(function(key) {
+									$dropdown.append($('<option></option>').val(key).html(key));
+								});
+
+					    		$('#adOption1').combobox('refresh');
+				    		}
+							optChange2 = function(i) {
+								var $dropdown = $("#adOption1");							
+								var key = $dropdown.val();
+
+								var $secondChoice = $("#adOption2");
+								$secondChoice.empty();
+								$secondChoice.append($('<option selected="selected"></option>').val("").html("Select "+adOptionsKeys[1][i]));
+
+								if (key in adOptionsData[i]) {
 									adOptionsData[i][key].forEach( function(value) {
-										$secondChoice.append('<option value="'+value+'">' + value + '</option>');
+										$secondChoice.append($('<option></option>').val(value[1]).html(value[0]));
 									});
 								}
-								optChange2Albums = function(){
-									return optChange2(0)
-								}
-								optChange2Subgenres = function(){
-									return optChange2(1)
-								}
 
-					    		$( "#option1-button" ).click(function() {
-					    			if ($("#adOptions").css("display") !== "none"){
-					    				$("#adOptions").toggle();}
-									$("#option1").addClass("active");
-									$("#option2").removeClass("active");
-									$("#option3").removeClass("active");
-								});
-					    		$( "#option2-button" ).click(function() {
-					    			if (! $("#option2").hasClass("active")) {
-										$("#option2").addClass("active");
-										$("#option1").removeClass("active");
-										$("#option3").removeClass("active");
-						    			if ($("#adOptions").css("display") === "none"){
-						    				$("#adOptions").toggle();}
-						    			optChange1(0);
-										$("#adOption1").change(optChange2Albums);
-									}	
-								});
-					    		$( "#option3-button" ).click(function() {
-					    			if (! $("#option3").hasClass("active")) {
-										$("#option3").addClass("active");
-										$("#option2").removeClass("active");
-										$("#option1").removeClass("active");
-						    			if ($("#adOptions").css("display") === "none"){
-						    				$("#adOptions").toggle();}
-						    			optChange1(1);
-										$("#adOption1").change(optChange2Subgenres);
-									}
-								});
-								
-					    	}
-					    	else {
-					    		$("#zarv-meh").toggle();
+					    		$('#adOption2').combobox('refresh');
 							}
-					    }
-					    else {
-					    		$("#zarv-bad").toggle();
+							optChange2Albums = function(){
+								optChange2(0);
+							}
+							optChange2Subgenres = function(){
+								optChange2(1);
+							}
 
-					    }
-						    
-					    // return lines.slice(0,10);
-				}, 'text text')
-			);
+				    		$( "#option1-button" ).click(function() {
+				    			if ($("#adOptions").css("display") !== "none"){
+				    				$("#adOptions").toggle();}
+								$("#option1").addClass("active");
+								$("#option2").removeClass("active");
+								$("#option3").removeClass("active");
+							});
+				    		$( "#option2-button" ).click(function() {
+				    			if (! $("#option2").hasClass("active")) {
+									$("#option2").addClass("active");
+									$("#option1").removeClass("active");
+									$("#option3").removeClass("active");
+					    			if ($("#adOptions").css("display") === "none"){
+					    				$("#adOptions").toggle();}
+					    			$("#adOption1Label").html("Genre");
+					    			$("#adOption2Label").html("Subgenre");
+					    			optChange1(0);
+									$("#adOption1").change(optChange2Albums);
+
+								}	
+							});
+				    		$( "#option3-button" ).click(function() {
+				    			if (! $("#option3").hasClass("active")) {
+									$("#option3").addClass("active");
+									$("#option2").removeClass("active");
+									$("#option1").removeClass("active");
+					    			if ($("#adOptions").css("display") === "none"){
+					    				$("#adOptions").toggle();}
+					    			$("#adOption1Label").html("Artist");
+					    			$("#adOption2Label").html("Album");
+					    			optChange1(1);
+									$("#adOption1").change(optChange2Subgenres);
+								}
+							});
+							
+				    	}
+				    	else {
+				    		$("#zarv-meh").toggle();
+						}
+				    }
+				    else {
+				    		$("#zarv-bad").toggle();
+
+				    }
+			}, 'text text');
 		</script>
 
 	</body>
