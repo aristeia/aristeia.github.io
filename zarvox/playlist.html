@@ -59,14 +59,14 @@
 			        			Odd numbered album art
 			        		</div> 
 			        		<div class="col-md-4">	-->
-			        		<table class="table" id="playlist-table">
+			        		<!-- <table class="table" id="playlist-table">
 			        			<tr>
 			        				<td> Artist </td>
 			        				<td> Album </td>
 			        				<td> Song </td>
 			        				<td> Length </td>
 		        				</tr>
-			        		</table>
+			        		</table> -->
 			        			<p class="lead">
 				        			<ol id="playlist" class="text-left">
 				        			</ol>
@@ -110,7 +110,7 @@
 				    var dataStr = new String(data);
 				    var termOut = $("#termOut");
 				    var playlist = $("#playlist")
-				    var playlistt = $("#playlist-table")
+				    // var playlistt = $("#playlist-table")
 				    var i=0;
 				    var done = false;
 				    dataStr.split(/\n/)
@@ -122,18 +122,18 @@
 				    			if (line.slice(0,3) === ">>>" && line.slice(-3) === "<<<") {
 				    				playlist.append($('<li></li>')
 				    					.html(line.slice(3,-3)));
-				    				playlistt.append($('<tr></tr>')
-				    					.html("<td>"+(line.slice(3,-3)
-				    						.split('-')
-				    						.join("</td><td>"))+"</td><td>TBD</td><td>TBD</td>"));
+				    				// playlistt.append($('<tr></tr>')
+				    				// 	.html("<td>"+(line.slice(3,-3)
+				    				// 		.split('-')
+				    				// 		.join("</td><td>"))+"</td><td>TBD</td><td>TBD</td>"));
 				    			}
 				    			else{
 				    				playlist.children(":eq("+i.toString()+")").text(line.slice(2,-2));
 				    				i = i+1;
-				    				playlistt.children(":eq("+(i-1).toString()+")").html("<td>"+(line.slice(3,-3)
-				    						.split('-')
-				    						.join("</td><td>"))+"</td>");
-				    				console.log(playlistt.children(":eq("+(i-1).toString()+")").html());
+				    				// playlistt.children(":eq("+(i-1).toString()+")").html("<td>"+(line.slice(3,-3)
+				    				// 		.split('-')
+				    				// 		.join("</td><td>"))+"</td>");
+				    				// console.log(playlistt.children(":eq("+(i-1).toString()+")").html());
 				    			}
 
 				    		}
