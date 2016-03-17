@@ -154,10 +154,31 @@ body {
   }
 }
 
+@media (min-width: 880px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 90%;
+  }
+}
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 85%;
+  }
+}
+@media (min-width: 1150px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 80%;
+  }
+}
+@media (min-width: 1500px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 1200px;
   }
 }

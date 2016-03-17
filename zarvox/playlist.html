@@ -14,6 +14,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 		<link href="../css/cover.css" rel="stylesheet">
 		<link href="../css/bootstrap-combobox.css" rel="stylesheet">
+		<link href="../css/zarvox.css" rel="stylesheet">
 		<script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
 		<script type="text/javascript" src="../js/bootstrap-combobox.js"></script>
 
@@ -52,12 +53,20 @@
 	        	<h1 style="font-family: 'Audiowide', cursive, Veranda, serif;">ZARVOX</h1> <br>
 	        	<div class="row">
 					<div class="col-md-6">
-		        		<h3 style="font-family: 'Audiowide', cursive, Veranda, serif;">playlist (so far)</h3> <br>
+		        		<h3 id="playlist-header" style="font-family: 'Audiowide', cursive, Veranda, serif;">playlist (so far)</h3> <br>
 		        		<div class="row">
 			        		<!-- <div class="col-md-1">	
 			        			Odd numbered album art
 			        		</div> 
 			        		<div class="col-md-4">	-->
+			        		<table class="table" id="playlist-table">
+			        			<tr>
+			        				<td> Artist </td>
+			        				<td> Album </td>
+			        				<td> Song </td>
+			        				<td> Length </td>
+		        				</tr>
+			        		</table>
 			        			<p class="lead">
 				        			<ol id="playlist" class="text-left">
 				        			</ol>
@@ -71,10 +80,12 @@
 				
 					<div class="col-md-6">
 		        		<h3 style="font-family: 'Audiowide', cursive, Veranda, serif;">terminal output</h3> <br>
-		        		<p class="text-left">
-		        			<samp id="termOut">
-		        			</samp>
-		        		</p>
+		        		<div class="code-box">
+			        		<p class="text-left">
+			        			<samp id="termOut">
+			        			</samp>
+			        		</p>
+		        		</div>
 					</div>
 				</div>
 
@@ -99,23 +110,53 @@
 				    var dataStr = new String(data);
 				    var termOut = $("#termOut");
 				    var playlist = $("#playlist")
+				    var playlistt = $("#playlist-table")
 				    var i=0;
+				    var done = false;
 				    dataStr.split(/\n/)
 				    	.filter(function(str) {
 				    		return str.length>3; 
-				    	}).forEach(function(line) { 
+				    	}).forEach(function(line, index, arr) {
 				    		termOut.append(line+"<br>");
 				    		if (line.slice(0,2) === ">>" && line.slice(-2) === "<<") {
 				    			if (line.slice(0,3) === ">>>" && line.slice(-3) === "<<<") {
-				    				playlist.append($('<li></li>').html(line.slice(3,-3)));
+				    				playlist.append($('<li></li>')
+				    					.html(line.slice(3,-3)));
+				    				playlistt.append($('<tr></tr>')
+				    					.html("<td>"+(line.slice(3,-3)
+				    						.split('-')
+				    						.join("</td><td>"))+"</td><td>TBD</td><td>TBD</td>"));
 				    			}
 				    			else{
 				    				playlist.children(":eq("+i.toString()+")").text(line.slice(2,-2));
 				    				i = i+1;
+				    				playlistt.children(":eq("+(i-1).toString()+")").html("<td>"+(line.slice(3,-3)
+				    						.split('-')
+				    						.join("</td><td>"))+"</td>");
+				    				console.log(playlistt.children(":eq("+(i-1).toString()+")").html());
 				    			}
 
 				    		}
+				    		else if (index === arr.length-1) {
+				    			var tempdate;
+							    if (isNaN(line))
+								    tempdate = new Date(0);
+								else
+									tempdate = new Date(parseInt(line));
+								done = (tempdate.getFullYear() > 2015);
+				    		}
 				    	});
+				    if (i > 0){
+				    	console.log(playlist.children().length, i)
+				    	while (i < playlist.children().length){
+		    				playlist.children(":eq("+i.toString()+")").remove();
+		    				// playlistt.children(":eq("+i.toString()+")").remove();
+				    	}
+				    }
+				    if (done) {
+		    			$("#playlist-header").text("final playlist");
+		    			alert("Done generating your playlist!");
+				    }
 			}, 'text text');
 		</script>
 
