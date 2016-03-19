@@ -105,6 +105,7 @@
 	    </div>
 
 		<script type="text/javascript">
+			$( document ).ready(function() {
 			    var done = false;
 			    var interval;
 		    	interval = window.setInterval(function() {
@@ -112,7 +113,9 @@
 					  	function(data) {
 						    var dataStr = new String(data);
 						    var termOut = $("#termOut");
-						    var playlist = $("#playlist")
+						    var playlist = $("#playlist");
+						    termOut.empty();
+						    playlist.empty();
 						    // var playlistt = $("#playlist-table")
 						    var i=0;
 						    dataStr.split(/\n/)
@@ -162,6 +165,7 @@
 						    }
 					}, 'text text');
 				}, 1000);
+			});
 		</script>
 
 	</body>
