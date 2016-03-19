@@ -48,14 +48,14 @@
 	            <h1 style="font-family: 'Audiowide', cursive, Veranda, serif;">ZARVOX</h1> <br>
 	            <div id="zarv-good" style="display:none">
 					<p class="lead">
-						You can demo the zarvox radio automation software by generating a playlist with one of the following three parameter options:
+						You can demo the zarvox radio automation software by generating a playlist with one of the following three parameter options. Selecting one will initialize the generator with the corresponding seed state:
 					</p>
 					<br>
 					<div class="row">
-						<div class="btn-group" data-toggle="buttons">  
+						<div class="btn-group" >  
 							<div class="col-md-4">
 								<label id="option1" class="btn btn-primary active">    
-									<input id="option1-button" type="radio" name="options"  autocomplete="off" checked> Random playlist  
+									<input id="option1-button" type="radio" name="options"  autocomplete="off" checked> Pseudorandom<br>playlist seed  
 								</label>
 							</div>  
 							<div class="col-md-4">
@@ -77,19 +77,27 @@
 						<form class="form"> 
 							<div class="form-group"> 
 								<div class="col-md-6"> 
-									<label class="control-label" id="adOption1Label">lol</label>
+									<label class="control-label" id="adOption1Label">option1</label>
 									<select class="combobox input-large form-control" id="adOption1">  
             						</select>
 								</div>
 							</div> 
 							<div class="form-group"> 
 								<div class="col-md-6"> 
-									<label class="control-label" id="adOption2Label">lllooll</label>
+									<label class="control-label" id="adOption2Label">option2</label>
 									<select class="combobox input-large form-control" id="adOption2"> 
            							</select> 
 								</div>
 							</div> 
 						</form>
+					</div>
+					<div class="row" id="generate"> 
+						<br>
+						<br>
+						<br>
+						<button type="button" class="btn btn-primary btn-lg btn-block">	
+							<a href="/zarvox/playlist.html">Generate Playlist!</a>
+						</button>
 					</div>
 				</div>
 				<div id="zarv-meh" style="display:none">
@@ -120,21 +128,6 @@
 		<script type="text/javascript">
 			var adOptionsData = [];
 			var termOut;
-
-		 //    dealWithCSV = function(data){
-			// 	var dataStr = new String(data);
-			// 	var lines = dataStr.split(/\n/).filter( function(str) {
-			// 		return str.length>3; });
-			// 	var db = [];
-			// 	lines.forEach( function(line) {
-			// 		newline = line.split(',');
-			// 		if (!(newline[0] in db))
-			// 			db[newline[0]] = []
-			// 		db[newline[0]].push(newline.splice(1))
-			// 	});
-			// 	console.log(db);
-			// 	adOptionsData.push(db);
-			// }
 
 		    dealWithCSV = function(data){
 				var db = [];
