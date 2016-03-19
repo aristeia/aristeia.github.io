@@ -24,7 +24,7 @@
 	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    <![endif]-->
-    </script>
+    <!-- </script> -->
 	</head>
 	<body>
 
@@ -36,27 +36,11 @@
 	        <div class="cover-container">
 
 	          <div class="masthead clearfix">
-	            <div class="inner">
-	              <h3 class="masthead-brand">Jon's Webpage</h3>
-	              <nav>
-	                <ul class="nav masthead-nav">
-	                  <li><a href="/index.html">Resume</a></li>
-	                  <li class="active dropdown">
-				          <a id="code-samps" data-target="#" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
-						    Code Demos
-						    <span class="caret"></span>
-						  </a>
-						  <ul class="dropdown-menu" aria-labelledby="code-samps">
-						    <li class="dropdown-item"><a href="/zarvox/index.html"> Zarvox Radio Automation </a></li>
-						    <li class="dropdown-item"><a href="http://eventi.pugetsound.edu"> Eventi: Campus Life Extended </a></li>
-  <li class="dropdown-divider"></li>
-						    <li class="dropdown-item"><a href="https://ups-off-campus-housing.herokuapp.com"> Off-Campus Housing Search </a></li>
-						    <li class="dropdown-item"><a href="/zarvox/playlist.html"> yolo </a></li>
-						  </ul>
-					  </li>	
-	                </ul>
-	              </nav>
-	            </div>
+		          <script type="text/javascript">
+						$(document).ready(function () {
+					    	$("div.masthead").load("/masthead.html");
+						});
+					</script>
 	          </div>
 
 	          <div class="inner cover" id="zarv">
