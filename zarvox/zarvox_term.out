@@ -1,4 +1,4 @@
-1458250788634
+1458346174929
 Zarvox database are online
 Zarvox database are online
 Pinging www.what.cd
@@ -22,3326 +22,811 @@ Album: FLORAL SHOPPE 2015 REDUX
 Original artists are: Macintosh Plus
 Final artists are: Macintosh Plus
 Cannot get artistid on spotify for Vektroid
-Popularity of artist Vektroid is 0.534851434541
+Popularity of artist Vektroid is 0.531682981748
 Done with artists
 Cannot get artistid on spotify for Macintosh Plus
 'int' object is not iterable
-Popularity of album FLORAL SHOPPE 2015 REDUX is 0.193589331491
+Popularity of album FLORAL SHOPPE 2015 REDUX is 0.194843405097
 Done with album
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
-'track'
+Warning: cannot get song spotify data. Using 0s.
+Warning: cannot get song lastfm data. Using 0s.
 Cannot get artistid on spotify for Macintosh Plus
-'int' object is not iterable
+Warning: cannot get song spotify data. Using 0s.
+album info for FLORAL SHOPPE 2015 REDUX
+	album_id:25950 (inserted)
+	album:FLORAL SHOPPE 2015 REDUX (inserted)
+	folder_path: (inserted)
+	spotify_popularity:0 (inserted)
+	lastfm_listeners:13 (inserted)
+	lastfm_playcount:68 (inserted)
+	whatcd_seeders:15 (inserted)
+	whatcd_snatches:46 (inserted)
+	popularity:0.19484340509685552 (inserted)
+	pitchfork_rating:0 (inserted)
+	kups_playcount:0 (inserted)
 artists info for Vektroid
 	artist_id:18964 (no changes)
 	artist:Vektroid (no changes)
 	spotify_popularity:0 (no changes)
 	lastfm_listeners:17050 (no changes)
 	lastfm_playcount:257045 (no changes)
-	whatcd_seeders:3773 (updated from 3783)
-	whatcd_snatches:28628 (updated from 28618)
-	popularity:0.5348514345410128 (updated from 0.5412322467526114)
+	whatcd_seeders:3771 (updated from 3621)
+	whatcd_snatches:28639 (updated from 28631)
+	popularity:0.5316829817476464 (updated from 0.534075204981134)
 	pitchfork_rating:0 (no changes)
 	kups_playcount:1 (no changes)
-album info for FLORAL SHOPPE 2015 REDUX
-	album_id:25464 (inserted)
-	album:FLORAL SHOPPE 2015 REDUX (inserted)
-	folder_path: (inserted)
-	spotify_popularity:0 (inserted)
-	lastfm_listeners:13 (inserted)
-	lastfm_playcount:68 (inserted)
-	whatcd_seeders:13 (inserted)
-	whatcd_snatches:46 (inserted)
-	popularity:0.1935893314913306 (inserted)
-	pitchfork_rating:0 (inserted)
-	kups_playcount:0 (inserted)
 song:
 	song info for Interstellar Safari
-		song_id:15603 (inserted)
+		song_id:16351 (inserted)
 		song:Interstellar Safari (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:158 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Mindscape
-		song_id:15604 (inserted)
+		song_id:16352 (inserted)
 		song:Mindscape (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:215 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Awakening Parakeet
-		song_id:15605 (inserted)
+		song_id:16353 (inserted)
 		song:Awakening Parakeet (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:389 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for VGA Grid
-		song_id:15606 (inserted)
+		song_id:16354 (inserted)
 		song:VGA Grid (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:130 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Featherskull
-		song_id:15607 (inserted)
+		song_id:16355 (inserted)
 		song:Featherskull (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:231 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Nova Prophet
-		song_id:15608 (inserted)
+		song_id:16356 (inserted)
 		song:Nova Prophet (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:307 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Infinity Diskette
-		song_id:15609 (inserted)
+		song_id:16357 (inserted)
 		song:Infinity Diskette (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:163 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Dusk at Temple Amiga
-		song_id:15610 (inserted)
+		song_id:16358 (inserted)
 		song:Dusk at Temple Amiga (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:492 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Terrestrial Sands
-		song_id:15611 (inserted)
+		song_id:16359 (inserted)
 		song:Terrestrial Sands (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:462 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Awakening Starscape
-		song_id:15612 (inserted)
+		song_id:16360 (inserted)
 		song:Awakening Starscape (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:513 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Walk With Me Saturn
-		song_id:15613 (inserted)
+		song_id:16361 (inserted)
 		song:Walk With Me Saturn (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:368 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Planetary Zones
-		song_id:15614 (inserted)
+		song_id:16362 (inserted)
 		song:Planetary Zones (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:342 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Amazon Polytrac
-		song_id:15615 (inserted)
+		song_id:16363 (inserted)
 		song:Amazon Polytrac (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:369 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Interstellar Clusters
-		song_id:15616 (inserted)
+		song_id:16364 (inserted)
 		song:Interstellar Clusters (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:202 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for VGA Coral Reef
-		song_id:15617 (inserted)
+		song_id:16365 (inserted)
 		song:VGA Coral Reef (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:362 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Orion Megalith
-		song_id:15618 (inserted)
+		song_id:16366 (inserted)
 		song:Orion Megalith (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:274 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for Amethyst Martini
-		song_id:15619 (inserted)
+		song_id:16367 (inserted)
 		song:Amethyst Martini (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:148 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:0 (inserted)
 		lastfm_playcount:0 (inserted)
-		popularity:0.0 (inserted)
+		popularity:7.4315761466576184e-09 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 	song info for [untitled]
-		song_id:15620 (inserted)
+		song_id:16368 (inserted)
 		song:[untitled] (inserted)
 		filename: (inserted)
-		album_id:25464 (inserted)
+		album_id:25950 (inserted)
 		length:384 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:0 (inserted)
 		lastfm_listeners:163 (inserted)
 		lastfm_playcount:729 (inserted)
-		popularity:0.9999999847502905 (inserted)
+		popularity:0.9999999847685308 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
-		kups_playcount:4 (inserted)
+		kups_playcount:8 (inserted)
 Error with processSongs
->>> VHSテープリワインダー - Smooth Jazz Online <<<
-    Top Genres: electronic, downtempo, ambient
-Downloading song information for Smooth Jazz Online by VHSテープリワインダー
-Done searching musicbrainz for album suggestions, have 10 to rank
-For the artist and album derived from the provided dir (VHSテープリワインダー and Smooth Jazz Online respectively),
-the following artist and album was matched on musicbrains:
-Artist: VHSテープリワインダー
-Album: Smooth Jazz Online
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: VHSテープリワインダー
-Album: Smooth Jazz Online
-Original artists are: VHSテープリワインダー
-Final artists are: VHSテープリワインダー
-Cannot get artistid on spotify for VHSテープリワインダー
-Popularity of artist VHSテープリワインダー is 0.302452939039
-Done with artists
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Popularity of album Smooth Jazz Online is 0.258245658846
-Done with album
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-Cannot get artistid on spotify for VHSテープリワインダー
-'int' object is not iterable
-artists info for VHSテープリワインダー
-	artist_id:15007 (no changes)
-	artist:VHSテープリワインダー (no changes)
-	spotify_popularity:0 (no changes)
-	lastfm_listeners:1210 (no changes)
-	lastfm_playcount:27921 (no changes)
-	whatcd_seeders:669 (updated from 697)
-	whatcd_snatches:2347 (no changes)
-	popularity:0.3024529390390085 (updated from 0.08430270067086129)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-album info for Smooth Jazz Online
-	album_id:5228 (no changes)
-	album:Smooth Jazz Online (no changes)
-	folder_path:VHSテープリワインダー - Smooth Jazz Online [MP3-V0] (no changes)
-	spotify_popularity:0 (no changes)
-	lastfm_listeners:237 (updated from 317)
-	lastfm_playcount:7005 (updated from 6867)
-	whatcd_seeders:103 (updated from 100)
-	whatcd_snatches:417 (updated from 402)
-	popularity:0.25824565884595085 (updated from 0.37376424513426226)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-song:
-	song info for bottle service
-		song_id:15621 (inserted)
-		song:bottle service (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:144 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:227 (inserted)
-		lastfm_playcount:631 (inserted)
-		popularity:0.6171955084661472 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for city streets
-		song_id:15622 (inserted)
-		song:city streets (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:117 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:221 (inserted)
-		lastfm_playcount:635 (inserted)
-		popularity:0.6170078389167133 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for blind date
-		song_id:15623 (inserted)
-		song:blind date (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:156 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:202 (inserted)
-		lastfm_playcount:584 (inserted)
-		popularity:0.5642671337542259 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for showering together
-		song_id:15624 (inserted)
-		song:showering together (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:146 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:237 (inserted)
-		lastfm_playcount:717 (inserted)
-		popularity:0.64638451099592 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for neapolitan
-		song_id:15625 (inserted)
-		song:neapolitan (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:95 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:180 (inserted)
-		lastfm_playcount:547 (inserted)
-		popularity:0.5025437964333002 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for internet service provider
-		song_id:15626 (inserted)
-		song:internet service provider (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:119 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:191 (inserted)
-		lastfm_playcount:593 (inserted)
-		popularity:0.5622585929442804 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for jamba juice
-		song_id:15627 (inserted)
-		song:jamba juice (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:90 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:185 (inserted)
-		lastfm_playcount:585 (inserted)
-		popularity:0.548243115440666 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for pool party
-		song_id:15628 (inserted)
-		song:pool party (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:77 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:198 (inserted)
-		lastfm_playcount:580 (inserted)
-		popularity:0.5567035500707181 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for mt vapor
-		song_id:15629 (inserted)
-		song:mt vapor (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:141 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:163 (inserted)
-		lastfm_playcount:511 (inserted)
-		popularity:0.4457274046325763 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for rainy night jam
-		song_id:15630 (inserted)
-		song:rainy night jam (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:118 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:154 (inserted)
-		lastfm_playcount:489 (inserted)
-		popularity:0.41715080317455383 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for october
-		song_id:15631 (inserted)
-		song:october (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:86 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:148 (inserted)
-		lastfm_playcount:475 (inserted)
-		popularity:0.40151370688760246 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for waitin 4 u
-		song_id:15632 (inserted)
-		song:waitin 4 u (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:111 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:139 (inserted)
-		lastfm_playcount:475 (inserted)
-		popularity:0.3956924292057246 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for wine and cheese
-		song_id:15633 (inserted)
-		song:wine and cheese (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:87 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:138 (inserted)
-		lastfm_playcount:443 (inserted)
-		popularity:0.3766644986852015 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for kiss me
-		song_id:15634 (inserted)
-		song:kiss me (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:116 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:138 (inserted)
-		lastfm_playcount:445 (inserted)
-		popularity:0.3775713825170781 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for goodnight
-		song_id:15635 (inserted)
-		song:goodnight (inserted)
-		filename: (inserted)
-		album_id:5228 (inserted)
-		length:100 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:0 (inserted)
-		lastfm_listeners:150 (inserted)
-		lastfm_playcount:490 (inserted)
-		popularity:0.4147007407035892 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Oneohtrix Point Never - R Plus Seven <<<
-    Top Genres: vaporwave, electronic, ambient
-Downloading song information for R Plus Seven by Oneohtrix Point Never
+>>> Oneohtrix Point Never - Replica <<<
+    Top Genres: plunderphonics, ambient, electronic
+Downloading song information for Replica by Oneohtrix Point Never
 Done searching musicbrainz for album suggestions, have 13 to rank
-For the artist and album derived from the provided dir (Oneohtrix Point Never and R Plus Seven respectively),
+For the artist and album derived from the provided dir (Oneohtrix Point Never and Replica respectively),
 the following artist and album was matched on musicbrains:
 Artist: Oneohtrix Point Never
-Album: R Plus Seven
+Album: Replica
 For the album and artist found on musicbrainz, the following torrent group was found on what:
 Artist: Oneohtrix Point Never
-Album: R Plus Seven
+Album: Replica
 Original artists are: Oneohtrix Point Never
 Final artists are: Oneohtrix Point Never
-Popularity of artist Oneohtrix Point Never is 0.92712834569
+Popularity of artist Oneohtrix Point Never is 0.923359803395
 Done with artists
-Popularity of album R Plus Seven is 0.608998065969
+Popularity of album Replica is 0.822236710192
 Done with album
+album info for Replica
+	album_id:24525 (no changes)
+	album:Replica (no changes)
+	folder_path: (no changes)
+	spotify_popularity:32 (no changes)
+	lastfm_listeners:85310 (no changes)
+	lastfm_playcount:1846031 (no changes)
+	whatcd_seeders:1137 (updated from 1042)
+	whatcd_snatches:10954 (updated from 10952)
+	popularity:0.822236710191863 (updated from 0.7345330326782189)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:2 (no changes)
 artists info for Oneohtrix Point Never
 	artist_id:27 (no changes)
 	artist:Oneohtrix Point Never (no changes)
 	spotify_popularity:47 (no changes)
 	lastfm_listeners:193654 (no changes)
 	lastfm_playcount:6733437 (no changes)
-	whatcd_seeders:17344 (updated from 16930)
-	whatcd_snatches:122278 (updated from 122273)
-	popularity:0.9271283456898131 (updated from 0.9284359030441003)
+	whatcd_seeders:17467 (updated from 17184)
+	whatcd_snatches:122314 (updated from 122305)
+	popularity:0.9233598033948826 (updated from 0.9229232560785947)
 	pitchfork_rating:0 (no changes)
 	kups_playcount:4 (no changes)
-album info for R Plus Seven
-	album_id:19360 (no changes)
-	album:R Plus Seven (no changes)
-	folder_path: (no changes)
-	spotify_popularity:41 (no changes)
-	lastfm_listeners:64206 (no changes)
-	lastfm_playcount:1652178 (no changes)
-	whatcd_seeders:1341 (updated from 1298)
-	whatcd_snatches:8037 (no changes)
-	popularity:0.6089980659694306 (updated from 0.6089147180085516)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
 song:
-	song info for Boring Angel
-		song_id:12639 (no changes)
-		song:Boring Angel (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:256 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:35 (no changes)
-		lastfm_listeners:54573 (no changes)
-		lastfm_playcount:228695 (no changes)
-		popularity:0.7028093008973144 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Americans
-		song_id:12640 (no changes)
-		song:Americans (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:318 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:31 (no changes)
-		lastfm_listeners:46131 (no changes)
-		lastfm_playcount:196183 (no changes)
-		popularity:0.6565300574007445 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for He She
-		song_id:12641 (no changes)
-		song:He She (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:93 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:30 (no changes)
-		lastfm_listeners:42802 (no changes)
-		lastfm_playcount:185424 (no changes)
-		popularity:0.6338853100512436 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Inside World
-		song_id:12642 (no changes)
-		song:Inside World (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:233 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:29 (no changes)
-		lastfm_listeners:39419 (no changes)
-		lastfm_playcount:161939 (no changes)
-		popularity:0.6096164098643041 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Zebra
-		song_id:12643 (no changes)
-		song:Zebra (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:404 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:31 (no changes)
-		lastfm_listeners:43965 (no changes)
-		lastfm_playcount:181766 (no changes)
-		popularity:0.6560947870043116 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Along
-		song_id:12644 (no changes)
-		song:Along (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:324 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:27 (no changes)
-		lastfm_listeners:35714 (no changes)
-		lastfm_playcount:143191 (no changes)
-		popularity:0.570614286304876 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Problem Areas
-		song_id:12645 (no changes)
-		song:Problem Areas (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:186 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:28 (no changes)
-		lastfm_listeners:36946 (no changes)
-		lastfm_playcount:151867 (no changes)
-		popularity:0.5879015616801785 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Cryo
-		song_id:12646 (no changes)
-		song:Cryo (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:167 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:27 (no changes)
-		lastfm_listeners:33907 (no changes)
-		lastfm_playcount:132734 (no changes)
-		popularity:0.5693166238504364 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Still Life
-		song_id:12647 (no changes)
-		song:Still Life (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:294 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:28 (no changes)
-		lastfm_listeners:34546 (no changes)
-		lastfm_playcount:143561 (no changes)
-		popularity:0.5870508532811378 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Chrome Country
-		song_id:12648 (no changes)
-		song:Chrome Country (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:329 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:34 (no changes)
-		lastfm_listeners:37532 (no changes)
-		lastfm_playcount:167787 (no changes)
-		popularity:0.6963019262924417 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Gone
-		song_id:12649 (no changes)
-		song:Gone (no changes)
-		filename: (no changes)
-		album_id:19360 (no changes)
-		length:67 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:27 (no changes)
-		lastfm_listeners:2732 (no changes)
-		lastfm_playcount:13001 (no changes)
-		popularity:0.3970132614790109 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
->>> Aphex Twin - On <<<
-    Top Genres: idm, electronic, ambient
-Downloading song information for On by Aphex Twin
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Aphex Twin and On respectively),
-the following artist and album was matched on musicbrains:
-Artist: Aphex Twin
-Album: On
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Aphex Twin
-Album: On
-Original artists are: Aphex Twin
-Final artists are: Aphex Twin
-Popularity of artist Aphex Twin is 0.988940998482
-Done with artists
-Popularity of album On is 0.479986679125
-Done with album
-artists info for Aphex Twin
-	artist_id:13 (no changes)
-	artist:Aphex Twin (no changes)
-	spotify_popularity:65 (no changes)
-	lastfm_listeners:1351237 (no changes)
-	lastfm_playcount:59398051 (no changes)
-	whatcd_seeders:44786 (updated from 45794)
-	whatcd_snatches:346322 (updated from 346183)
-	popularity:0.98894099848211 (updated from 0.9901061132143445)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:7 (no changes)
-album info for On
-	album_id:22523 (no changes)
-	album:On (no changes)
-	folder_path: (no changes)
-	spotify_popularity:62 (no changes)
-	lastfm_listeners:42991 (no changes)
-	lastfm_playcount:271230 (no changes)
-	whatcd_seeders:275 (updated from 273)
-	whatcd_snatches:1778 (updated from 1776)
-	popularity:0.47998667912488785 (updated from 0.4516562824188334)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-song:
-	song info for On
-		song_id:15636 (inserted)
-		song:On (inserted)
-		filename: (inserted)
-		album_id:22523 (inserted)
-		length:412 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:43 (inserted)
-		lastfm_listeners:52555 (inserted)
-		lastfm_playcount:249517 (inserted)
-		popularity:0.5842982399540572 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for 73-Yips
-		song_id:15637 (inserted)
-		song:73-Yips (inserted)
-		filename: (inserted)
-		album_id:22523 (inserted)
-		length:255 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:67 (inserted)
-		lastfm_listeners:16493 (inserted)
-		lastfm_playcount:40937 (inserted)
-		popularity:0.5885496592791805 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Xepha
-		song_id:15638 (inserted)
-		song:Xepha (inserted)
-		filename: (inserted)
-		album_id:22523 (inserted)
-		length:337 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:43 (inserted)
-		lastfm_listeners:19766 (inserted)
-		lastfm_playcount:50391 (inserted)
-		popularity:0.4947414645739676 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for On (Reload mix)
-		song_id:15639 (inserted)
-		song:On (Reload mix) (inserted)
-		filename: (inserted)
-		album_id:22523 (inserted)
-		length:427 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:47 (inserted)
-		lastfm_listeners:13043 (inserted)
-		lastfm_playcount:33427 (inserted)
-		popularity:0.48000508886441723 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Moby - Wait for Me <<<
-    Top Genres: chillout, ambient, electronic
-Downloading song information for Wait for Me by Moby
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Moby and Wait for Me respectively),
-the following artist and album was matched on musicbrains:
-Artist: Moby
-Album: Wait for Me
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Moby
-Album: Wait for Me
-Original artists are: Moby
-Final artists are: Moby
-Popularity of artist Moby is 0.978684578227
-Done with artists
-Popularity of album Wait for Me is 0.600923190715
-Done with album
-artists info for Moby
-	artist_id:1340 (no changes)
-	artist:Moby (no changes)
-	spotify_popularity:71 (no changes)
-	lastfm_listeners:2503015 (no changes)
-	lastfm_playcount:85055135 (no changes)
-	whatcd_seeders:30357 (updated from 29828)
-	whatcd_snatches:272323 (updated from 272277)
-	popularity:0.97868457822676 (updated from 0.9825511943647336)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:5 (no changes)
-album info for Wait for Me
-	album_id:17565 (no changes)
-	album:Wait for Me (no changes)
-	folder_path: (no changes)
-	spotify_popularity:22 (updated from 21)
-	lastfm_listeners:184410 (no changes)
-	lastfm_playcount:5092398 (no changes)
-	whatcd_seeders:338 (updated from 333)
-	whatcd_snatches:6944 (updated from 6943)
-	popularity:0.6009231907151648 (updated from 0.5966531013391947)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-song:
-	song info for Division
-		song_id:12663 (no changes)
-		song:Division (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:116 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:16 (updated from 15)
-		lastfm_listeners:84998 (no changes)
-		lastfm_playcount:386557 (no changes)
-		popularity:0.6435344152862686 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Pale Horses
-		song_id:12664 (no changes)
-		song:Pale Horses (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:217 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:103699 (no changes)
-		lastfm_playcount:562338 (no changes)
-		popularity:0.5793442507848475 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Shot in the Back of the Head
-		song_id:12665 (no changes)
-		song:Shot in the Back of the Head (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:195 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:16 (updated from 15)
-		lastfm_listeners:134026 (no changes)
-		lastfm_playcount:777789 (no changes)
-		popularity:0.6566072602169268 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Study War
-		song_id:12666 (no changes)
-		song:Study War (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:258 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:17 (updated from 16)
-		lastfm_listeners:79122 (no changes)
-		lastfm_playcount:375247 (no changes)
-		popularity:0.6853520300807548 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Walk With Me
-		song_id:12667 (no changes)
-		song:Walk With Me (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:241 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:16 (updated from 15)
-		lastfm_listeners:80438 (no changes)
-		lastfm_playcount:361631 (no changes)
-		popularity:0.6408688859571166 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Stock Radio
-		song_id:12668 (no changes)
-		song:Stock Radio (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:55 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:16 (updated from 15)
-		lastfm_listeners:69853 (no changes)
-		lastfm_playcount:297719 (no changes)
-		popularity:0.6315809905068728 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Mistake
-		song_id:12669 (no changes)
-		song:Mistake (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:227 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:94531 (no changes)
-		lastfm_playcount:600150 (no changes)
-		popularity:0.5800242586575253 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Scream Pilots
-		song_id:12670 (no changes)
-		song:Scream Pilots (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:168 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:70268 (no changes)
-		lastfm_playcount:329103 (no changes)
-		popularity:0.5622934461663168 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for JLTF-1
-		song_id:12671 (no changes)
-		song:JLTF-1 (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:87 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:16603 (no changes)
-		lastfm_playcount:73541 (no changes)
-		popularity:0.44154463432362123 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for JLTF
-		song_id:12672 (no changes)
-		song:JLTF (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:280 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:17 (updated from 16)
-		lastfm_listeners:67460 (no changes)
-		lastfm_playcount:328723 (no changes)
-		popularity:0.679034253093884 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for A Seated Night
-		song_id:12673 (no changes)
-		song:A Seated Night (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:203 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:68553 (no changes)
-		lastfm_playcount:297650 (no changes)
-		popularity:0.5575131121966154 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Wait for Me
-		song_id:12674 (no changes)
-		song:Wait for Me (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:253 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:87726 (no changes)
-		lastfm_playcount:497760 (no changes)
-		popularity:0.5766870895985323 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Hope Is Gone
-		song_id:12675 (no changes)
-		song:Hope Is Gone (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:211 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:17 (updated from 16)
-		lastfm_listeners:63600 (no changes)
-		lastfm_playcount:279801 (no changes)
-		popularity:0.670895355557231 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Ghost Return
-		song_id:12676 (no changes)
-		song:Ghost Return (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:158 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:63946 (no changes)
-		lastfm_playcount:279843 (no changes)
-		popularity:0.5538420896593922 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Slow Light
-		song_id:12677 (no changes)
-		song:Slow Light (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:240 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:60412 (no changes)
-		lastfm_playcount:246987 (no changes)
-		popularity:0.5465457684687548 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Isolate
-		song_id:12678 (no changes)
-		song:Isolate (no changes)
-		filename: (no changes)
-		album_id:17565 (no changes)
-		length:208 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 14)
-		lastfm_listeners:67344 (no changes)
-		lastfm_playcount:296603 (no changes)
-		popularity:0.5571976954794728 (no changes)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
->>> Delerium - Music Box Opera <<<
-    Top Genres: ambient, electronic, downtempo
-Downloading song information for Music Box Opera by Delerium
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Delerium and Music Box Opera respectively),
-the following artist and album was matched on musicbrains:
-Artist: Delerium
-Album: Music Box Opera
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Delerium
-Album: Music Box Opera
-Original artists are: Delerium
-Final artists are: Delerium
-Popularity of artist Delerium is 0.770272173597
-Done with artists
-Popularity of album Music Box Opera is 0.472386229314
-Done with album
-artists info for Delerium
-	artist_id:1408 (no changes)
-	artist:Delerium (no changes)
-	spotify_popularity:50 (no changes)
-	lastfm_listeners:677685 (no changes)
-	lastfm_playcount:11169101 (no changes)
-	whatcd_seeders:7812 (updated from 7757)
-	whatcd_snatches:65842 (updated from 65822)
-	popularity:0.770272173597383 (updated from 0.7773169173863728)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:1 (no changes)
-album info for Music Box Opera
-	album_id:17061 (no changes)
-	album:Music Box Opera (no changes)
-	folder_path: (no changes)
-	spotify_popularity:29 (no changes)
-	lastfm_listeners:9810 (no changes)
-	lastfm_playcount:239651 (no changes)
-	whatcd_seeders:2551 (updated from 2535)
-	whatcd_snatches:26041 (updated from 26040)
-	popularity:0.472386229313678 (updated from 0.4549142546597137)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-song:
-	song info for Consciousness of Love
-		song_id:15640 (inserted)
-		song:Consciousness of Love (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:277 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:2934 (inserted)
-		lastfm_playcount:10265 (inserted)
-		popularity:0.6244039348161289 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Monarch
-		song_id:15641 (inserted)
-		song:Monarch (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:318 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:3413 (inserted)
-		lastfm_playcount:13840 (inserted)
-		popularity:0.6424926513588547 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Days Turn Into Nights
-		song_id:15642 (inserted)
-		song:Days Turn Into Nights (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:368 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:17 (inserted)
-		lastfm_listeners:2601 (inserted)
-		lastfm_playcount:9403 (inserted)
-		popularity:0.5953925930768494 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Chrysalis Heart
-		song_id:15643 (inserted)
-		song:Chrysalis Heart (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:229 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:3228 (inserted)
-		lastfm_playcount:13014 (inserted)
-		popularity:0.6386598985297245 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Light Your Light
-		song_id:15644 (inserted)
-		song:Light Your Light (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:338 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:17 (inserted)
-		lastfm_listeners:2604 (inserted)
-		lastfm_playcount:9855 (inserted)
-		popularity:0.598178252449979 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Raindown
-		song_id:15645 (inserted)
-		song:Raindown (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:348 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:22 (inserted)
-		lastfm_listeners:6630 (inserted)
-		lastfm_playcount:23065 (inserted)
-		popularity:0.6998121034243455 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Sky (Tears From Heaven)
-		song_id:15646 (inserted)
-		song:Sky (Tears From Heaven) (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:429 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:17 (inserted)
-		lastfm_listeners:1759 (inserted)
-		lastfm_playcount:6742 (inserted)
-		popularity:0.5637506856145003 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Hammer
-		song_id:15647 (inserted)
-		song:Hammer (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:333 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:14 (inserted)
-		lastfm_listeners:2026 (inserted)
-		lastfm_playcount:7850 (inserted)
-		popularity:0.5104230192301568 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Awakening
-		song_id:15648 (inserted)
-		song:Awakening (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:404 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:16 (inserted)
-		lastfm_listeners:2110 (inserted)
-		lastfm_playcount:7817 (inserted)
-		popularity:0.5544945925165793 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Frostbite
-		song_id:15649 (inserted)
-		song:Frostbite (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:360 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:14 (inserted)
-		lastfm_listeners:1365 (inserted)
-		lastfm_playcount:4815 (inserted)
-		popularity:0.4672280260579894 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Keyless Door
-		song_id:15650 (inserted)
-		song:Keyless Door (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:305 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:16 (inserted)
-		lastfm_listeners:2232 (inserted)
-		lastfm_playcount:8307 (inserted)
-		popularity:0.5598742676799786 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Music Box Opera
-		song_id:15651 (inserted)
-		song:Music Box Opera (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:330 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:15 (inserted)
-		lastfm_listeners:4260 (inserted)
-		lastfm_playcount:16693 (inserted)
-		popularity:0.5847125896139765 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Lock Down
-		song_id:15652 (inserted)
-		song:Lock Down (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:258 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:12 (inserted)
-		lastfm_listeners:379 (inserted)
-		lastfm_playcount:1368 (inserted)
-		popularity:0.35381652937390823 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Still Kill
-		song_id:15653 (inserted)
-		song:Still Kill (inserted)
-		filename: (inserted)
-		album_id:17061 (inserted)
-		length:381 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:12 (inserted)
-		lastfm_listeners:413 (inserted)
-		lastfm_playcount:1265 (inserted)
-		popularity:0.35270798674121734 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> The Future Sound of London - Environment Five <<<
-    Top Genres: ambient, electronic, downtempo
-Downloading song information for Environment Five by The Future Sound of London
-Done searching musicbrainz for album suggestions, have 17 to rank
-For the artist and album derived from the provided dir (The Future Sound of London and Environment Five respectively),
-the following artist and album was matched on musicbrains:
-Artist: The Future Sound of London
-Album: Environment Five
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: The Future Sound of London
-Album: Environment Five
-Original artists are: The Future Sound of London
-Final artists are: The Future Sound of London
-Popularity of artist The Future Sound of London is 0.680157618507
-Done with artists
-Popularity of album Environment Five is 0.44899851065
-Done with album
-artists info for The Future Sound of London
-	artist_id:314 (no changes)
-	artist:The Future Sound of London (no changes)
-	spotify_popularity:43 (no changes)
-	lastfm_listeners:523788 (no changes)
-	lastfm_playcount:10009564 (no changes)
-	whatcd_seeders:14246 (updated from 14637)
-	whatcd_snatches:132011 (updated from 131979)
-	popularity:0.6801576185072852 (updated from 0.4897007446456551)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-album info for Environment Five
-	album_id:2424 (no changes)
-	album:Environment Five (no changes)
-	folder_path:The Future Sound Of London - Environment Five (2014) [V0] (no changes)
-	spotify_popularity:34 (updated from 33)
-	lastfm_listeners:9486 (no changes)
-	lastfm_playcount:172646 (no changes)
-	whatcd_seeders:476 (updated from 468)
-	whatcd_snatches:2317 (updated from 2316)
-	popularity:0.44899851065004054 (updated from 0.4240016527091179)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-song:
-	song info for Point of Departure
-		song_id:15654 (inserted)
-		song:Point of Departure (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:388 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:30 (inserted)
-		lastfm_listeners:8007 (inserted)
-		lastfm_playcount:22176 (inserted)
-		popularity:0.7057445671670058 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Source of Uncertainty
-		song_id:15655 (inserted)
-		song:Source of Uncertainty (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:113 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:22 (inserted)
-		lastfm_listeners:6240 (inserted)
-		lastfm_playcount:17055 (inserted)
-		popularity:0.6056590322988938 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Image of the Past
-		song_id:15656 (inserted)
-		song:Image of the Past (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:269 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:22 (inserted)
-		lastfm_listeners:6207 (inserted)
-		lastfm_playcount:16522 (inserted)
-		popularity:0.5954930038928674 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Beings of Light
-		song_id:15657 (inserted)
-		song:Beings of Light (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:174 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:21 (inserted)
-		lastfm_listeners:5819 (inserted)
-		lastfm_playcount:15643 (inserted)
-		popularity:0.5473326581570702 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for In Solitude We Are Least Alone
-		song_id:15658 (inserted)
-		song:In Solitude We Are Least Alone (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:485 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:22 (inserted)
-		lastfm_listeners:5564 (inserted)
-		lastfm_playcount:15278 (inserted)
-		popularity:0.5524908111658127 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Viewed From Below the Surface
-		song_id:15659 (inserted)
-		song:Viewed From Below the Surface (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:194 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:19 (inserted)
-		lastfm_listeners:5016 (inserted)
-		lastfm_playcount:13695 (inserted)
-		popularity:0.4369387395027592 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Multiples
-		song_id:15660 (inserted)
-		song:Multiples (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:70 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:19 (inserted)
-		lastfm_listeners:4632 (inserted)
-		lastfm_playcount:12905 (inserted)
-		popularity:0.40857491167560656 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Dying While Being Held
-		song_id:15661 (inserted)
-		song:Dying While Being Held (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:173 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:20 (inserted)
-		lastfm_listeners:4867 (inserted)
-		lastfm_playcount:13289 (inserted)
-		popularity:0.4423036000451004 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Machines of the Subconscious
-		song_id:15662 (inserted)
-		song:Machines of the Subconscious (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:176 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:20 (inserted)
-		lastfm_listeners:4930 (inserted)
-		lastfm_playcount:14276 (inserted)
-		popularity:0.4677197379365359 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Dark and Lonely Waters
-		song_id:15663 (inserted)
-		song:Dark and Lonely Waters (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:131 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:19 (inserted)
-		lastfm_listeners:4605 (inserted)
-		lastfm_playcount:12628 (inserted)
-		popularity:0.40213533031521004 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Somatosensory
-		song_id:15664 (inserted)
-		song:Somatosensory (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:319 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:19 (inserted)
-		lastfm_listeners:4599 (inserted)
-		lastfm_playcount:12521 (inserted)
-		popularity:0.39984644214818255 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for The Dust Settles
-		song_id:15665 (inserted)
-		song:The Dust Settles (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:256 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:4083 (inserted)
-		lastfm_playcount:10819 (inserted)
-		popularity:0.347674620463424 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Moments of Isolation
-		song_id:15666 (inserted)
-		song:Moments of Isolation (inserted)
-		filename: (inserted)
-		album_id:2424 (inserted)
-		length:420 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:20 (inserted)
-		lastfm_listeners:4039 (inserted)
-		lastfm_playcount:11078 (inserted)
-		popularity:0.3845721340040637 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Röyksopp - Only This Moment <<<
-    Top Genres: trip.hop, electronic, ambient
-Downloading song information for Only This Moment by Röyksopp
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Röyksopp and Only This Moment respectively),
-the following artist and album was matched on musicbrains:
-Artist: Röyksopp
-Album: Only This Moment
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Röyksopp
-Album: Only This Moment
-Original artists are: Röyksopp
-Final artists are: Röyksopp
-Popularity of artist Röyksopp is 0.990636550508
-Done with artists
-Popularity of album Only This Moment is 0.631611694603
-Done with album
-artists info for Röyksopp
-	artist_id:2334 (no changes)
-	artist:Röyksopp (no changes)
-	spotify_popularity:66 (no changes)
-	lastfm_listeners:1889455 (no changes)
-	lastfm_playcount:67174295 (no changes)
-	whatcd_seeders:17650 (updated from 17569)
-	whatcd_snatches:183803 (updated from 183783)
-	popularity:0.9906365505084084 (updated from 0.9905737381548013)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:13 (no changes)
-album info for Only This Moment
-	album_id:8028 (no changes)
-	album:Only This Moment (no changes)
-	folder_path: (no changes)
-	spotify_popularity:16 (updated from 14)
-	lastfm_listeners:53247 (updated from 53765)
-	lastfm_playcount:164083 (updated from 164301)
-	whatcd_seeders:20 (no changes)
-	whatcd_snatches:224 (updated from 223)
-	popularity:0.6316116946032773 (updated from 0.3210025730736706)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:5 (no changes)
-song:
-	song info for Only This Moment (radio mix)
-		song_id:15667 (inserted)
-		song:Only This Moment (radio mix) (inserted)
-		filename: (inserted)
-		album_id:8028 (inserted)
-		length:222 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:10 (inserted)
-		lastfm_listeners:2777 (inserted)
-		lastfm_playcount:7788 (inserted)
-		popularity:0.5750462181535007 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Only This Moment (Röyksopps forsiktige massasje)
-		song_id:15668 (inserted)
-		song:Only This Moment (Röyksopps forsiktige massasje) (inserted)
-		filename: (inserted)
-		album_id:8028 (inserted)
-		length:297 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:3 (inserted)
-		lastfm_listeners:10714 (inserted)
-		lastfm_playcount:17541 (inserted)
-		popularity:0.6056969894904176 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Only This Moment (Chab remix)
-		song_id:15669 (inserted)
-		song:Only This Moment (Chab remix) (inserted)
-		filename: (inserted)
-		album_id:8028 (inserted)
-		length:520 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:4 (inserted)
-		lastfm_listeners:15900 (inserted)
-		lastfm_playcount:39013 (inserted)
-		popularity:0.6532935472501029 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Only This Moment (Röyksopps hissige)
-		song_id:15670 (inserted)
-		song:Only This Moment (Röyksopps hissige) (inserted)
-		filename: (inserted)
-		album_id:8028 (inserted)
-		length:377 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:3 (inserted)
-		lastfm_listeners:9642 (inserted)
-		lastfm_playcount:14681 (inserted)
-		popularity:0.5935571569978486 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Only This Moment (Alan Braxe & Fred Falke remix)
-		song_id:15671 (inserted)
-		song:Only This Moment (Alan Braxe & Fred Falke remix) (inserted)
-		filename: (inserted)
-		album_id:8028 (inserted)
-		length:393 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:4 (inserted)
-		lastfm_listeners:6483 (inserted)
-		lastfm_playcount:18111 (inserted)
-		popularity:0.6112197948187712 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Only This Moment (Headman remix)
-		song_id:15672 (inserted)
-		song:Only This Moment (Headman remix) (inserted)
-		filename: (inserted)
-		album_id:8028 (inserted)
-		length:422 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:14 (inserted)
-		lastfm_listeners:15913 (inserted)
-		lastfm_playcount:30857 (inserted)
-		popularity:0.6941764550014007 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Thievery Corporation - The Cosmic Game <<<
-    Top Genres: chillout, electronica, house
-Downloading song information for The Cosmic Game by Thievery Corporation
-Done searching musicbrainz for album suggestions, have 15 to rank
-For the artist and album derived from the provided dir (Thievery Corporation and The Cosmic Game respectively),
-the following artist and album was matched on musicbrains:
-Artist: Thievery Corporation
-Album: The Cosmic Game
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Thievery Corporation
-Album: The Cosmic Game
-Original artists are: Thievery Corporation
-Final artists are: Thievery Corporation
-Popularity of artist Thievery Corporation is 0.988921375599
-Done with artists
-Popularity of album The Cosmic Game is 0.755303606368
-Done with album
-artists info for Thievery Corporation
-	artist_id:286 (no changes)
-	artist:Thievery Corporation (no changes)
-	spotify_popularity:65 (no changes)
-	lastfm_listeners:1370734 (no changes)
-	lastfm_playcount:41340151 (no changes)
-	whatcd_seeders:9874 (updated from 9745)
-	whatcd_snatches:104821 (updated from 104817)
-	popularity:0.988921375598622 (updated from 0.9894951442573857)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:7 (no changes)
-album info for The Cosmic Game
-	album_id:2477 (no changes)
-	album:The Cosmic Game (no changes)
-	folder_path:Thievery Corporation - The Cosmic Game [V0] (no changes)
-	spotify_popularity:49 (no changes)
-	lastfm_listeners:386247 (no changes)
-	lastfm_playcount:5314745 (no changes)
-	whatcd_seeders:400 (updated from 398)
-	whatcd_snatches:5615 (updated from 5614)
-	popularity:0.7553036063678764 (updated from 0.7061948831251786)
-	pitchfork_rating:0 (updated from 76)
-	kups_playcount:1 (no changes)
-song:
-	song info for Marching the Hate Machines (Into the Sun)
-		song_id:15673 (inserted)
-		song:Marching the Hate Machines (Into the Sun) (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:241 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:34 (inserted)
-		lastfm_listeners:20198 (inserted)
-		lastfm_playcount:75745 (inserted)
-		popularity:0.18729807072511664 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Warning Shots
-		song_id:15674 (inserted)
-		song:Warning Shots (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:302 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:32 (inserted)
-		lastfm_listeners:55005 (inserted)
-		lastfm_playcount:178635 (inserted)
-		popularity:0.2103030347787282 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Revolution Solution
-		song_id:15675 (inserted)
-		song:Revolution Solution (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:221 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:32 (inserted)
-		lastfm_listeners:28628 (inserted)
-		lastfm_playcount:95096 (inserted)
-		popularity:0.1545950388561142 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for The Cosmic Game
-		song_id:15676 (inserted)
-		song:The Cosmic Game (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:139 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:34 (inserted)
-		lastfm_listeners:170175 (inserted)
-		lastfm_playcount:603850 (inserted)
-		popularity:0.3520544688187799 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Satyam Shivam Sundaram
-		song_id:15677 (inserted)
-		song:Satyam Shivam Sundaram (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:247 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:32 (inserted)
-		lastfm_listeners:108845 (inserted)
-		lastfm_playcount:383984 (inserted)
-		popularity:0.2754906859991458 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Amerimacka
-		song_id:15678 (inserted)
-		song:Amerimacka (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:341 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:33 (inserted)
-		lastfm_listeners:91035 (inserted)
-		lastfm_playcount:331213 (inserted)
-		popularity:0.2894487690747396 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Ambicion Eterna
-		song_id:15679 (inserted)
-		song:Ambicion Eterna (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:222 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:33 (inserted)
-		lastfm_listeners:18186 (inserted)
-		lastfm_playcount:57458 (inserted)
-		popularity:0.147957308841257 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Pela Janela
-		song_id:15680 (inserted)
-		song:Pela Janela (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:221 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:38 (inserted)
-		lastfm_listeners:26928 (inserted)
-		lastfm_playcount:76100 (inserted)
-		popularity:0.24065641183756534 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Sol Tapado
-		song_id:15681 (inserted)
-		song:Sol Tapado (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:237 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:32 (inserted)
-		lastfm_listeners:40283 (inserted)
-		lastfm_playcount:102372 (inserted)
-		popularity:0.16731258291227527 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for The Heart’s a Lonely Hunter
-		song_id:2933 (no changes)
-		song:The Heart’s a Lonely Hunter (no changes)
-		filename: (no changes)
-		album_id:2477 (no changes)
-		length:243 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:34 (updated from 35)
-		lastfm_listeners:300 (no changes)
-		lastfm_playcount:750 (updated from 739)
-		popularity:0.6942344155457011 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for Holographic Universe
-		song_id:15682 (inserted)
-		song:Holographic Universe (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:222 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:31 (inserted)
-		lastfm_listeners:194014 (inserted)
-		lastfm_playcount:660904 (inserted)
-		popularity:0.28163669490143667 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Doors of Perception
-		song_id:15683 (inserted)
-		song:Doors of Perception (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:196 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:30 (inserted)
-		lastfm_listeners:24703 (inserted)
-		lastfm_playcount:78636 (inserted)
-		popularity:0.10337890648019119 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Wires and Watchtowers
-		song_id:15684 (inserted)
-		song:Wires and Watchtowers (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:259 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:30 (inserted)
-		lastfm_listeners:14291 (inserted)
-		lastfm_playcount:48541 (inserted)
-		popularity:0.07345367981394964 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for The Supreme Illusion
-		song_id:15685 (inserted)
-		song:The Supreme Illusion (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:250 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:30 (inserted)
-		lastfm_listeners:30778 (inserted)
-		lastfm_playcount:101053 (inserted)
-		popularity:0.12140661165378741 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for The Time We Lost Our Way
-		song_id:15686 (inserted)
-		song:The Time We Lost Our Way (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:251 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:33 (inserted)
-		lastfm_listeners:77828 (inserted)
-		lastfm_playcount:297947 (inserted)
-		popularity:0.2791536411115599 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for A Gentle Dissolve
-		song_id:15687 (inserted)
-		song:A Gentle Dissolve (inserted)
-		filename: (inserted)
-		album_id:2477 (inserted)
-		length:169 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:38 (inserted)
-		lastfm_listeners:178337 (inserted)
-		lastfm_playcount:595087 (inserted)
-		popularity:0.3992851898643762 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Fila Brazillia - Black Market Gardening <<<
-    Top Genres: electronica, electronic, ambient
-Downloading song information for Black Market Gardening by Fila Brazillia
-Done searching musicbrainz for album suggestions, have 15 to rank
-For the artist and album derived from the provided dir (Fila Brazillia and Black Market Gardening respectively),
-the following artist and album was matched on musicbrains:
-Artist: Fila Brazillia
-Album: Black Market Gardening
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Fila Brazillia
-Album: Black Market Gardening
-Original artists are: Fila Brazillia
-Final artists are: Fila Brazillia
-Popularity of artist Fila Brazillia is 0.651301857695
-Done with artists
-Popularity of album Black Market Gardening is 0.444233145744
-Done with album
-artists info for Fila Brazillia
-	artist_id:11216 (no changes)
-	artist:Fila Brazillia (no changes)
-	spotify_popularity:40 (no changes)
-	lastfm_listeners:371412 (no changes)
-	lastfm_playcount:4184363 (no changes)
-	whatcd_seeders:6830 (updated from 6988)
-	whatcd_snatches:38579 (updated from 38562)
-	popularity:0.6513018576952541 (updated from 0.6426801611862955)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-album info for Black Market Gardening
-	album_id:3316 (no changes)
-	album:Black Market Gardening (no changes)
-	folder_path:Fila Brazillia - Black Market Gardening (no changes)
-	spotify_popularity:20 (no changes)
-	lastfm_listeners:13495 (no changes)
-	lastfm_playcount:129542 (no changes)
-	whatcd_seeders:3389 (updated from 3453)
-	whatcd_snatches:12893 (updated from 12891)
-	popularity:0.44423314574411776 (updated from 0.42784276398685456)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-song:
-	song info for Obrigado
-		song_id:15688 (inserted)
-		song:Obrigado (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:232 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:12 (inserted)
-		lastfm_listeners:6225 (inserted)
-		lastfm_playcount:17996 (inserted)
-		popularity:0.6992082983564931 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Snake Ranger
-		song_id:15689 (inserted)
-		song:Snake Ranger (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:475 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:16 (inserted)
-		lastfm_listeners:7676 (inserted)
-		lastfm_playcount:22035 (inserted)
-		popularity:0.703946659568705 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Little Dipper
-		song_id:15690 (inserted)
-		song:Little Dipper (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:361 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:13 (inserted)
-		lastfm_listeners:9457 (inserted)
-		lastfm_playcount:29807 (inserted)
-		popularity:0.7051038530836016 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Blubber Plinth
-		song_id:15691 (inserted)
-		song:Blubber Plinth (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:456 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:9 (inserted)
-		lastfm_listeners:5036 (inserted)
-		lastfm_playcount:14036 (inserted)
-		popularity:0.6885690274178531 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Butter My Mask
-		song_id:15692 (inserted)
-		song:Butter My Mask (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:553 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:11 (inserted)
-		lastfm_listeners:5215 (inserted)
-		lastfm_playcount:15389 (inserted)
-		popularity:0.693855441535636 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Wigs, Bifocals and Nurishment
-		song_id:15693 (inserted)
-		song:Wigs, Bifocals and Nurishment (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:488 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:9 (inserted)
-		lastfm_listeners:2981 (inserted)
-		lastfm_playcount:8593 (inserted)
-		popularity:0.6592124765969661 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Xique-Xique
-		song_id:15694 (inserted)
-		song:Xique-Xique (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:408 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:9 (inserted)
-		lastfm_listeners:4202 (inserted)
-		lastfm_playcount:13312 (inserted)
-		popularity:0.6842491770631708 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Onc Mongaani
-		song_id:15695 (inserted)
-		song:Onc Mongaani (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:562 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:8 (inserted)
-		lastfm_listeners:5678 (inserted)
-		lastfm_playcount:15357 (inserted)
-		popularity:0.6897801395085991 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for July 23
-		song_id:15696 (inserted)
-		song:July 23 (inserted)
-		filename: (inserted)
-		album_id:3316 (inserted)
-		length:313 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:14 (inserted)
-		lastfm_listeners:4847 (inserted)
-		lastfm_playcount:15239 (inserted)
-		popularity:0.6942457563813784 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> The Chemical Brothers - Surrender <<<
-    Top Genres: electronica, house, breakbeat
-Downloading song information for Surrender by The Chemical Brothers
-Done searching musicbrainz for album suggestions, have 19 to rank
-For the artist and album derived from the provided dir (The Chemical Brothers and Surrender respectively),
-the following artist and album was matched on musicbrains:
-Artist: The Chemical Brothers
-Album: Surrender
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: The Chemical Brothers
-Album: Surrender
-Original artists are: The Chemical Brothers
-Final artists are: The Chemical Brothers
-Popularity of artist The Chemical Brothers is 0.858682340137
-Done with artists
-Popularity of album Surrender is 0.652692768847
-Done with album
-artists info for The Chemical Brothers
-	artist_id:14 (no changes)
-	artist:The Chemical Brothers (no changes)
-	spotify_popularity:68 (no changes)
-	lastfm_listeners:2132741 (no changes)
-	lastfm_playcount:53846094 (no changes)
-	whatcd_seeders:21688 (updated from 21359)
-	whatcd_snatches:217680 (updated from 217672)
-	popularity:0.8586823401368797 (updated from 0.8675040673225833)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:2 (no changes)
-album info for Surrender
-	album_id:3336 (no changes)
-	album:Surrender (no changes)
-	folder_path:The Chemical Brothers (1999) Surrender (no changes)
-	spotify_popularity:52 (no changes)
-	lastfm_listeners:668853 (no changes)
-	lastfm_playcount:5414284 (no changes)
-	whatcd_seeders:565 (updated from 560)
-	whatcd_snatches:4737 (no changes)
-	popularity:0.6526927688471815 (updated from 0.6964764055257384)
-	pitchfork_rating:0 (updated from 90)
-	kups_playcount:0 (no changes)
-song:
-	song info for Music: Response
-		song_id:15697 (inserted)
-		song:Music: Response (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:320 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:90955 (inserted)
-		lastfm_playcount:295101 (inserted)
-		popularity:0.44663650533495514 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Under the Influence
-		song_id:15698 (inserted)
-		song:Under the Influence (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:256 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:34 (inserted)
-		lastfm_listeners:137159 (inserted)
-		lastfm_playcount:467562 (inserted)
-		popularity:0.46388019776058514 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Out of Control
-		song_id:15699 (inserted)
-		song:Out of Control (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:440 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:48 (inserted)
-		lastfm_listeners:251715 (inserted)
-		lastfm_playcount:895147 (inserted)
-		popularity:0.6434340488766994 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Orange Wedge
-		song_id:15700 (inserted)
-		song:Orange Wedge (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:186 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:127198 (inserted)
-		lastfm_playcount:392640 (inserted)
-		popularity:0.4725112240900805 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Let Forever Be
-		song_id:15701 (inserted)
-		song:Let Forever Be (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
+	song info for Andro
+		song_id:16369 (inserted)
+		song:Andro (inserted)
+		filename: (inserted)
+		album_id:24525 (inserted)
 		length:235 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:304801 (inserted)
-		lastfm_playcount:1168660 (inserted)
-		popularity:0.5590818868456149 (inserted)
+		spotify_popularity:24 (inserted)
+		lastfm_listeners:56408 (inserted)
+		lastfm_playcount:247101 (inserted)
+		popularity:0.3729207134617144 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for The Sunshine Underground
-		song_id:15702 (inserted)
-		song:The Sunshine Underground (inserted)
+	song info for Power of Persuasion
+		song_id:16370 (inserted)
+		song:Power of Persuasion (inserted)
 		filename: (inserted)
-		album_id:3336 (inserted)
-		length:518 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:114782 (inserted)
-		lastfm_playcount:381901 (inserted)
-		popularity:0.4679301771212245 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Asleep From Day
-		song_id:15703 (inserted)
-		song:Asleep From Day (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:287 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:48 (inserted)
-		lastfm_listeners:158793 (inserted)
-		lastfm_playcount:532188 (inserted)
-		popularity:0.5998466882794424 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Got Glint?
-		song_id:15704 (inserted)
-		song:Got Glint? (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:326 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:48 (inserted)
-		lastfm_listeners:91926 (inserted)
-		lastfm_playcount:285372 (inserted)
-		popularity:0.5472648814124248 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Hey Boy Hey Girl
-		song_id:15705 (inserted)
-		song:Hey Boy Hey Girl (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:289 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:537984 (inserted)
-		lastfm_playcount:2339390 (inserted)
-		popularity:0.5855009380571562 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Racing the Tide
-		song_id:15706 (inserted)
-		song:Racing the Tide (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:270 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:48 (inserted)
-		lastfm_listeners:7912 (inserted)
-		lastfm_playcount:27177 (inserted)
-		popularity:0.44800454540843526 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Dream On
-		song_id:15707 (inserted)
-		song:Dream On (inserted)
-		filename: (inserted)
-		album_id:3336 (inserted)
-		length:405 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:87349 (inserted)
-		lastfm_playcount:272955 (inserted)
-		popularity:0.44141237018471813 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Daft Punk - Homework <<<
-    Top Genres: electronica, electronic, house
-Downloading song information for Homework by Daft Punk
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Daft Punk and Homework respectively),
-the following artist and album was matched on musicbrains:
-Artist: Daft Punk
-Album: Homework
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Daft Punk
-Album: Homework
-Original artists are: Daft Punk
-Final artists are: Daft Punk
-Popularity of artist Daft Punk is 0.994633428721
-Done with artists
-Popularity of album Homework is 0.777528624746
-Done with album
-artists info for Daft Punk
-	artist_id:69 (no changes)
-	artist:Daft Punk (no changes)
-	spotify_popularity:80 (no changes)
-	lastfm_listeners:3533583 (no changes)
-	lastfm_playcount:189399356 (no changes)
-	whatcd_seeders:32847 (updated from 32440)
-	whatcd_snatches:425095 (updated from 425088)
-	popularity:0.9946334287213157 (updated from 0.994622220474239)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:12 (no changes)
-album info for Homework
-	album_id:17356 (no changes)
-	album:Homework (no changes)
-	folder_path: (no changes)
-	spotify_popularity:54 (no changes)
-	lastfm_listeners:1048077 (no changes)
-	lastfm_playcount:14784827 (no changes)
-	whatcd_seeders:1725 (updated from 1764)
-	whatcd_snatches:13247 (updated from 13243)
-	popularity:0.7775286247462808 (updated from 0.6651415236252127)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:1 (no changes)
-song:
-	song info for Daftendirekt
-		song_id:15708 (inserted)
-		song:Daftendirekt (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:164 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:44 (inserted)
-		lastfm_listeners:301202 (inserted)
-		lastfm_playcount:1030470 (inserted)
-		popularity:0.28598114243667294 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for WDPK 83.7 FM
-		song_id:15709 (inserted)
-		song:WDPK 83.7 FM (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:28 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:40 (inserted)
-		lastfm_listeners:20318 (inserted)
-		lastfm_playcount:45159 (inserted)
-		popularity:0.09361305207729463 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Revolution 909
-		song_id:15710 (inserted)
-		song:Revolution 909 (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:326 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:38 (inserted)
-		lastfm_listeners:365683 (inserted)
-		lastfm_playcount:1420329 (inserted)
-		popularity:0.23027015286066208 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Da Funk
-		song_id:15711 (inserted)
-		song:Da Funk (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:328 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:38 (inserted)
-		lastfm_listeners:531404 (inserted)
-		lastfm_playcount:2500006 (inserted)
-		popularity:0.2618682951496326 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Phœnix
-		song_id:15712 (inserted)
-		song:Phœnix (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:297 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:52 (inserted)
-		lastfm_listeners:15003 (inserted)
-		lastfm_playcount:45932 (inserted)
-		popularity:0.2041240744031666 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Fresh
-		song_id:15713 (inserted)
-		song:Fresh (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:244 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:278050 (inserted)
-		lastfm_playcount:969364 (inserted)
-		popularity:0.19460886133476776 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Around the World
-		song_id:15714 (inserted)
-		song:Around the World (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:429 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:44 (inserted)
-		lastfm_listeners:821295 (inserted)
-		lastfm_playcount:4302849 (inserted)
-		popularity:0.35489549499395934 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Rollin’ & Scratchin’
-		song_id:15715 (inserted)
-		song:Rollin’ & Scratchin’ (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:447 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:41 (inserted)
-		lastfm_listeners:570 (inserted)
-		lastfm_playcount:1124 (inserted)
-		popularity:0.09606239433364985 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Teachers
-		song_id:15716 (inserted)
-		song:Teachers (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:173 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:38 (inserted)
-		lastfm_listeners:230067 (inserted)
-		lastfm_playcount:801108 (inserted)
-		popularity:0.18674734800533985 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for High Fidelity
-		song_id:15717 (inserted)
-		song:High Fidelity (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:362 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:44 (inserted)
-		lastfm_listeners:230793 (inserted)
-		lastfm_playcount:756243 (inserted)
-		popularity:0.2618281127800472 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Rock’n Roll
-		song_id:15718 (inserted)
-		song:Rock’n Roll (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:453 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:48 (inserted)
-		lastfm_listeners:587 (inserted)
-		lastfm_playcount:1048 (inserted)
-		popularity:0.18126454388624424 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Oh Yeah
-		song_id:15719 (inserted)
-		song:Oh Yeah (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:121 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:44 (inserted)
-		lastfm_listeners:227454 (inserted)
-		lastfm_playcount:739133 (inserted)
-		popularity:0.26014459640247767 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Burnin’
-		song_id:15720 (inserted)
-		song:Burnin’ (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:413 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:37 (inserted)
-		lastfm_listeners:476 (inserted)
-		lastfm_playcount:918 (inserted)
-		popularity:0.053899124364050456 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Indo Silver Club
-		song_id:13632 (no changes)
-		song:Indo Silver Club (no changes)
-		filename: (no changes)
-		album_id:17356 (no changes)
-		length:274 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:44 (no changes)
-		lastfm_listeners:201058 (no changes)
-		lastfm_playcount:645745 (no changes)
-		popularity:0.8360115943633014 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for Alive
-		song_id:15721 (inserted)
-		song:Alive (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:315 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:46 (inserted)
-		lastfm_listeners:278792 (inserted)
-		lastfm_playcount:1003891 (inserted)
-		popularity:0.30782284499415324 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Funk Ad
-		song_id:15722 (inserted)
-		song:Funk Ad (inserted)
-		filename: (inserted)
-		album_id:17356 (inserted)
-		length:51 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:44 (inserted)
-		lastfm_listeners:222916 (inserted)
-		lastfm_playcount:725482 (inserted)
-		popularity:0.25866089281162236 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Caribou - Swim <<<
-    Top Genres: indie, psychedelic, electronic
-Downloading song information for Swim by Caribou
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Caribou and Swim respectively),
-the following artist and album was matched on musicbrains:
-Artist: Caribou
-Album: Swim
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Caribou
-Album: Swim
-Original artists are: Caribou
-Final artists are: Caribou
-Popularity of artist Caribou is 0.989425463654
-Done with artists
-Popularity of album Swim is 0.953749548671
-Done with album
-artists info for Caribou
-	artist_id:274 (no changes)
-	artist:Caribou (no changes)
-	spotify_popularity:63 (no changes)
-	lastfm_listeners:830660 (no changes)
-	lastfm_playcount:26127580 (no changes)
-	whatcd_seeders:21773 (updated from 21729)
-	whatcd_snatches:212092 (updated from 212061)
-	popularity:0.9894254636541935 (updated from 0.9896543252554196)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:13 (no changes)
-album info for Swim
-	album_id:1229 (no changes)
-	album:Swim (no changes)
-	folder_path:Caribou - Swim v0 (no changes)
-	spotify_popularity:23 (no changes)
-	lastfm_listeners:425441 (no changes)
-	lastfm_playcount:10191073 (no changes)
-	whatcd_seeders:1203 (updated from 1196)
-	whatcd_snatches:19146 (updated from 19145)
-	popularity:0.9537495486709647 (updated from 0.9517916957719332)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:5 (no changes)
-song:
-	song info for Odessa
-		song_id:3072 (no changes)
-		song:Odessa (no changes)
-		filename: (no changes)
-		album_id:1229 (no changes)
-		length:315 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:14 (updated from 16)
-		lastfm_listeners:376991 (updated from 400586)
-		lastfm_playcount:2920157 (updated from 2916653)
-		popularity:0.9938102928199977 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for Sun
-		song_id:157 (no changes)
-		song:Sun (no changes)
-		filename: (no changes)
-		album_id:1229 (no changes)
-		length:344 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:9 (updated from 0)
-		lastfm_listeners:249638 (updated from 0)
-		lastfm_playcount:1487817 (updated from 0)
-		popularity:0.8622692280430982 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for Kaili
-		song_id:15723 (inserted)
-		song:Kaili (inserted)
-		filename: (inserted)
-		album_id:1229 (inserted)
-		length:282 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:9 (inserted)
-		lastfm_listeners:197247 (inserted)
-		lastfm_playcount:1092310 (inserted)
-		popularity:0.7786309575387207 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Found Out
-		song_id:15724 (inserted)
-		song:Found Out (inserted)
-		filename: (inserted)
-		album_id:1229 (inserted)
-		length:198 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:11 (inserted)
-		lastfm_listeners:194295 (inserted)
-		lastfm_playcount:1041610 (inserted)
-		popularity:0.8369258724717126 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Bowls
-		song_id:8760 (no changes)
-		song:Bowls (no changes)
-		filename: (no changes)
-		album_id:1229 (no changes)
-		length:381 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:11 (updated from 12)
-		lastfm_listeners:173415 (updated from 176976)
-		lastfm_playcount:895664 (updated from 896928)
-		popularity:0.9029962385880917 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for Leave House
-		song_id:4965 (no changes)
-		song:Leave House (no changes)
-		filename: (no changes)
-		album_id:1229 (no changes)
-		length:312 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:9 (updated from 10)
-		lastfm_listeners:183979 (updated from 188195)
-		lastfm_playcount:965774 (updated from 966889)
-		popularity:0.8466780537142867 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for Hannibal
-		song_id:12937 (no changes)
-		song:Hannibal (no changes)
-		filename: (no changes)
-		album_id:1229 (no changes)
-		length:375 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:9 (no changes)
-		lastfm_listeners:161358 (no changes)
-		lastfm_playcount:794098 (no changes)
-		popularity:0.8359484575254702 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for Lalibela
-		song_id:15725 (inserted)
-		song:Lalibela (inserted)
-		filename: (inserted)
-		album_id:1229 (inserted)
-		length:145 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:13 (inserted)
-		lastfm_listeners:158973 (inserted)
-		lastfm_playcount:763291 (inserted)
-		popularity:0.8736441184020866 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Jamelia
-		song_id:15726 (inserted)
-		song:Jamelia (inserted)
-		filename: (inserted)
-		album_id:1229 (inserted)
-		length:238 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:12 (inserted)
-		lastfm_listeners:165074 (inserted)
-		lastfm_playcount:949646 (inserted)
-		popularity:0.8632348195826837 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-Error with processSongs
->>> Four Tet - Pause <<<
-    Top Genres: electronica, downtempo, electronic
-Downloading song information for Pause by Four Tet
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Four Tet and Pause respectively),
-the following artist and album was matched on musicbrains:
-Artist: Four Tet
-Album: Pause
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Four Tet
-Album: Pause
-Original artists are: Four Tet
-Final artists are: Four Tet
-Popularity of artist Four Tet is 0.972930424526
-Done with artists
-Popularity of album Pause is 0.585658329602
-Done with album
-artists info for Four Tet
-	artist_id:313 (no changes)
-	artist:Four Tet (no changes)
-	spotify_popularity:57 (no changes)
-	lastfm_listeners:801305 (no changes)
-	lastfm_playcount:23443916 (no changes)
-	whatcd_seeders:45909 (updated from 45557)
-	whatcd_snatches:352255 (updated from 352171)
-	popularity:0.9729304245262567 (updated from 0.976617158487598)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:5 (no changes)
-album info for Pause
-	album_id:3814 (no changes)
-	album:Pause (no changes)
-	folder_path:Four Tet - Pause (no changes)
-	spotify_popularity:17 (no changes)
-	lastfm_listeners:209993 (no changes)
-	lastfm_playcount:2913855 (no changes)
-	whatcd_seeders:381 (updated from 387)
-	whatcd_snatches:4283 (updated from 4274)
-	popularity:0.5856583296018104 (updated from 0.5260259496438303)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-song:
-	song info for Glue of the World
-		song_id:2359 (no changes)
-		song:Glue of the World (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:302 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:10 (no changes)
-		lastfm_listeners:89939 (updated from 90962)
-		lastfm_playcount:347446 (updated from 347110)
-		popularity:0.7026060221437727 (updated from 0.628121016872428)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Twenty Three
-		song_id:2360 (no changes)
-		song:Twenty Three (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:214 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:7 (no changes)
-		lastfm_listeners:78189 (updated from 78984)
-		lastfm_playcount:308192 (updated from 308023)
-		popularity:0.695290093582003 (updated from 0.5694934127411861)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Harmony One
-		song_id:2361 (no changes)
-		song:Harmony One (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:101 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:6 (no changes)
-		lastfm_listeners:78089 (updated from 78776)
-		lastfm_playcount:280289 (updated from 280229)
-		popularity:0.6896725528597796 (updated from 0.5324540344405723)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Parks
-		song_id:2362 (no changes)
-		song:Parks (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:363 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:8 (updated from 7)
-		lastfm_listeners:79264 (updated from 80136)
-		lastfm_playcount:316076 (updated from 315859)
-		popularity:0.6984148609428787 (updated from 0.5748489568941674)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Leila Came Round and We Watched a Video
-		song_id:2363 (no changes)
-		song:Leila Came Round and We Watched a Video (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:99 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:6 (updated from 5)
-		lastfm_listeners:30857 (updated from 31161)
-		lastfm_playcount:132041 (updated from 132055)
-		popularity:0.6525834105090166 (updated from 0.3718093964521935)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Untangle
-		song_id:2364 (no changes)
-		song:Untangle (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:276 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:6 (no changes)
-		lastfm_listeners:70111 (updated from 70813)
-		lastfm_playcount:262927 (updated from 262892)
-		popularity:0.6881921825120695 (updated from 0.5141897703026044)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Everything Is Alright
-		song_id:2365 (no changes)
-		song:Everything Is Alright (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:151 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:15 (updated from 16)
-		lastfm_listeners:118831 (updated from 120371)
-		lastfm_playcount:518547 (updated from 517336)
-		popularity:0.7064248811068926 (updated from 0.6972136414785349)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for No More Mosquitoes
-		song_id:2366 (no changes)
-		song:No More Mosquitoes (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:219 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:7 (updated from 6)
-		lastfm_listeners:68593 (updated from 69232)
-		lastfm_playcount:255205 (updated from 255095)
-		popularity:0.6917685679050811 (updated from 0.5079699777457012)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Tangle
-		song_id:2367 (no changes)
-		song:Tangle (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:224 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:5 (no changes)
-		lastfm_listeners:65303 (updated from 65868)
-		lastfm_playcount:231213 (updated from 231216)
-		popularity:0.6784964352865352 (updated from 0.44601148171417515)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for You Could Ruin My Day
-		song_id:2368 (no changes)
-		song:You Could Ruin My Day (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:423 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:6 (no changes)
-		lastfm_listeners:63532 (updated from 64159)
-		lastfm_playcount:240805 (updated from 240552)
-		popularity:0.6858588459286055 (updated from 0.4942034555852494)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
-	song info for Hilarious Movie of the 90’s
-		song_id:2369 (no changes)
-		song:Hilarious Movie of the 90’s (no changes)
-		filename: (no changes)
-		album_id:3814 (no changes)
-		length:209 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:5 (no changes)
-		lastfm_listeners:86 (updated from 87)
-		lastfm_playcount:369 (updated from 371)
-		popularity:0.4318392523746756 (updated from 0.34169893476763674)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:0 (no changes)
->>> Björk - Vespertine <<<
-    Top Genres: electronica, ambient, electronic
-Downloading song information for Vespertine by Björk
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Björk and Vespertine respectively),
-the following artist and album was matched on musicbrains:
-Artist: Björk
-Album: Vespertine
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Björk
-Album: Vespertine
-Original artists are: Björk
-Final artists are: Björk
-Popularity of artist Björk is 0.989861581808
-Done with artists
-Popularity of album Vespertine is 0.753789876988
-Done with album
-artists info for Björk
-	artist_id:263 (no changes)
-	artist:Björk (no changes)
-	spotify_popularity:64 (no changes)
-	lastfm_listeners:2044889 (no changes)
-	lastfm_playcount:97102086 (no changes)
-	whatcd_seeders:25578 (updated from 25268)
-	whatcd_snatches:220134 (updated from 220133)
-	popularity:0.989861581807815 (updated from 0.989846088599943)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:21 (no changes)
-album info for Vespertine
-	album_id:927 (no changes)
-	album:Vespertine (no changes)
-	folder_path:Björk - Vespertine (no changes)
-	spotify_popularity:29 (no changes)
-	lastfm_listeners:348828 (no changes)
-	lastfm_playcount:9148320 (no changes)
-	whatcd_seeders:989 (updated from 967)
-	whatcd_snatches:9939 (updated from 9936)
-	popularity:0.7537898769884096 (updated from 0.7474742541002989)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:1 (no changes)
-song:
-	song info for Hidden Place
-		song_id:15727 (inserted)
-		song:Hidden Place (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:329 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:21 (inserted)
-		lastfm_listeners:307847 (inserted)
-		lastfm_playcount:1646296 (inserted)
-		popularity:0.355800493461132 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Cocoon
-		song_id:8227 (no changes)
-		song:Cocoon (no changes)
-		filename: (no changes)
-		album_id:927 (no changes)
-		length:268 (no changes)
-		explicit:False (no changes)
-		spotify_popularity:22 (updated from 23)
-		lastfm_listeners:193928 (updated from 200496)
-		lastfm_playcount:1042784 (updated from 1040623)
-		popularity:0.9481328843303274 (updated from None)
-		playcount:0 (no changes)
-		playlists:0 (no changes)
-		kups_playcount:1 (no changes)
-	song info for It’s Not Up to You
-		song_id:15728 (inserted)
-		song:It’s Not Up to You (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:308 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:704 (inserted)
-		lastfm_playcount:2390 (inserted)
-		popularity:0.01981900398183225 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Undo
-		song_id:15729 (inserted)
-		song:Undo (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:338 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:177272 (inserted)
-		lastfm_playcount:873432 (inserted)
-		popularity:0.23813499573135094 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Pagan Poetry
-		song_id:15730 (inserted)
-		song:Pagan Poetry (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:314 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:345823 (inserted)
-		lastfm_playcount:2203155 (inserted)
-		popularity:0.27293281700859157 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Frosti
-		song_id:15731 (inserted)
-		song:Frosti (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:101 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:21 (inserted)
-		lastfm_listeners:185239 (inserted)
-		lastfm_playcount:947249 (inserted)
-		popularity:0.3306203463305903 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Aurora
-		song_id:15732 (inserted)
-		song:Aurora (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:279 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:20 (inserted)
-		lastfm_listeners:178371 (inserted)
-		lastfm_playcount:885181 (inserted)
-		popularity:0.29316181071718095 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for An Echo, a Stain
-		song_id:15733 (inserted)
-		song:An Echo, a Stain (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:244 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:110805 (inserted)
-		lastfm_playcount:506479 (inserted)
-		popularity:0.19375810802549792 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Sun in My Mouth
-		song_id:15734 (inserted)
-		song:Sun in My Mouth (inserted)
-		filename: (inserted)
-		album_id:927 (inserted)
-		length:160 (inserted)
+		album_id:24525 (inserted)
+		length:209 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:23 (inserted)
-		lastfm_listeners:151697 (inserted)
-		lastfm_playcount:695979 (inserted)
-		popularity:0.35067590383199954 (inserted)
+		lastfm_listeners:52104 (inserted)
+		lastfm_playcount:216166 (inserted)
+		popularity:0.34610130445312304 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Heirloom
-		song_id:15735 (inserted)
-		song:Heirloom (inserted)
+	song info for Sleep Dealer
+		song_id:14001 (no changes)
+		song:Sleep Dealer (no changes)
+		filename: (no changes)
+		album_id:24525 (no changes)
+		length:190 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:25 (no changes)
+		lastfm_listeners:51157 (no changes)
+		lastfm_playcount:236311 (no changes)
+		popularity:0.9540668082950695 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for Remember
+		song_id:16371 (inserted)
+		song:Remember (inserted)
 		filename: (inserted)
-		album_id:927 (inserted)
-		length:312 (inserted)
+		album_id:24525 (inserted)
+		length:199 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:22 (inserted)
-		lastfm_listeners:127246 (inserted)
-		lastfm_playcount:589907 (inserted)
-		popularity:0.3209240461569001 (inserted)
+		spotify_popularity:21 (inserted)
+		lastfm_listeners:44606 (inserted)
+		lastfm_playcount:186843 (inserted)
+		popularity:0.281086561774457 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Harm of Will
-		song_id:15736 (inserted)
-		song:Harm of Will (inserted)
+	song info for Replica
+		song_id:14010 (no changes)
+		song:Replica (no changes)
+		filename: (no changes)
+		album_id:24525 (no changes)
+		length:276 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:26 (no changes)
+		lastfm_listeners:67581 (no changes)
+		lastfm_playcount:282763 (no changes)
+		popularity:0.9853961222308467 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for Nassau
+		song_id:16372 (inserted)
+		song:Nassau (inserted)
 		filename: (inserted)
-		album_id:927 (inserted)
-		length:276 (inserted)
+		album_id:24525 (inserted)
+		length:282 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:20 (inserted)
+		lastfm_listeners:40568 (inserted)
+		lastfm_playcount:162690 (inserted)
+		popularity:0.24503744429793275 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)Cannot get artistid on spotify for Vektroid
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Warning: cannot get song lastfm data. Using 0s.
+'track'
+  Occurred in packages/lookup.py on line 84
+
+
+Cannot get artistid on spotify for Macintosh Plus
+reduce() of empty sequence with no initial value
+  Occurred in packages/lookup.py on line 41
+
+
+Warning: cannot get song spotify data. Using 0s.
+'int' object is not iterable
+  Occurred in packages/lookup.py on line 58
+
+
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+
+		kups_playcount:0 (inserted)
+	song info for Submersible
+		song_id:16373 (inserted)
+		song:Submersible (inserted)
+		filename: (inserted)
+		album_id:24525 (inserted)
+		length:229 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:19 (inserted)
-		lastfm_listeners:150966 (inserted)
-		lastfm_playcount:672656 (inserted)
-		popularity:0.24219742103523442 (inserted)
+		lastfm_listeners:39516 (inserted)
+		lastfm_playcount:154635 (inserted)
+		popularity:0.22270993232330147 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Unison
-		song_id:15737 (inserted)
-		song:Unison (inserted)
+	song info for Up
+		song_id:16374 (inserted)
+		song:Up (inserted)
 		filename: (inserted)
-		album_id:927 (inserted)
-		length:407 (inserted)
+		album_id:24525 (inserted)
+		length:237 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:22 (inserted)
-		lastfm_listeners:158166 (inserted)
-		lastfm_playcount:817357 (inserted)
-		popularity:0.3458352317776652 (inserted)
+		spotify_popularity:18 (inserted)
+		lastfm_listeners:37037 (inserted)
+		lastfm_playcount:140551 (inserted)
+		popularity:0.19956381532013678 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Child Soldier
+		song_id:16375 (inserted)
+		song:Child Soldier (inserted)
+		filename: (inserted)
+		album_id:24525 (inserted)
+		length:192 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:18 (inserted)
+		lastfm_listeners:35678 (inserted)
+		lastfm_playcount:137289 (inserted)
+		popularity:0.19593637199138605 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Explain
+		song_id:16376 (inserted)
+		song:Explain (inserted)
+		filename: (inserted)
+		album_id:24525 (inserted)
+		length:405 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:18 (inserted)
+		lastfm_listeners:33930 (inserted)
+		lastfm_playcount:121075 (inserted)
+		popularity:0.18745529473726263 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
 Error with processSongs
-Mostly done getting song info
-All done getting album and song info
-Done getting playlist infoError with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-/usr/lib/python3/dist-packages/scipy/stats/_distn_infrastructure.py:1640: RuntimeWarning: invalid value encountered in double_scalars
-  x = (x-loc)*1.0/scale
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-
-Best Playlist:
->> Fila Brazillia - Black Market Gardening - Little Dipper - 6:01 <<
->> The Chemical Brothers - Surrender - Out of Control - 7:20 <<
->> Daft Punk - Homework - Indo Silver Club - 4:34 <<
->> Caribou - Swim - Odessa - 5:15 <<
->> Four Tet - Pause - Everything Is Alright - 2:31 <<
->> Björk - Vespertine - Cocoon - 4:28 <<
-
-
-1458251833498
+>>> Vangelis - Opera Sauvage <<<
+    Top Genres: ambient, electronic, new.age
+1458346174929

@@ -105,59 +105,63 @@
 	    </div>
 
 		<script type="text/javascript">
-			$.get('./zarvox_term.out', {},
-			  	function(data){
-				    var dataStr = new String(data);
-				    var termOut = $("#termOut");
-				    var playlist = $("#playlist")
-				    // var playlistt = $("#playlist-table")
-				    var i=0;
-				    var done = false;
-				    dataStr.split(/\n/)
-				    	.filter(function(str) {
-				    		return str.length>3; 
-				    	}).forEach(function(line, index, arr) {
-				    		termOut.append(line+"<br>");
-				    		if (line.slice(0,2) === ">>" && line.slice(-2) === "<<") {
-				    			if (line.slice(0,3) === ">>>" && line.slice(-3) === "<<<") {
-				    				playlist.append($('<li></li>')
-				    					.html(line.slice(3,-3)));
-				    				// playlistt.append($('<tr></tr>')
-				    				// 	.html("<td>"+(line.slice(3,-3)
-				    				// 		.split('-')
-				    				// 		.join("</td><td>"))+"</td><td>TBD</td><td>TBD</td>"));
-				    			}
-				    			else{
-				    				playlist.children(":eq("+i.toString()+")").text(line.slice(2,-2));
-				    				i = i+1;
-				    				// playlistt.children(":eq("+(i-1).toString()+")").html("<td>"+(line.slice(3,-3)
-				    				// 		.split('-')
-				    				// 		.join("</td><td>"))+"</td>");
-				    				// console.log(playlistt.children(":eq("+(i-1).toString()+")").html());
-				    			}
+			    var done = false;
+			    var interval;
+		    	interval = window.setInterval(function() {
+					$.get('./zarvox_term.out', {},
+					  	function(data) {
+						    var dataStr = new String(data);
+						    var termOut = $("#termOut");
+						    var playlist = $("#playlist")
+						    // var playlistt = $("#playlist-table")
+						    var i=0;
+						    dataStr.split(/\n/)
+						    	.filter(function(str) {
+						    		return str.length>3; 
+						    	}).forEach(function(line, index, arr) {
+						    		termOut.append(line+"<br>");
+						    		if (line.slice(0,2) === ">>" && line.slice(-2) === "<<") {
+						    			if (line.slice(0,3) === ">>>" && line.slice(-3) === "<<<") {
+						    				playlist.append($('<li></li>')
+						    					.html(line.slice(3,-3)));
+						    				// playlistt.append($('<tr></tr>')
+						    				// 	.html("<td>"+(line.slice(3,-3)
+						    				// 		.split('-')
+						    				// 		.join("</td><td>"))+"</td><td>TBD</td><td>TBD</td>"));
+						    			}
+						    			else{
+						    				playlist.children(":eq("+i.toString()+")").text(line.slice(2,-2));
+						    				i = i+1;
+						    				// playlistt.children(":eq("+(i-1).toString()+")").html("<td>"+(line.slice(3,-3)
+						    				// 		.split('-')
+						    				// 		.join("</td><td>"))+"</td>");
+						    				// console.log(playlistt.children(":eq("+(i-1).toString()+")").html());
+						    			}
 
-				    		}
-				    		else if (index === arr.length-1) {
-				    			var tempdate;
-							    if (isNaN(line))
-								    tempdate = new Date(0);
-								else
-									tempdate = new Date(parseInt(line));
-								done = (tempdate.getFullYear() > 2015);
-				    		}
-				    	});
-				    if (i > 0){
-				    	console.log(playlist.children().length, i)
-				    	while (i < playlist.children().length){
-		    				playlist.children(":eq("+i.toString()+")").remove();
-		    				// playlistt.children(":eq("+i.toString()+")").remove();
-				    	}
-				    }
-				    if (done) {
-		    			$("#playlist-header").text("final playlist");
-		    			alert("Done generating your playlist!");
-				    }
-			}, 'text text');
+						    		}
+						    		else if (index === arr.length-1) {
+						    			var tempdate;
+									    if (isNaN(line))
+										    tempdate = new Date(0);
+										else
+											tempdate = new Date(parseInt(line));
+										done = (tempdate.getFullYear() > 2015);
+						    		}
+						    	});
+						    if (i > 0){
+						    	console.log(playlist.children().length, i)
+						    	while (i < playlist.children().length){
+				    				playlist.children(":eq("+i.toString()+")").remove();
+				    				// playlistt.children(":eq("+i.toString()+")").remove();
+						    	}
+						    }
+						    if (done) {
+				    			$("#playlist-header").text("final playlist");
+				    			alert("Done generating your playlist!");
+				    			window.clearInterval(interval);
+						    }
+					}, 'text text');
+				}, 1000);
 		</script>
 
 	</body>

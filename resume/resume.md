@@ -99,7 +99,7 @@ Interests
     -   I've participated in this club through a couple of projects since the beginning of freshman year, and have served as its project organizer and president for the past year.
     -   We have hosted several hackathons, including the ACM intercollegiate programming competition.
     -   We've worked on a Rover project this past year, automating the driving of an RC car using Arduino ultrasonic sensors.
-    -   From last summer, we built a native IOS/Android/web app Eventi, a method of viewing campus event posters from a mobile device as well as posting event information for our campus community.
+    -   From last summer, we built a native IOS/Android/[web app Eventi (view the web app at eventi.pugetsound.edu)](http://eventi.pugetsound.edu/), a method of viewing campus event posters from a mobile device as well as posting event information for our campus community.
     -   We've also constructed a pseudo-supercomputer, which can successfully run threaded programs in parallel, out of several raspberry pi computers. 
 
 *   **[KUPS 90.1FM](www.kups.net)** (University of Puget Sound)
