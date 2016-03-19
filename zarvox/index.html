@@ -11,12 +11,12 @@
 
 		<title>Zarvox</title>
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 		<link href="../css/cover.css" rel="stylesheet">
 		<link href="../css/bootstrap-combobox.css" rel="stylesheet">
 		<script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.js"></script>
 		<script type="text/javascript" src="../js/bootstrap-combobox.js"></script>
-
+		<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +41,19 @@
 	              <nav>
 	                <ul class="nav masthead-nav">
 	                  <li><a href="/index.html">Resume</a></li>
-	                  <li class="active"><a href="#">Code Demos</a></li>
+	                  <li class="active dropdown">
+				          <a id="code-samps" data-target="#" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
+						    Code Demos
+						    <span class="caret"></span>
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="code-samps">
+						    <li class="dropdown-item"><a href="/zarvox/index.html"> Zarvox Radio Automation </a></li>
+						    <li class="dropdown-item"><a href="http://eventi.pugetsound.edu"> Eventi: Campus Life Extended </a></li>
+  <li class="dropdown-divider"></li>
+						    <li class="dropdown-item"><a href="https://ups-off-campus-housing.herokuapp.com"> Off-Campus Housing Search </a></li>
+						    <li class="dropdown-item"><a href="/zarvox/playlist.html"> yolo </a></li>
+						  </ul>
+					  </li>	
 	                </ul>
 	              </nav>
 	            </div>

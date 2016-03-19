@@ -94,6 +94,12 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+.nav .open > a:focus {
+  background-color: inherit;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
 
 @media (min-width: 768px) {
   .masthead-brand {
