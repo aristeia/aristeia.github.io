@@ -9,8 +9,8 @@ Technical Skills
 ----------------
 
 ------------------------------------------------------------------------------
-**Computer Languages (in  **Frameworks**  **Databases**   **Other
-order of experience)**                                    Technologies**
+**Computer Langs (ordered  **Frameworks**  **Databases**   **Other
+by experience desc)**                                     Technologies**
 ------------------------- --------------- --------------- --------------------
 Python, SQL/PLSQL, Java,  Rails, Node.js, Oracle Database Oracle
 Ruby, C/C++, Javascript,  Bootstrap,      12c, PostgreSQL Peopletools 8.53,
