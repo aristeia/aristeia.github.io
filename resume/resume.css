@@ -25,10 +25,15 @@ img {
     background: #fff;
 }
 
-a:link,
-a:visited  { 
+a.emph:link,
+a.emph:visited  { 
     font-weight: bold;
     font-size: 1.1em;
+    text-shadow: 4px 2px #337ab7;
+}
+
+.btn {
+    font-weight: bold;
 }
 
 
@@ -51,8 +56,10 @@ ul li ul {
     margin-bottom: 2em;
 }
 
-li {
-    margin-top: 0em;
+ul.lst li {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: solid rgba(151,151,151,0.25);
 }
 
 ul li ul li {
