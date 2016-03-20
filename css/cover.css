@@ -64,6 +64,8 @@ body {
  */
 .masthead {
   z-index: 500;
+  background: rgba(51,51,51,.825);
+
 }
 .masthead-brand {
   margin-top: 10px;
