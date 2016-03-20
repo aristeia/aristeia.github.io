@@ -49,19 +49,15 @@
 
 
             <div class="inner cover">
-
-
-              I'm a student at the University of Puget Sound in Tacoma, WA, and a programmer looking for work for the summer.<BR>
-              On this site, you can find my resume <a href="./index.html">in HTML</a> and <a href="./resume.pdf">in PDF</a> (<a href="./resume.tex">both from LaTeX</a>), as well as several programming projects below.<BR><BR><BR>
-
-
-              <div id="code">
                 <script type="text/javascript">
                   $(document).ready(function () {
-                      $("div#code").load("/resume_extras.html #code-samples");
+                      $("div.inner").load("/resume/resume.html #container", function() {
+                        var newdiv = $('<div id="extras"></div>');
+                        newdiv.load("/resume_extras.html #code-samples");
+                        $("#work-experience").before(newdiv);
+                      });
                   });
                 </script>
-              </div>
 
             </div>
 

@@ -120,7 +120,6 @@ def tex(lines, contact_lines, *args):
 @processor.register
 def html(lines, contact_lines, *args):
     untex = ['LaTeX']
-
     for word in untex:
         # yuck
         replace = lambda l: l.replace(r"\%s" % word, word)
@@ -141,7 +140,7 @@ def html(lines, contact_lines, *args):
 
     lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
                  ("<p>" + "</p><p>".join(contact_lines) + "</p>"))
-    lines.insert(1, "<div>")
+    lines.insert(1, "<div id='rest'>")
     lines.append("</div>")
 
     return "".join(lines)
@@ -166,7 +165,6 @@ def main():
         parts = [x.strip() for x in line.split("•")]
         if parts == ['']:
             break
-
         contact_lines.extend(parts)
 
     print(processor.process(format, lines, contact_lines, *sys.argv[1:]))

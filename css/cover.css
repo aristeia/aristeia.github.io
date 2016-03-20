@@ -9,6 +9,13 @@ a:hover {
   color: #fff;
 }
 
+.code-box {
+    height: 800px;
+    overflow: scroll;
+    border-style: solid;
+    border-color: silver;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
