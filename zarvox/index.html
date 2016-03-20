@@ -6,18 +6,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	    <meta name="description" content="Zarvox Automated DJ Demo">
 	    <meta name="author" content="Jon Sims">
-	    <link rel="icon" href="../favicon.ico" />
+	    <link rel="icon" href="/favicon.ico" />
 
 
 		<title>Zarvox</title>
-		<link href="../css/bootstrap.min.css" rel="stylesheet">
-		<link href="../css/cover.css" rel="stylesheet">
-		<link href="../css/bootstrap-combobox.css" rel="stylesheet">
-		<script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
-		<script type="text/javascript" src="../js/bootstrap.js"></script>
-		<script type="text/javascript" src="../js/bootstrap-combobox.js"></script>
-		<script type="text/javascript" src="../js/papaparse.min.js"></script>
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/cover.css" rel="stylesheet">
+		<link href="/css/bootstrap-combobox.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.js"></script>
+		<script type="text/javascript" src="/js/bootstrap-combobox.js"></script>
+		<script type="text/javascript" src="./js/papaparse.min.js"></script>
 
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,10 +73,9 @@
 						</div>
 					</div>
 					<br>
-					<div class="row" id="adOptions" style="display:none"> 
-						<p class="lead">Additional options:</p>
-						<br>
-						<form class="form"> 
+					<form action="/zarvox/playlist.html" class="form" method="get">
+						<div class="row" id="adOptions" style="display:none"> 
+							<p class="lead">Additional options:</p>
 							<div class="form-group"> 
 								<div class="col-md-6"> 
 									<label class="control-label" id="adOption1Label">option1</label>
@@ -91,16 +90,14 @@
            							</select> 
 								</div>
 							</div> 
-						</form>
-					</div>
-					<div class="row" id="generate"> 
-						<br>
-						<br>
-						<br>
-						<button type="button" class="btn btn-primary btn-lg btn-block">	
-							<a href="/zarvox/playlist.html">Generate Playlist!</a>
-						</button>
-					</div>
+						</div>
+						<div class="row" id="generate"> 
+							<br>
+							<br>
+							<br>
+							<input type="submit" class="btn btn-primary btn-lg btn-block" value="Generate Playlist"/>	
+						</div>
+					</form>
 				</div>
 				<div id="zarv-meh" style="display:none">
 					<p class="lead">

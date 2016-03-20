@@ -5,18 +5,18 @@ Jon Sims
 [jon@jonsims.me](mailto:jon@jonsims.me)
 [jonsims.me](http://www.jonsims.me)
 
-Technical Skills
+Technical Skills (all ordered by experience, descending)
 ----------------
 
---------------------------------------------------------------------------------------
-**Computer Langs (ordered   **Frameworks**    **Databases**     **Other
-by experience desc)**                                           Technologies**
---------------------------- ----------------- ----------------- ----------------------
-Python, SQL/PLSQL, Java,    Rails, Node.js,   Oracle Database   Oracle Peopletools
-Ruby, Javascript, C/C++,    Bootstrap,        12c, PostgreSQL   8.53, Enterprise Linux
-Bash,HTML/CSS, Haskell,     Express.js        9.3+, MySQL,      Systems (Debian,
-Prolog, PHP, Assembly,      jQuery            SQLite            Fedora, Ubuntu),
-Common Lisp, Batch                                              Git/SVN
+-------------------------------------------------------------------------------------
+**Computer Languages**      **Frameworks**   **Databases**     **Other
+                                                               Technologies**
+--------------------------- ---------------- ----------------- ----------------------
+Python, SQL/PLSQL, Java,    Rails, Node.js,   PostgreSQL 9.3+, Oracle Peopletools
+Ruby, Javascript, C/C++,    Bootstrap,        Oracle Database  8.53, Enterprise Linux
+Bash,HTML/CSS, Haskell,     Express.js        12c, SQLite,     Systems (Debian,
+Prolog, PHP, Assembly,      jQuery            MySQL            Fedora, Ubuntu),
+Common Lisp, Batch                                             Git/SVN
 --------------------------------------------------------------------------------------
 
 
