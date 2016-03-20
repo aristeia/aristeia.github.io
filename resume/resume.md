@@ -8,30 +8,17 @@ Jon Sims
 Technical Skills
 ----------------
 
-------------------------------------------------------------------------------
-**Computer Langs (ordered  **Frameworks**  **Databases**   **Other
-by experience desc)**                                     Technologies**
-------------------------- --------------- --------------- --------------------
-Python, SQL/PLSQL, Java,  Rails, Node.js, Oracle Database Oracle
-Ruby, C/C++, Javascript,  Bootstrap,      12c, PostgreSQL Peopletools 8.53,
-Bash,HTML/CSS, Haskell,   Express.js      9.3+, MySQL,    Enterprise Linux
-Prolog, Assembly, Common                  SQLite          Systems (Debian,
-Lisp, Batch                                               Fedora, Ubuntu),
-                                                          Git/SVN
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+**Computer Langs (ordered   **Frameworks**    **Databases**     **Other
+by experience desc)**                                           Technologies**
+--------------------------- ----------------- ----------------- ----------------------
+Python, SQL/PLSQL, Java,    Rails, Node.js,   Oracle Database   Oracle Peopletools
+Ruby, Javascript, C/C++,    Bootstrap,        12c, PostgreSQL   8.53, Enterprise Linux
+Bash,HTML/CSS, Haskell,     Express.js        9.3+, MySQL,      Systems (Debian,
+Prolog, PHP, Assembly,      jQuery            SQLite            Fedora, Ubuntu),
+Common Lisp, Batch                                              Git/SVN
+--------------------------------------------------------------------------------------
 
-<!-- 
-+-----------------------------+--------------------------------------------------------+
-|**Computer Languages**       |Python, SQL/PLSQL, Java, Ruby, C/C++, Javascript, Bash, |
-|**(in order of experience)** |HTML/CSS, Haskell, Prolog, Assembly, Common Lisp, Batch |
-+=============================+========================================================+
-|**Frameworks**               |Rails, Node.js, Bootstrap, Express.js                   |
-+=============================+========================================================+
-|**Databases**                |Oracle Database 12c, PostgreSQL 9.3+, MySQL, SQLite     |
-+=============================+========================================================+
-|**Other Technologies**       |Oracle Peopletools 8.53, Enterprise Linux Systems       |
-|                             |(Debian, Fedora, Ubuntu), Git/SVN                       |      
-+-----------------------------+--------------------------------------------------------+ -->
 
 
 Work Experience
@@ -112,8 +99,8 @@ Interests
 *   **Additional Collegiate Involvement** (University of Puget Sound)
 
     -   Certified trip leader for Puget Sound Outdoors, as well as first-aid and CPR certified.
+    -   Participant in the Putnam mathematics competition.
     -   Interfraternity Council's Director of Public Relations, elected in the fall of 2014 to serve for a full year.
     -   DJ for KUPS for the past two years.
     -   Founding father of a chapter of the Beta Theta Pi fraternity.
-    -   Participant in the Putnam mathematics competition.
 

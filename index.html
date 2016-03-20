@@ -37,13 +37,17 @@
 
           <div class="cover-container">
 
+
             <div class="masthead clearfix">
               <script type="text/javascript">
                 $(document).ready(function () {
-                    $("div.masthead").load("/masthead.html");
+                    $("div.masthead").load("/masthead.html", function() {
+                      $("#resumes").parent().addClass("active");
+                    });
                 });
               </script>
             </div>
+
 
             <div class="inner cover">
 

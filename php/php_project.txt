@@ -1,0 +1,35 @@
+The first thing to do is to translate the function add_lenses from C++ to php.
+Here is the web documentation for that function.
+http://jonathan.from-il.com/doc/html/classover__refraction_1_1optical__addition.html#a53705b7b6a0e98cc19512589ccc5eb04
+
+If you go to the call graph, you will see 5 functions that are called:
+optical_addition::equal               // test if two lenses are equal
+optical_addition::normalize           // makes sure cylinder > 0, and angle is between 0 and 180
+optical_addition::normalize_sphere_and_cylinder // makes sure cylinder > 0
+optical_addition::normalize_theta               // makes sure angle > 0 and angle < 180
+optical_addition::switch_A_and_B                // switches lenses A and B
+
+I have all of the constants initialized when they are defined, so you don't have to write
+the function optical_addition::define_constants
+
+If you want to look at the C++ code directly it is here
+~/jonathan_repo/over_refraction/
+The class definition is in optical_addition.h
+Several functions are defined in optical_addition.cpp
+
+The php code is here
+~/jonathan_repo/over_refraction/php/
+
+I have written the skeleton of all the functions for class optical_addition, you just have to 
+fill in the details.
+
+You can run the demo program demo_optical_addition.php, by typing the command line
+php demo_optical_addition.php
+
+demo_optical_addition.php, is the start of the translation of demo_optical_addition.cpp.
+
+I will write another email about the C++ code.
+
+Love,
+
+Dad

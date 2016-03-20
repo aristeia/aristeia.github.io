@@ -40,11 +40,13 @@
 	          <div class="masthead clearfix">
 		          <script type="text/javascript">
 						$(document).ready(function () {
-					    	$("div.masthead").load("/masthead.html");
+					    	$("div.masthead").load("/masthead.html", function() {
+						    	$("#code-samps").parent().addClass("active");
+						    });
 						});
 					</script>
 	          </div>
-
+	          
 	          <div class="inner cover" id="zarv">
 	        	<h1 style="font-family: 'Audiowide', cursive, Veranda, serif;">ZARVOX</h1> <br>
 	        	<div class="row">

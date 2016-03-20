@@ -39,7 +39,9 @@
 	          <div class="masthead clearfix">
 		          <script type="text/javascript">
 						$(document).ready(function () {
-					    	$("div.masthead").load("/masthead.html");
+					    	$("div.masthead").load("/masthead.html", function() {
+						    	$("#code-samps").parent().addClass("active");
+						    });
 						});
 					</script>
 	          </div>
