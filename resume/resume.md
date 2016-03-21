@@ -14,7 +14,7 @@ Technical Skills
 --------------------------- ---------------- ----------------- ----------------------
 Python, SQL /PLSQL, Java,   Rails, Node.js,   PostgreSQL 9.3+, Oracle Peopletools
 Ruby, Javascript, C/C++,    Bootstrap,        Oracle Database  8.53, Enterprise Linux
-Bash, HTML /CSS, Haskell,   Express.js        12c, SQLite,     Systems (Debian,
+Bash, HTML /CSS, Haskell,   Express.js,       12c, SQLite,     Systems (Debian,
 Prolog, PHP, Assembly,      jQuery            MySQL            Fedora, Ubuntu),
 Lisp, Batch                                                    Git /SVN
 --------------------------------------------------------------------------------------
@@ -94,7 +94,7 @@ Interests
     *Communications Engineer and Webmaster*, August 2015 - Present
 
     -   Worked on several software projects for the station, most notibly a new radio automation system/scheduling software as an open-source project. The software datamines music information from several online sources using available information from music files (using either metadata or filenames), and can also find new, currently-trending music to add to the rotation. After parsing and processing metadata, the software queries these same sources for several metrics of popularity (enabling the software to rank the frequency with which the music should be played) as well as for genres, subgenres, and similar artists associated with the music. Finally, using these various classification features, the software generates playlists of similar music using a k-nearest-neighbors approach (randomly selecting the next track from the k neighbors, weighted by closeness).
-    -   Additionally, performed basic systems administration tasks on the various computer systems used within the station, as well as regular maintenance of the website [kups.net](www.kups.net).
+    -   Additionally, performed basic systems administration tasks on the various computer systems used within the station, as well as regular maintenance of the website [kups.net](http://www.kups.net).
 
 *   **Additional Collegiate Involvement** (University of Puget Sound)
 
