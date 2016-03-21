@@ -73,7 +73,6 @@
 						</div>
 					</div>
 					<br>
-					<form action="/demos/zarvox/generate?" class="form" method="get">
 						<div class="row" id="adOptions" style="display:none"> 
 							<p class="lead">Additional options:</p>
 							<div class="form-group"> 
@@ -91,13 +90,12 @@
 								</div>
 							</div> 
 						</div>
-						<div class="row" id="generate"> 
+						<div class="row"> 
 							<br>
 							<br>
 							<br>
-							<input type="submit" class="btn btn-primary btn-lg btn-block" value="Generate Playlist"/>	
+							<button type="submit" class="btn btn-primary btn-lg btn-block" id="generate">Generate Playlist</button>	
 						</div>
-					</form>
 				</div>
 				<div id="zarv-meh" style="display:none">
 					<p class="lead">
@@ -233,6 +231,30 @@
 					    			optChange1(1);
 									$("#adOption1").change(optChange2Subgenres);
 								}
+							});
+
+				    		$( "#generate" ).click(function() {
+				    			var getStr = "/demos/zarvox/generate";
+				    			if (! $("#option1").hasClass("active")) {
+				    				var type;
+			    					var id = $("#adOption2").val();
+				    				if ($("#option2").hasClass("active"))
+				    					type = "subgenre";
+				    				else if ($("#option3").hasClass("active"))
+				    					type = "album";
+				    				if (typeof type !== "undefined" && id.length > 0) {
+				    					getStr += "?type=";
+				    					getStr += type;
+				    					getStr += "&id=";
+										getStr += id;
+									}
+									else
+										getStr = "";
+								}
+								if (getStr.length > 0)
+									window.location.replace(getStr);
+								else
+									alert("Error with entered arguments. Could not validate input. Try selecting again from the dropdown menus.")
 							});
 							
 				    	}
