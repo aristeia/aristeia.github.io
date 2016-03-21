@@ -8,6 +8,14 @@ body {/*
     text-align: left;
 }
 
+#container a:link,
+#container a:visited  { 
+    font-weight: bold;
+    /*font-size: 1.1em;*/
+    text-shadow: 2.5px 1.25px rgba(51,122,183,0.75);
+}
+
+
 @media (min-width: 768px) {
     #container {
         margin-top: 100px;
@@ -30,12 +38,6 @@ img {
     background: #fff;
 }
 
-a.emph:link,
-a.emph:visited  { 
-    font-weight: bold;
-    font-size: 1.1em;
-    text-shadow: 4px 2px #337ab7;
-}
 
 .btn {
     font-weight: bold;
@@ -46,6 +48,7 @@ a.emph:visited  {
 
 h1 {
     margin-top: 0;
+    text-align: center;
 }
 
 h2 {
@@ -61,24 +64,30 @@ ul li ul {
     margin-bottom: 2em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1500px) {
     ul.lst {
         margin-top: 35px;
     }
 }
 
-@media (min-width: 1500px) {
-    ul.lst {
-        margin-top: 55px;
-    }
-}
-
 ul.lst li {
-    margin-top: 10px;
-    padding-top: 10px;
+    margin-top: 2px;
+    padding-top: 8px;
     border-top: solid rgba(151,151,151,0.25);
 }
 
 ul li ul li {
     margin: .5em;
+}
+
+
+td + td,
+th + th { 
+    border-left: 2px solid rgba(151,151,151,0.2); 
+    padding-left: 8px;
+    padding-right: 8px solid transparent;
+}
+
+thead {
+    border-bottom: 2px solid rgba(151,151,151,0.2); 
 }

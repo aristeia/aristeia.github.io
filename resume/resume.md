@@ -12,13 +12,12 @@ Technical Skills
 **Computer Languages**      **Frameworks**   **Databases**     **Other
                                                                Technologies**
 --------------------------- ---------------- ----------------- ----------------------
-Python, SQL/PLSQL, Java,    Rails, Node.js,   PostgreSQL 9.3+, Oracle Peopletools
+Python, SQL /PLSQL, Java,   Rails, Node.js,   PostgreSQL 9.3+, Oracle Peopletools
 Ruby, Javascript, C/C++,    Bootstrap,        Oracle Database  8.53, Enterprise Linux
-Bash, HTML/CSS, Haskell,    Express.js        12c, SQLite,     Systems (Debian,
+Bash, HTML /CSS, Haskell,   Express.js        12c, SQLite,     Systems (Debian,
 Prolog, PHP, Assembly,      jQuery            MySQL            Fedora, Ubuntu),
-Common Lisp, Batch                                             Git/SVN
+Lisp, Batch                                                    Git /SVN
 --------------------------------------------------------------------------------------
-
 
 
 
@@ -31,17 +30,15 @@ Work Experience
     *Software Developer Intern*, June 2015 - August 2015
 
     -   Worked with Ruby on Rails to develop a web application for financial analysis. 
-    -   My work involved calculations on the performance of portfolios on 500+ companies over 20+ years, dealing with rebalances when securities are sold, and comparing the returns for different types of portfolio compositions (S&P, diversified, and stratified)
+    -   My tasks involved calculations on the performance of portfolios containing 500+ companies over 20+ years, dealing with rebalances when securities were sold, and comparing the returns for different types of portfolio compositions (S&P, diversified, and stratified).
 
 *   **[University of Puget Sound](www.pugetsound.edu)** (Tacoma, WA)
 
     *Junior Database Analyst*, September 2013 - June 2015
 
-    -   I am a work study student working with the university's databases to replace queries and views from their legacy database structure with those of the newer Oracle Peoplesoft.
-    -   These views are written in PL/SQL, and queries using Oracle Peopletools for various academic and financial departments.
-    -   Initially, I worked as part of the "Optimize Team", but we've now moved onto the "Maximize" phase. Same job and work, but slightly dif$\mathit{}$ferent titles. 
-    -   I've successfully replaced many legacy reports with Peoplesoft queries. 
-    -   I work under the senior developers who build the university's SQL database in the first place, thus have picked up a foundational understanding of database administration.
+    -   I was a work study student with the university's database team, helping replace queries and views from their legacy database structure using the newer Oracle Peoplesoft.
+    -   Using PL/SQL for views and Oracle Peopletools for queries, I met the database needs for various academic and financial departments around campus.
+    -   I worked with the senior developers who build the university's SQL database in the first place. From them, I've learned a foundational understanding of database administration.
 
 *   **[Risk Technology Solutions](www.risktechnologysolutions.com)** (Charlotte, NC)
 
@@ -50,22 +47,21 @@ Work Experience
     -   I installed several programs onto their servers for the purpose of analyzing stock positions and portfolios. 
     -   Risktech writes customized software for individual firms based on their market analysis needs. Rather than rewriting redundant code for similar problems, they want to look into an open source platform on which to write customized software. 
     -   My role was to install and test the Opengamma platform for them in order to achieve an open source solution. 
-    -   I analyzed the potential costs and benefits of developing atop Opengamma .
-    -   I also began the reconstruction of a corrupted Oracle database.
+    -   I analyzed the potential costs and benefits of developing atop Opengamma.
 
 *   **[University of Puget Sound](www.pugetsound.edu)** (Tacoma, WA)
 
     *Tutor for the Computer Science dept.*, September 2014 - Present
 
-    -   I also tutor for the computer science department for several hours per week, typically helping students of introductory and intermediate computer science classes.
+    -   I also tutor for my university's computer science department for several hours per week, typically helping students of introductory and intermediate computer science classes.
 
 *   **Freelance Web Developer** (Clarendon Hills, IL)
 
     December 2012 - Present
 
     -   In $2012$, my uncle needed a website to show off his restaurant to the world. I wrote the website's code and set up its hosting. It exists at [tomsgrill.net](www.tomsgrill.net).
-    -   I set up an apache$2$ webserver for my home server at the address [jonsims.me](www.jonsims.me).
     -   In the summer of $2014$, I designed a website at [j-walking.biz]() for another client (but has since been deactivated).
+    -   I set up an apache$2$ webserver for my home server at the address [jonsims.me](www.jonsims.me), with a backup at [aristeia.github.io](aristeia.github.io).
 
 
 
@@ -75,7 +71,9 @@ Education
 
 *   **[University of Puget Sound](www.pugetsound.edu)** (Tacoma, WA)
 
-    *B.S. in Computer Science and Mathematics*, May 2016
+    *B.S. in Computer Science and Mathematics (double major)*, May 2016
+
+    -   Courses include [compilers](/syllabi/cs481.pdf), [NLP](/syllabi/cs425.pdf), [AI](/syllabi/cs431.pdf), [networks](/syllabi/cs325.pdf), [abstract](/syllabi/math433.pdf) and [linear algebra](/syllabi/math290.pdf), [modeling](/syllabi/math471.pdf), [optimization](/syllabi/math335.pdf), [numerical analysis](/syllabi/math420.pdf), [probability](/syllabi/math375.pdf) and [stats](/syllabi/math376.pdf).
 
 
 Interests
@@ -83,12 +81,12 @@ Interests
 
 *   **[Association for Computing Machinery](acm.pugetsound.edu)** (University of Puget Sound)
 
-    *President and Project Organizer*, August 2013 -- Present
+    *President and Project Organizer*, August 2013 - Present
 
     -   I've participated in this club through a couple of projects since the beginning of freshman year, and have served as its project organizer and president for the past year.
     -   We have hosted several hackathons, including the ACM intercollegiate programming competition.
     -   We've worked on a Rover project this past year, automating the driving of an RC car using Arduino ultrasonic sensors.
-    -   From last summer, we built a native IOS/Android/[web app Eventi (view the web app at eventi.pugetsound.edu)](http://eventi.pugetsound.edu/), a method of viewing campus event posters from a mobile device as well as posting event information for our campus community.
+    -   From last summer, we built a native IOS/Android/web app Eventi [(view the web app at eventi.pugetsound.edu)](http://eventi.pugetsound.edu/), a method of viewing campus event posters from a mobile device as well as posting event information for our campus community.
     -   We've also constructed a pseudo-supercomputer, which can successfully run threaded programs in parallel, out of several raspberry pi computers. 
 
 *   **[KUPS 90.1FM](www.kups.net)** (University of Puget Sound)
