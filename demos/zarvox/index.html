@@ -234,7 +234,7 @@
 							});
 
 				    		$( "#generate" ).click(function() {
-				    			var getStr = "/demos/zarvox/generate";
+				    			var getStr = "/demos/zarvox/generate?type=";
 				    			if (! $("#option1").hasClass("active")) {
 				    				var type;
 			    					var id = $("#adOption2").val();
@@ -243,7 +243,6 @@
 				    				else if ($("#option3").hasClass("active"))
 				    					type = "album";
 				    				if (typeof type !== "undefined" && id.length > 0) {
-				    					getStr += "?type=";
 				    					getStr += type;
 				    					getStr += "&id=";
 										getStr += id;
@@ -251,6 +250,8 @@
 									else
 										getStr = "";
 								}
+								else
+									getStr += "1&id= "
 								if (getStr.length > 0)
 									window.location.replace(getStr);
 								else
