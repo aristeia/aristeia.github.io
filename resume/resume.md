@@ -12,11 +12,11 @@ Technical Skills
 **Computer Languages**       **Frameworks** **Databases**     **Other
                                                                Technologies**
 ---------------------------- -------------- ----------------- --------------------------
-Python, SQL/PLSQL, Java,     Rails,         PostgreSQL 9.3+,  Oracle Peopletools
-Ruby, Javascript, C/C++,     Node.js,       Oracle Database   8.53, Enterprise Linux
-Bash, HTML/CSS, Haskell,     Bootstrap,     12c, SQLite,      Systems (Debian,
-Prolog, PHP, Assembly,       Express.js,    MySQL             Fedora, Ubuntu),
-Lisp, Batch                  jQuery                            Git /SVN
+Python, SQL/PLSQL, Java,     Rails,         PostgreSQL 9.3+,  Enterprise Linux Systems
+Ruby, Javascript, C/C++,     Node.js,       Oracle Database   (Debian, Fedora, Ubuntu),
+Bash, HTML/CSS, Haskell,     Bootstrap,     12c, SQLite,      Git /SVN, Oracle 
+Prolog, PHP, Assembly,       Express.js,    MySQL             Peopletools 8.53, RAID
+Lisp, Batch                  jQuery                           
 -----------------------------------------------------------------------------------------
 
 

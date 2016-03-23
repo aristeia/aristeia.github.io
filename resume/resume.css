@@ -44,6 +44,14 @@ img {
 }
 
 
+.less {
+    overflow: hidden;
+    height: 6em;
+}
+
+.more {
+    margin-bottom: -1em;
+}
 
 
 h1 {

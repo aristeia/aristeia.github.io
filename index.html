@@ -53,8 +53,16 @@
                 <script type="text/javascript">
                   $(document).ready(function () {
                       $("div.inner").load("/resume/resume.html #container", function() {
+                        $("h2:not(#technical-skills)").next().addClass("less")
+                        $("h2:not(#technical-skills)").next().after("<div class='col-xs-6 col-xs-offset-3'><button type='submit' class='btn btn-primary btn-block more'>More</button> </div><br>");
+
                         var newdiv = $('<div id="extras"></div>');
-                        newdiv.load("/resume_extras.html #code-samples");
+                        newdiv.load("/resume_extras.html #code-samples", function() {
+                          $('.more').click(function(){
+                              $(this).parent().prev().removeClass("less");
+                              $(this).hide();
+                          });
+                        });
                         $("#work-experience").before(newdiv);
                       });
                   });
@@ -74,7 +82,12 @@
 
       </div>
                
-</body></html> 
+  </body>
+
+  <script type="text/javascript">
+  </script>
+
+</html> 
 
 
 
