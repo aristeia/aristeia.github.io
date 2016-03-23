@@ -10,7 +10,7 @@ ARGS=$(/usr/bin/env | grep "QUERY_STRING=")
 ARG1=$(echo $ARGS | cut -d = -f3| cut -d \& -f 1)
 ARG2=$(echo $ARGS | cut -d = -f4| cut -d \& -f 1)
 
-# rm zarvox_term.out
+rm zarvox_term.out
 echo "Content-type: text/html"
 echo ""
 cat playlist.html
