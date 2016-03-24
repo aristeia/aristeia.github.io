@@ -9,7 +9,7 @@ did cd\n66666666666666
 66666666666666
 would have done one arg
 66666666666666
-1458794987366
+1458799063853
 Zarvox database are online
 Zarvox database are online
 Pinging www.what.cd
@@ -19,379 +19,351 @@ Pinging ws.audioscrobbler.com
 Pingtest complete; sites are online
 Going to pick things from top 14 albums
 Processed supergenres from schedule with frequencies
-Starting on Wednesday at 17:00:00, and doing a 1-hour playlist for each hour henceforth
+Starting on Tuesday at 15:00:00, and doing a 1-hour playlist for each hour henceforth
 Doing liners during the following times:
 	0:00 - 0:45
 Generating 5+ albums out of one of the following genres with the following weights (of which gets picked:
 	alternative : 0.5,	specialty : 0.5
 Picked alternative
-Picked mercury.music.prize as a starting subgenre
->>> Manic Street Preachers - Everything Must Go <<<
-    Top Genres: alternative.rock, indie, alternative
->>> Pulp - This Is Hardcore <<<
-    Top Genres: britpop, alternative, rock
->>> Blur - Blur 21: The Box <<<
+Picked surf.rock as a starting subgenre
+>>> Real Estate - Atlas <<<
+    Top Genres: indie.pop, pop.rock, rock
+>>> Best Coast - Crazy for You <<<
+    Top Genres: garage.rock, surf.rock, indie.pop
+>>> St. Vincent - Krokodil <<<
+    Top Genres: indie.pop, rock, indie
+>>> Beach House - Bloom <<<
+    Top Genres: indie.pop, alternative, rock
+>>> Sufjan Stevens - No Shade in the Shadow of the Cross <<<
     Top Genres: rock, alternative, indie
->>> Oasis - Let There Be Love <<<
-    Top Genres: rock, britpop, alternative
->>> Moby - 18 <<<
-    Top Genres: chillout, electronica, alternative
 Mostly done getting albums, gotten 5 so far
-Downloading song information for Everything Must Go by Manic Street Preachers
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Manic Street Preachers and Everything Must Go respectively),
+Downloading song information for Atlas by Real Estate
+Done searching musicbrainz for album suggestions, have 12 to rank
+For the artist and album derived from the provided dir (Real Estate and Atlas respectively),
 the following artist and album was matched on musicbrains:
-Artist: Manic Street Preachers
-Album: Everything Must Go
+Artist: Real Estate
+Album: Atlas
 For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Manic Street Preachers
-Album: Everything Must Go
-Original artists are: Manic Street Preachers
-Final artists are: Manic Street Preachers
-Popularity of artist Manic Street Preachers is 0.773171068749
+Artist: Real Estate
+Album: Atlas
+Original artists are: Real Estate
+Final artists are: Real Estate
+Popularity of artist Real Estate is 0.983740749843
 Done with artists
-Popularity of album Everything Must Go is 0.59387929151
+Popularity of album Atlas is 0.647943295783
 Done with album
 /usr/lib/python3/dist-packages/scipy/stats/_distn_infrastructure.py:1640: RuntimeWarning: invalid value encountered in double_scalars
   x = (x-loc)*1.0/scale
+album info for Atlas
+	album_id:2160 (no changes)
+	album:Atlas (no changes)
+	folder_path:Real_Estate-Atlas-2014-pLAN9 (no changes)
+	spotify_popularity:39 (no changes)
+	lastfm_listeners:142722 (no changes)
+	lastfm_playcount:3653552 (no changes)
+	whatcd_seeders:1385 (updated from 1278)
+	whatcd_snatches:9163 (no changes)
+	popularity:0.6479432957833193 (updated from 0.6442730206036162)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:0 (no changes)
 song:
-	song info for Elvis Impersonator: Blackpool Pier
-		song_id:17331 (inserted)
-		song:Elvis Impersonator: Blackpool Pier (inserted)
+	song info for Had To Hear
+		song_id:17672 (inserted)
+		song:Had To Hear (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:209 (inserted)
-		explicit:True (inserted)
-		spotify_popularity:16 (inserted)
-		lastfm_listeners:46112 (inserted)
-		lastfm_playcount:159154 (inserted)
-		popularity:0.48479499284058614 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for A Design for Life
-		song_id:17332 (inserted)
-		song:A Design for Life (inserted)
-		filename: (inserted)
-		album_id:411 (inserted)
-		length:258 (inserted)
+		album_id:2160 (inserted)
+		length:290 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:17 (inserted)
-		lastfm_listeners:208848 (inserted)
-		lastfm_playcount:966894 (inserted)
-		popularity:0.5807203625434766 (inserted)
+		spotify_popularity:33 (inserted)
+		lastfm_listeners:106540 (inserted)
+		lastfm_playcount:527745 (inserted)
+		popularity:0.6831657412539613 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Kevin Carter
-		song_id:17333 (inserted)
-		song:Kevin Carter (inserted)
+	song info for Past Lives
+		song_id:17673 (inserted)
+		song:Past Lives (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:205 (inserted)
+		album_id:2160 (inserted)
+		length:273 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:17 (inserted)
-		lastfm_listeners:94167 (inserted)
-		lastfm_playcount:376925 (inserted)
-		popularity:0.5593830826448251 (inserted)
+		spotify_popularity:34 (inserted)
+		lastfm_listeners:82778 (inserted)
+		lastfm_playcount:398551 (inserted)
+		popularity:0.680583197954908 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Enola/Alone
-		song_id:17334 (inserted)
-		song:Enola/Alone (inserted)
+	song info for Talking Backwards
+		song_id:17674 (inserted)
+		song:Talking Backwards (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:247 (inserted)
+		album_id:2160 (inserted)
+		length:187 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:19 (inserted)
-		lastfm_listeners:45421 (inserted)
-		lastfm_playcount:178758 (inserted)
-		popularity:0.528429504599931 (inserted)
+		spotify_popularity:33 (inserted)
+		lastfm_listeners:131769 (inserted)
+		lastfm_playcount:703945 (inserted)
+		popularity:0.6869813188898897 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Everything Must Go
-		song_id:17335 (inserted)
-		song:Everything Must Go (inserted)
+	song info for April's Song
+		song_id:17675 (inserted)
+		song:April's Song (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:221 (inserted)
+		album_id:2160 (inserted)
+		length:212 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:16 (inserted)
-		lastfm_listeners:105664 (inserted)
-		lastfm_playcount:420484 (inserted)
-		popularity:0.5550041720211031 (inserted)
+		spotify_popularity:26 (inserted)
+		lastfm_listeners:75975 (inserted)
+		lastfm_playcount:392892 (inserted)
+		popularity:0.5972939072019459 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Small Black Flowers That Grow in the Sky
-		song_id:17336 (inserted)
-		song:Small Black Flowers That Grow in the Sky (inserted)
+	song info for The Bend
+		song_id:17676 (inserted)
+		song:The Bend (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:182 (inserted)
+		album_id:2160 (inserted)
+		length:312 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:24 (inserted)
-		lastfm_listeners:47569 (inserted)
-		lastfm_playcount:175925 (inserted)
-		popularity:0.6005656153553949 (inserted)
+		lastfm_listeners:68402 (inserted)
+		lastfm_playcount:334900 (inserted)
+		popularity:0.5670903435663931 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for The Girl Who Wanted to Be God
-		song_id:17337 (inserted)
-		song:The Girl Who Wanted to Be God (inserted)
+	song info for Crime
+		song_id:17677 (inserted)
+		song:Crime (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:215 (inserted)
+		album_id:2160 (inserted)
+		length:195 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:32 (inserted)
+		lastfm_listeners:79539 (inserted)
+		lastfm_playcount:407166 (inserted)
+		popularity:0.6681103296442246 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Primitive
+		song_id:17678 (inserted)
+		song:Primitive (inserted)
+		filename: (inserted)
+		album_id:2160 (inserted)
+		length:256 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:24 (inserted)
-		lastfm_listeners:45383 (inserted)
-		lastfm_playcount:168993 (inserted)
-		popularity:0.5966277862207167 (inserted)
+		lastfm_listeners:66270 (inserted)
+		lastfm_playcount:327591 (inserted)
+		popularity:0.5657683157250659 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Removables
-		song_id:17338 (inserted)
-		song:Removables (inserted)
+	song info for How I Might Live
+		song_id:17679 (inserted)
+		song:How I Might Live (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:211 (inserted)
+		album_id:2160 (inserted)
+		length:149 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:22 (inserted)
-		lastfm_listeners:39472 (inserted)
-		lastfm_playcount:136149 (inserted)
-		popularity:0.5533123974324394 (inserted)
+		lastfm_listeners:60126 (inserted)
+		lastfm_playcount:260132 (inserted)
+		popularity:0.5354882144423848 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Australia
-		song_id:17339 (inserted)
-		song:Australia (inserted)
+	song info for Horizon
+		song_id:17680 (inserted)
+		song:Horizon (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:244 (inserted)
+		album_id:2160 (inserted)
+		length:191 (inserted)
 		explicit:False (inserted)
-		spotify_popularity:28 (inserted)
-		lastfm_listeners:104656 (inserted)
-		lastfm_playcount:421814 (inserted)
-		popularity:0.6865985480379377 (inserted)
+		spotify_popularity:23 (inserted)
+		lastfm_listeners:60972 (inserted)
+		lastfm_playcount:276655 (inserted)
+		popularity:0.5469436464189215 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Interiors (Song for Willem de Kooning)
-		song_id:17340 (inserted)
-		song:Interiors (Song for Willem de Kooning) (inserted)
+	song info for Navigator
+		song_id:17681 (inserted)
+		song:Navigator (inserted)
 		filename: (inserted)
-		album_id:411 (inserted)
-		length:257 (inserted)
+		album_id:2160 (inserted)
+		length:213 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:22 (inserted)
+		lastfm_listeners:56837 (inserted)
+		lastfm_playcount:251162 (inserted)
+		popularity:0.532656836500326 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+artists info for Real Estate
+	artist_id:447 (no changes)
+	artist:Real Estate (no changes)
+	spotify_popularity:60 (no changes)
+	lastfm_listeners:496752 (no changes)
+	lastfm_playcount:15744921 (no changes)
+	whatcd_seeders:4128 (updated from 3969)
+	whatcd_snatches:40596 (no changes)
+	popularity:0.9837407498431189 (updated from 0.9829967324899004)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:35 (no changes)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Downloading song information for Crazy for You by Best Coast
+Done searching musicbrainz for album suggestions, have 14 to rank
+For the artist and album derived from the provided dir (Best Coast and Crazy for You respectively),
+the following artist and album was matched on musicbrains:
+Artist: Best Coast
+Album: Crazy for You
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: Best Coast
+Album: Crazy for You
+Original artists are: Best Coast
+Final artists are: Best Coast
+Popularity of artist Best Coast is 0.984637600999
+Done with artists
+Popularity of album Crazy for You is 0.965647019382
+Done with album
+album info for Crazy for You
+	album_id:2036 (no changes)
+	album:Crazy for You (no changes)
+	folder_path:Best Coast - (2010) - Crazy for You (V0) (no changes)
+	spotify_popularity:31 (no changes)
+	lastfm_listeners:302932 (no changes)
+	lastfm_playcount:11622447 (no changes)
+	whatcd_seeders:645 (updated from 629)
+	whatcd_snatches:8662 (updated from 8661)
+	popularity:0.9656470193817938 (updated from 0.9638153253986284)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:14 (no changes)
+song:
+	song info for Boyfriend
+		song_id:3702 (no changes)
+		song:Boyfriend (no changes)
+		filename: (no changes)
+		album_id:2036 (no changes)
+		length:149 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:27 (updated from 28)
+		lastfm_listeners:247715 (updated from 259406)
+		lastfm_playcount:1842274 (updated from 1842802)
+		popularity:0.9334386122715792 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:2 (no changes)
+	song info for Crazy for You
+		song_id:4357 (no changes)
+		song:Crazy for You (no changes)
+		filename: (no changes)
+		album_id:2036 (no changes)
+		length:110 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:20 (updated from 21)
+		lastfm_listeners:189192 (updated from 195646)
+		lastfm_playcount:1362548 (updated from 1362588)
+		popularity:0.9215491937813352 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:2 (no changes)
+	song info for The End
+		song_id:12103 (no changes)
+		song:The End (no changes)
+		filename: (no changes)
+		album_id:2036 (no changes)
+		length:162 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:17 (no changes)
+		lastfm_listeners:142347 (no changes)
+		lastfm_playcount:921894 (no changes)
+		popularity:0.6983649723938709 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for Goodbye
+		song_id:17682 (inserted)
+		song:Goodbye (inserted)
+		filename: (inserted)
+		album_id:2036 (inserted)
+		length:160 (inserted)
 		explicit:False (inserted)
 		spotify_popularity:16 (inserted)
-		lastfm_listeners:36028 (inserted)
-		lastfm_playcount:128712 (inserted)
-		popularity:0.4638862803996452 (inserted)
+		lastfm_listeners:133990 (inserted)
+		lastfm_playcount:867756 (inserted)
+		popularity:0.4607995435168815 (inserted)
 		playcount:0 (inserted)
 		playlists:0 (inserted)
 		kups_playcount:0 (inserted)
-	song info for Further Away
-		song_id:17341 (inserted)
-		song:Further Away (inserted)
-		filename: (inserted)
-		album_id:411 (inserted)
-		length:218 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:21 (inserted)
-		lastfm_listeners:37997 (inserted)
-		lastfm_playcount:137487 (inserted)
-		popularity:0.5376159666227058 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for No Surface All Feeling
-		song_id:17342 (inserted)
-		song:No Surface All Feeling (inserted)
-		filename: (inserted)
-		album_id:411 (inserted)
-		length:254 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:24 (inserted)
-		lastfm_listeners:41932 (inserted)
-		lastfm_playcount:173818 (inserted)
-		popularity:0.5962637782250676 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-artists info for Manic Street Preachers
-	artist_id:344 (no changes)
-	artist:Manic Street Preachers (no changes)
-	spotify_popularity:58 (no changes)
-	lastfm_listeners:981639 (no changes)
-	lastfm_playcount:31994174 (no changes)
-	whatcd_seeders:5866 (updated from 6098)
-	whatcd_snatches:83630 (updated from 83615)
-	popularity:0.7731710687492008 (updated from 0.772013888405004)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:1 (no changes)
-album info for Everything Must Go
-	album_id:411 (no changes)
-	album:Everything Must Go (no changes)
-	folder_path:manic street preachers - everything must go (no changes)
-	spotify_popularity:42 (updated from 41)
-	lastfm_listeners:231314 (no changes)
-	lastfm_playcount:2255065 (no changes)
-	whatcd_seeders:16 (updated from 499)
-	whatcd_snatches:59 (updated from 25747)
-	popularity:0.5938792915095709 (updated from 0.7399552007869094)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:1 (no changes)
-Error with processSongs
-Error with processSongs
-'NoneType' object is not subscriptable
-  Occurred in downloader/everythingLookup.py on line 143
-  Occurred in downloader/everythingLookup.py on line 143
-
-
-Downloading song information for This Is Hardcore by Pulp
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Pulp and This Is Hardcore respectively),
-the following artist and album was matched on musicbrains:
-Artist: Pulp
-Album: This Is Hardcore
-For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Pulp
-Album: This Is Hardcore
-Original artists are: Pulp
-Final artists are: Pulp
-Popularity of artist Pulp is 0.689475886647
-Done with artists
-Popularity of album This Is Hardcore is 0.599684784114
-Done with album
-song:
-	song info for The Fear
-		song_id:17343 (inserted)
-		song:The Fear (inserted)
-		filename: (inserted)
-		album_id:13967 (inserted)
-		length:335 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:21 (inserted)
-		lastfm_listeners:77416 (inserted)
-		lastfm_playcount:300863 (inserted)
-		popularity:0.6592354401148801 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Dishes
-		song_id:17344 (inserted)
-		song:Dishes (inserted)
-		filename: (inserted)
-		album_id:13967 (inserted)
-		length:210 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:19 (inserted)
-		lastfm_listeners:76357 (inserted)
-		lastfm_playcount:283915 (inserted)
-		popularity:0.6553927337792033 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Party Hard
-		song_id:17345 (inserted)
-		song:Party Hard (inserted)
-		filename: (inserted)
-		album_id:13967 (inserted)
-		length:240 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:101679 (inserted)
-		lastfm_playcount:369804 (inserted)
-		popularity:0.6753224103963432 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for Help the Aged
-		song_id:17346 (inserted)
-		song:Help the Aged (inserted)
-		filename: (inserted)
-		album_id:13967 (inserted)
-		length:268 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:20 (inserted)
-		lastfm_listeners:113722 (inserted)
-		lastfm_playcount:479828 (inserted)
-		popularity:0.6881701230821167 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for This Is Hardcore
-		song_id:17347 (inserted)
-		song:This Is Hardcore (inserted)
-		filename: (inserted)
-		album_id:13967 (inserted)
-		length:385 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:1 (inserted)
-		lastfm_listeners:137533 (inserted)
-		lastfm_playcount:677795 (inserted)
-		popularity:0.5874616528822608 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for TV Movie
-		song_id:17348 (inserted)
-		song:TV Movie (inserted)
-		filename: (inserted)
-		album_id:13967 (inserted)
-		length:205 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:18 (inserted)
-		lastfm_listeners:62980 (inserted)
-		lastfm_playcount:228134 (inserted)
-		popularity:0.6369526951845993 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
-	song info for A Little Soul
-		song_id:17349 (inserted)
-		song:A Little Soul (inserted)
-		filename: (inserted)
-		album_id:13967 (inserted)
-		length:199 (inserted)
-		explicit:False (inserted)
-		spotify_popularity:20 (inserted)
-		lastfm_listeners:69713 (inserted)
-		lastfm_playcount:314019 (inserted)
-		popularity:0.6591616453260255 (inserted)
-		playcount:0 (inserted)
-		playlists:0 (inserted)
-		kups_playcount:0 (inserted)
+	song info for Summer Mood
+		song_id:3367 (no changes)
+		song:Summer Mood (no changes)
+		filename: (no changes)
+		album_id:2036 (no changes)
+		length:145 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:15 (updated from 16)
+		lastfm_listeners:134136 (updated from 137007)
+		lastfm_playcount:815856 (updated from 816422)
+		popularity:0.8880723989862396 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:2 (no changes)
+	song info for Our Deal
+		song_id:10629 (no changes)
+		song:Our Deal (no changes)
+		filename: (no changes)
+		album_id:2036 (no changes)
+		length:127 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:19 (no changes)
+		lastfm_listeners:168957 (updated from 175071)
+		lastfm_playcount:1224978 (updated from 1225356)
+		popularity:0.7161734703742781 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for I Want To
+		song_id:13448 (no changes)
+		song:I Want To (no changes)
+		filename: (no changes)
+		album_id:2036 (no changes)
+		length:165 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:16 (no changes)
+		lastfm_listeners:130434 (no changes)
+		lastfm_playcount:843547 (no changes)
+		popularity:0.8902324247886816 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:2 (no changes)
 Error: problem accessing and printing results
-'ascii' codec can't encode character '\u2019' in position 16: ordinal not in range(128)
-artists info for Pulp
-	artist_id:345 (no changes)
-	artist:Pulp (no changes)
-	spotify_popularity:60 (no changes)
-	lastfm_listeners:1038877 (no changes)
-	lastfm_playcount:25831449 (no changes)
-	whatcd_seeders:3753 (updated from 3871)
-	whatcd_snatches:37388 (updated from 37372)
-	popularity:0.6894758866467674 (updated from 0.6892519232972325)
+'ascii' codec can't encode character '\u2019' in position 31: ordinal not in range(128)
+artists info for Best Coast
+	artist_id:908 (no changes)
+	artist:Best Coast (no changes)
+	spotify_popularity:63 (no changes)
+	lastfm_listeners:579978 (no changes)
+	lastfm_playcount:21294624 (no changes)
+	whatcd_seeders:3890 (updated from 3790)
+	whatcd_snatches:39623 (updated from 39612)
+	popularity:0.984637600998549 (updated from 0.9840431819754297)
 	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
-album info for This Is Hardcore
-	album_id:13967 (no changes)
-	album:This Is Hardcore (no changes)
-	folder_path: (no changes)
-	spotify_popularity:30 (no changes)
-	lastfm_listeners:222801 (no changes)
-	lastfm_playcount:2764822 (no changes)
-	whatcd_seeders:275 (updated from 286)
-	whatcd_snatches:3450 (updated from 3447)
-	popularity:0.5996847841139038 (updated from 0.597975723583045)
-	pitchfork_rating:0 (no changes)
-	kups_playcount:0 (no changes)
+	kups_playcount:20 (no changes)
 Error with processSongs
 Error with processSongs
 'NoneType' object is not subscriptable
@@ -399,18 +371,332 @@ Error with processSongs
   Occurred in downloader/everythingLookup.py on line 143
 
 
-Downloading song information for Blur 21: The Box by Blur
-Done searching musicbrainz for album suggestions, have 16 to rank
-For the artist and album derived from the provided dir (Blur and Blur 21: The Box respectively),
+Downloading song information for Krokodil by St. Vincent
+Done searching musicbrainz for album suggestions, have 15 to rank
+For the artist and album derived from the provided dir (St. Vincent and Krokodil respectively),
 the following artist and album was matched on musicbrains:
-Artist: Blur
-Album: Blur 21: The Box
+Artist: St. Vincent
+Album: Krokodil
 For the album and artist found on musicbrainz, the following torrent group was found on what:
-Artist: Blur
-Album: Blur 21: The Box
-Original artists are: Blur
-Final artists are: Blur
-Popularity of artist Blur is 0.913351584597
+Artist: St. Vincent
+Album: Krokodil
+Original artists are: St. Vincent
+Final artists are: St. Vincent
+Popularity of artist St. Vincent is 0.989148656123
 Done with artists
-Popularity of album Blur 21: The Box is 0.394797729493
+Popularity of album Krokodil is 0.473451909137
 Done with album
+album info for Krokodil
+	album_id:10088 (no changes)
+	album:Krokodil (no changes)
+	folder_path: (no changes)
+	spotify_popularity:36 (no changes)
+	lastfm_listeners:4142 (updated from 4367)
+	lastfm_playcount:42731 (updated from 42729)
+	whatcd_seeders:109 (updated from 117)
+	whatcd_snatches:2187 (no changes)
+	popularity:0.4734519091370414 (updated from 0.363834532223094)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:1 (no changes)
+song:
+	song info for Krokodil
+		song_id:8225 (no changes)
+		song:Krokodil (no changes)
+		filename: (no changes)
+		album_id:10088 (no changes)
+		length:152 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:42 (updated from 44)
+		lastfm_listeners:8102 (updated from 8411)
+		lastfm_playcount:55326 (updated from 55138)
+		popularity:0.9889533756941583 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for Grot
+		song_id:17689 (inserted)
+		song:Grot (inserted)
+		filename: (inserted)
+		album_id:10088 (inserted)
+		length:302 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:42 (inserted)
+		lastfm_listeners:6177 (inserted)
+		lastfm_playcount:30178 (inserted)
+		popularity:0.918414993070408 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+artists info for St. Vincent
+	artist_id:774 (no changes)
+	artist:St. Vincent (no changes)
+	spotify_popularity:62 (no changes)
+	lastfm_listeners:815165 (no changes)
+	lastfm_playcount:26380905 (no changes)
+	whatcd_seeders:17085 (updated from 17409)
+	whatcd_snatches:172608 (updated from 172562)
+	popularity:0.9891486561234495 (updated from 0.9890615294272807)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:38 (no changes)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Downloading song information for Bloom by Beach House
+Done searching musicbrainz for album suggestions, have 16 to rank
+For the artist and album derived from the provided dir (Beach House and Bloom respectively),
+the following artist and album was matched on musicbrains:
+Artist: Beach House
+Album: Bloom
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: Beach House
+Album: Bloom
+Original artists are: Beach House
+Final artists are: Beach House
+Popularity of artist Beach House is 0.991478500901
+Done with artists
+Popularity of album Bloom is 0.657951821207
+Done with album
+album info for Bloom
+	album_id:1448 (no changes)
+	album:Bloom (no changes)
+	folder_path:Beach House - Bloom (2012) - V0 (no changes)
+	spotify_popularity:42 (updated from 0)
+	lastfm_listeners:357274 (updated from 435)
+	lastfm_playcount:12324462 (updated from 14219)
+	whatcd_seeders:1845 (updated from 15)
+	whatcd_snatches:22275 (updated from 77)
+	popularity:0.6579518212067287 (updated from 0.19914075643686083)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:0 (no changes)
+song:
+	song info for Myth
+		song_id:11484 (no changes)
+		song:Myth (no changes)
+		filename: (no changes)
+		album_id:1448 (no changes)
+		length:258 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:41 (no changes)
+		lastfm_listeners:347732 (no changes)
+		lastfm_playcount:2642219 (no changes)
+		popularity:0.9960076076725144 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:8 (no changes)
+	song info for Wild
+		song_id:17690 (inserted)
+		song:Wild (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:298 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:29 (inserted)
+		lastfm_listeners:218005 (inserted)
+		lastfm_playcount:1463149 (inserted)
+		popularity:0.5363736660064942 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Lazuli
+		song_id:17691 (inserted)
+		song:Lazuli (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:302 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:35 (inserted)
+		lastfm_listeners:235585 (inserted)
+		lastfm_playcount:1617001 (inserted)
+		popularity:0.5998550825285415 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Other People
+		song_id:17692 (inserted)
+		song:Other People (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:264 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:35 (inserted)
+		lastfm_listeners:203557 (inserted)
+		lastfm_playcount:1332375 (inserted)
+		popularity:0.5944947249138408 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for The Hours
+		song_id:17693 (inserted)
+		song:The Hours (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:251 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:28 (inserted)
+		lastfm_listeners:183603 (inserted)
+		lastfm_playcount:1189571 (inserted)
+		popularity:0.5176829063111034 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Troublemaker
+		song_id:17694 (inserted)
+		song:Troublemaker (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:295 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:25 (inserted)
+		lastfm_listeners:167201 (inserted)
+		lastfm_playcount:1028453 (inserted)
+		popularity:0.48168323885993286 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for New Year
+		song_id:17695 (inserted)
+		song:New Year (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:325 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:26 (inserted)
+		lastfm_listeners:165919 (inserted)
+		lastfm_playcount:1001211 (inserted)
+		popularity:0.48912668219413996 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Wishes
+		song_id:17696 (inserted)
+		song:Wishes (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:287 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:27 (inserted)
+		lastfm_listeners:165689 (inserted)
+		lastfm_playcount:1018023 (inserted)
+		popularity:0.49974787637185136 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for On the Sea
+		song_id:17697 (inserted)
+		song:On the Sea (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:332 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:27 (inserted)
+		lastfm_listeners:155931 (inserted)
+		lastfm_playcount:884930 (inserted)
+		popularity:0.4924412159768631 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Irene
+		song_id:17698 (inserted)
+		song:Irene (inserted)
+		filename: (inserted)
+		album_id:1448 (inserted)
+		length:1017 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:23 (inserted)
+		lastfm_listeners:134881 (inserted)
+		lastfm_playcount:673190 (inserted)
+		popularity:0.4430872629719249 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+artists info for Beach House
+	artist_id:34 (no changes)
+	artist:Beach House (no changes)
+	spotify_popularity:68 (no changes)
+	lastfm_listeners:1036551 (no changes)
+	lastfm_playcount:54161678 (no changes)
+	whatcd_seeders:20576 (updated from 20385)
+	whatcd_snatches:135612 (updated from 135566)
+	popularity:0.9914785009012327 (updated from 0.9914054826166138)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:22 (no changes)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Downloading song information for No Shade in the Shadow of the Cross by Sufjan Stevens
+Done searching musicbrainz for album suggestions, have 22 to rank
+For the artist and album derived from the provided dir (Sufjan Stevens and No Shade in the Shadow of the Cross respectively),
+the following artist and album was matched on musicbrains:
+Artist: Sufjan Stevens
+Album: No Shade in the Shadow of the Cross
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: Sufjan Stevens
+Album: No Shade in the Shadow of the Cross
+Original artists are: Sufjan Stevens
+Final artists are: Sufjan Stevens
+Popularity of artist Sufjan Stevens is 0.993024521314
+Done with artists
+Popularity of album No Shade in the Shadow of the Cross is 0.6111659804
+Done with album
+album info for No Shade in the Shadow of the Cross
+	album_id:7133 (no changes)
+	album:No Shade in the Shadow of the Cross (no changes)
+	folder_path: (no changes)
+	spotify_popularity:42 (updated from 36)
+	lastfm_listeners:44652 (updated from 47940)
+	lastfm_playcount:131604 (updated from 130017)
+	whatcd_seeders:110 (updated from 116)
+	whatcd_snatches:538 (updated from 536)
+	popularity:0.6111659803998533 (updated from 0.5884713262420859)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:2 (no changes)
+song info for No Shade in the Shadow of the Cross
+	song_id:17699 (inserted)
+	song:No Shade in the Shadow of the Cross (inserted)
+	filename: (inserted)
+	album_id:7133 (inserted)
+	length:160 (inserted)
+	explicit:False (inserted)
+	spotify_popularity:34 (inserted)
+	lastfm_listeners:122064 (inserted)
+	lastfm_playcount:673523 (inserted)
+	popularity:0.62877030162413 (inserted)
+	playcount:0 (inserted)
+	playlists:0 (inserted)
+	kups_playcount:0 (inserted)
+artists info for Sufjan Stevens
+	artist_id:29 (no changes)
+	artist:Sufjan Stevens (no changes)
+	spotify_popularity:73 (no changes)
+	lastfm_listeners:1743354 (no changes)
+	lastfm_playcount:104086255 (no changes)
+	whatcd_seeders:18542 (updated from 17917)
+	whatcd_snatches:196174 (updated from 196125)
+	popularity:0.9930245213138172 (updated from 0.992960666649782)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:29 (no changes)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Mostly done getting song info
+All done getting album and song info
+Done getting playlist info
+Best Playlist:
+>> Best Coast - Crazy for You - Boyfriend - 2:29 <<
+>> St. Vincent - Krokodil - Krokodil - 2:32 <<
+>> Beach House - Bloom - Lazuli - 5:02 <<
+
+
+1458799350988
