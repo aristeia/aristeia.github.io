@@ -1,23 +1,34 @@
-1458620320889
-Zarvox database are online
-Zarvox database are online
-Pinging www.what.cd
-Pinging www.spotify.com
-Pinging www.musicbrainz.com
-Pinging ws.audioscrobbler.com
-Pingtest complete; sites are online
-Going to pick things from top 14 albums
-Processed supergenres from schedule with frequencies
-Starting on Sunday at 2:00:00, and doing a 1-hour playlist for each hour henceforth
-Doing liners during the following times:
-	0:00 - 0:45
-Generating 5+ albums out of one of the following genres with the following weights (of which gets picked:
-	hip-hop : 0.5476190476190476,	loud rock : 0.4523809523809525
-Picked hip-hop
-Picked new.jack.swing as a starting subgenre
->>> The O'Jays - Emotionally Yours <<<
-    Top Genres: soul, rhythm.and.blues, hip.hop
->>> Marvin Gaye - Let's Get It On <<<
-    Top Genres: motown, soul, rnb
->>> Sam Cooke - The Best of Sam Cooke <<<
-    Top Genres: blues, gospel, rnb
+66666666666666
+did args\n66666666666666
+did arg2\n66666666666666
+did arg2\n66666666666666
+did arg1\n66666666666666
+did arg2\n66666666666666
+/home/jon/projects/aristeia.github.io/demos/zarvox
+albums.csv
+code
+generate.sh
+index.html
+playlist.html
+subgenres.csv
+zarvox_term.out
+README.md
+config
+database
+downloadMomMusic.py
+downloader
+music_finder
+packages
+playlist_finder
+playlist_generator
+postprocessor
+did cd\n66666666666666
+/home/jon/projects/aristeia.github.io/demos/zarvox/code
+66666666666666
+would have done one arg
+66666666666666
+Traceback (most recent call last):
+  File "playlist_generator/generator.py", line 1, in <module>
+    import numpy as np, sys,os, postgresql as pg, bisect, json, whatapi, threading, time
+ImportError: No module named 'postgresql'
+66666666666666
