@@ -33,23 +33,17 @@ sleep 1
 if [ "$ARG1" == "1" ]
 	then
 	echo "66666666666666" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
-	echo "\n\n\n"
 	echo "would have done one arg" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
 	python3 -u playlist_generator/generator.py "$ARG1" &>> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out &
-	echo "\n\n\n"
 	echo "66666666666666" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
 elif [[ $ARG1 =~ $ARG1_REGEX  && $ARG2 =~ $ARG2_REGEX ]]
 	then
 	echo "66666666666666" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
-	echo "\n\n\n"
 	echo "Would have done two-args" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
 	python3 -u playlist_generator/generator.py "$ARG1" "$ARG2" &>> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out &
-	echo "\n\n\n"
 	echo "66666666666666" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
 else
 	echo "66666666666666" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
-	echo "\n\n\n"
 	echo "Error: bad arguments. Please try again" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
-	echo "\n\n\n"
 	echo "66666666666666" >> /home/jon/projects/aristeia.github.io/demos/zarvox/zarvox_term.out
 fi
