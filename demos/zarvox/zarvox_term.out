@@ -1,34 +1,768 @@
-66666666666666
-did args\n66666666666666
-did arg2\n66666666666666
-did arg2\n66666666666666
-did arg1\n66666666666666
-did arg2\n66666666666666
-/home/jon/projects/aristeia.github.io/demos/zarvox
-albums.csv
-code
-generate.sh
-index.html
-playlist.html
-subgenres.csv
-zarvox_term.out
-README.md
-config
-database
-downloadMomMusic.py
-downloader
-music_finder
-packages
-playlist_finder
-playlist_generator
-postprocessor
-did cd\n66666666666666
-/home/jon/projects/aristeia.github.io/demos/zarvox/code
-66666666666666
-would have done one arg
-66666666666666
-Traceback (most recent call last):
-  File "playlist_generator/generator.py", line 1, in <module>
-    import numpy as np, sys,os, postgresql as pg, bisect, json, whatapi, threading, time
-ImportError: No module named 'postgresql'
-66666666666666
+1458629048899
+Zarvox database are online
+Zarvox database are online
+Pinging www.what.cd
+Pinging www.spotify.com
+Pinging www.musicbrainz.com
+Pinging ws.audioscrobbler.com
+Pingtest complete; sites are online
+Going to pick things from top 14 albums
+Processed supergenres from schedule with frequencies
+Starting on Saturday at 16:00:00, and doing a 1-hour playlist for each hour henceforth
+Doing liners during the following times:
+	0:00 - 0:45
+Generating 5+ albums out of one of the following genres with the following weights (of which gets picked:
+	alternative : 0.5,	specialty : 0.5
+Picked alternative
+Picked mod.revival as a starting subgenre
+/usr/lib/python3/dist-packages/scipy/stats/_distn_infrastructure.py:1640: RuntimeWarning: invalid value encountered in double_scalars
+  x = (x-loc)*1.0/scale
+>>> The Jam - Direction, Reaction, Creation <<<
+    Top Genres: rock, alternative, box.set
+>>> Tom Waits - Mule Variations <<<
+    Top Genres: singer.songwriter, blues, rock
+>>> Beck - Modern Guilt <<<
+    Top Genres: alternative, rock, singer.songwriter
+>>> David Bowie - Heathen <<<
+    Top Genres: rock, alternative, glam.rock
+>>> Feist - Let It Die <<<
+    Top Genres: singer.songwriter, indie, female
+Mostly done getting albums, gotten 5 so far
+Downloading song information for Direction, Reaction, Creation by The Jam
+Done searching musicbrainz for album suggestions, have 16 to rank
+For the artist and album derived from the provided dir (The Jam and Direction, Reaction, Creation respectively),
+the following artist and album was matched on musicbrains:
+Artist: The Jam
+Album: Direction Reaction Creation
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: The Jam
+Album: Direction, Reaction, Creation
+Original artists are: The Jam
+Final artists are: The Jam
+Popularity of artist The Jam is 0.682597151209
+Done with artists
+Popularity of album Direction, Reaction, Creation is 0.332103632383
+Done with album
+album info for Direction, Reaction, Creation
+	album_id:25959 (no changes)
+	album:Direction, Reaction, Creation (no changes)
+	folder_path: (no changes)
+	spotify_popularity:38 (no changes)
+	lastfm_listeners:4148 (no changes)
+	lastfm_playcount:171745 (no changes)
+	whatcd_seeders:44 (updated from 42)
+	whatcd_snatches:250 (no changes)
+	popularity:0.33210363238322516 (updated from 0.3267854722867363)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:0 (no changes)
+artists info for The Jam
+	artist_id:16266 (no changes)
+	artist:The Jam (no changes)
+	spotify_popularity:59 (no changes)
+	lastfm_listeners:725981 (no changes)
+	lastfm_playcount:12549515 (no changes)
+	whatcd_seeders:3108 (updated from 3069)
+	whatcd_snatches:25061 (updated from 25059)
+	popularity:0.6825971512094856 (updated from 0.6814532770966523)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:0 (no changes)
+song:
+	song info for In the City
+		song_id:17175 (inserted)
+		song:In the City (inserted)
+		filename: (inserted)
+		album_id:25959 (inserted)
+		length:139 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:18 (inserted)
+		lastfm_listeners:165737 (inserted)
+		lastfm_playcount:613294 (inserted)
+		popularity:0.6935394407384022 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+Error: problem accessing and printing results
+'ascii' codec can't encode character '\u2019' in position 20: ordinal not in range(128)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Downloading song information for Mule Variations by Tom Waits
+Done searching musicbrainz for album suggestions, have 16 to rank
+For the artist and album derived from the provided dir (Tom Waits and Mule Variations respectively),
+the following artist and album was matched on musicbrains:
+Artist: Tom Waits
+Album: Mule Variations
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: Tom Waits
+Album: Mule Variations
+Original artists are: Tom Waits
+Final artists are: Tom Waits
+Popularity of artist Tom Waits is 0.99039442419
+Done with artists
+Popularity of album Mule Variations is 0.917421100262
+Done with album
+album info for Mule Variations
+	album_id:6563 (no changes)
+	album:Mule Variations (no changes)
+	folder_path: (no changes)
+	spotify_popularity:45 (no changes)
+	lastfm_listeners:239558 (no changes)
+	lastfm_playcount:3933437 (no changes)
+	whatcd_seeders:442 (updated from 423)
+	whatcd_snatches:3110 (updated from 3109)
+	popularity:0.9174211002622572 (updated from 0.8608708184879552)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:3 (no changes)
+artists info for Tom Waits
+	artist_id:2939 (no changes)
+	artist:Tom Waits (no changes)
+	spotify_popularity:65 (no changes)
+	lastfm_listeners:1348320 (no changes)
+	lastfm_playcount:79838568 (no changes)
+	whatcd_seeders:13314 (updated from 13809)
+	whatcd_snatches:136858 (updated from 136847)
+	popularity:0.9903944241897199 (updated from 0.9903163891943234)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:34 (no changes)
+song:
+	song info for Big in Japan
+		song_id:3564 (no changes)
+		song:Big in Japan (no changes)
+		filename: (no changes)
+		album_id:6563 (no changes)
+		length:245 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:29 (updated from 30)
+		lastfm_listeners:101138 (updated from 102732)
+		lastfm_playcount:393907 (updated from 393695)
+		popularity:0.915160019523729 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:2 (no changes)
+	song info for Lowside of the Road
+		song_id:17280 (inserted)
+		song:Lowside of the Road (inserted)
+		filename: (inserted)
+		album_id:6563 (inserted)
+		length:179 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:25 (inserted)
+		lastfm_listeners:64488 (inserted)
+		lastfm_playcount:213561 (inserted)
+		popularity:0.26000339872469663 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Hold On
+		song_id:17281 (inserted)
+		song:Hold On (inserted)
+		filename: (inserted)
+		album_id:6563 (inserted)
+		length:333 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:45 (inserted)
+		lastfm_listeners:156573 (inserted)
+		lastfm_playcount:675583 (inserted)
+		popularity:0.4105980966348915 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Get Behind the Mule
+		song_id:17282 (inserted)
+		song:Get Behind the Mule (inserted)
+		filename: (inserted)
+		album_id:6563 (inserted)
+		length:412 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:27 (inserted)
+		lastfm_listeners:95928 (inserted)
+		lastfm_playcount:343777 (inserted)
+		popularity:0.30619994527252875 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for House Where Nobody Lives
+		song_id:17283 (inserted)
+		song:House Where Nobody Lives (inserted)
+		filename: (inserted)
+		album_id:6563 (inserted)
+		length:254 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:26 (inserted)
+		lastfm_listeners:75384 (inserted)
+		lastfm_playcount:269381 (inserted)
+		popularity:0.2837687167479195 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Cold Water
+		song_id:17284 (inserted)
+		song:Cold Water (inserted)
+		filename: (inserted)
+		album_id:6563 (inserted)
+		length:323 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:26 (inserted)
+		lastfm_listeners:72816 (inserted)
+		lastfm_playcount:267398 (inserted)
+		popularity:0.28286550354137724 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Pony
+		song_id:17285 (inserted)
+		song:Pony (inserted)
+		filename: (inserted)
+		album_id:6563 (inserted)
+		length:272 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:24 (inserted)
+		lastfm_listeners:64994 (inserted)
+		lastfm_playcount:214131 (inserted)
+		popularity:0.25262458496119655 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+Error: problem accessing and printing results
+'ascii' codec can't encode character '\u2019' in position 19: ordinal not in range(128)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Downloading song information for Modern Guilt by Beck
+Done searching musicbrainz for album suggestions, have 16 to rank
+For the artist and album derived from the provided dir (Beck and Modern Guilt respectively),
+the following artist and album was matched on musicbrains:
+Artist: Beck
+Album: Modern Guilt
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: Beck
+Album: Modern Guilt
+Original artists are: Beck
+Final artists are: Beck
+Popularity of artist Beck is 0.992443846968
+Done with artists
+Popularity of album Modern Guilt is 0.865062442735
+Done with album
+album info for Modern Guilt
+	album_id:20861 (no changes)
+	album:Modern Guilt (no changes)
+	folder_path: (no changes)
+	spotify_popularity:40 (no changes)
+	lastfm_listeners:409001 (no changes)
+	lastfm_playcount:8646575 (no changes)
+	whatcd_seeders:720 (updated from 713)
+	whatcd_snatches:20452 (updated from 20451)
+	popularity:0.8650624427351447 (updated from 0.860530908542919)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:2 (no changes)
+artists info for Beck
+	artist_id:3716 (no changes)
+	artist:Beck (no changes)
+	spotify_popularity:71 (no changes)
+	lastfm_listeners:2716367 (no changes)
+	lastfm_playcount:91468697 (no changes)
+	whatcd_seeders:25569 (updated from 25239)
+	whatcd_snatches:287817 (updated from 287819)
+	popularity:0.9924438469677797 (updated from 0.9923765868546274)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:30 (no changes)
+song:
+	song info for Orphans
+		song_id:17296 (inserted)
+		song:Orphans (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:195 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:29 (inserted)
+		lastfm_listeners:211537 (inserted)
+		lastfm_playcount:980867 (inserted)
+		popularity:0.305837771214981 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Gamma Ray
+		song_id:17297 (inserted)
+		song:Gamma Ray (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:176 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:37 (inserted)
+		lastfm_listeners:307027 (inserted)
+		lastfm_playcount:1727652 (inserted)
+		popularity:0.4115636951775642 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Chemtrails
+		song_id:17298 (inserted)
+		song:Chemtrails (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:280 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:28 (inserted)
+		lastfm_listeners:202483 (inserted)
+		lastfm_playcount:981941 (inserted)
+		popularity:0.28197686861868665 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Modern Guilt
+		song_id:17299 (inserted)
+		song:Modern Guilt (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:194 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:30 (inserted)
+		lastfm_listeners:221709 (inserted)
+		lastfm_playcount:1117225 (inserted)
+		popularity:0.331540467898943 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Youthless
+		song_id:17300 (inserted)
+		song:Youthless (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:179 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:33 (inserted)
+		lastfm_listeners:206297 (inserted)
+		lastfm_playcount:955555 (inserted)
+		popularity:0.35824894460686574 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Walls
+		song_id:13505 (no changes)
+		song:Walls (no changes)
+		filename: (no changes)
+		album_id:20861 (no changes)
+		length:142 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:27 (no changes)
+		lastfm_listeners:175627 (no changes)
+		lastfm_playcount:879228 (no changes)
+		popularity:0.826961610115962 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for Replica
+		song_id:17301 (inserted)
+		song:Replica (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:205 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:25 (inserted)
+		lastfm_listeners:156039 (inserted)
+		lastfm_playcount:677212 (inserted)
+		popularity:0.20065185653246773 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Soul of a Man
+		song_id:17302 (inserted)
+		song:Soul of a Man (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:156 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:27 (inserted)
+		lastfm_listeners:178886 (inserted)
+		lastfm_playcount:752758 (inserted)
+		popularity:0.242794930896353 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Profanity Prayers
+		song_id:17303 (inserted)
+		song:Profanity Prayers (inserted)
+		filename: (inserted)
+		album_id:20861 (inserted)
+		length:223 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:26 (inserted)
+		lastfm_listeners:153526 (inserted)
+		lastfm_playcount:689405 (inserted)
+		popularity:0.21157318690152038 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Volcano
+		song_id:14419 (no changes)
+		song:Volcano (no changes)
+		filename: (no changes)
+		album_id:20861 (no changes)
+		length:268 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:26 (no changes)
+		lastfm_listeners:154998 (no changes)
+		lastfm_playcount:690606 (no changes)
+		popularity:0.7944865557696307 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Downloading song information for Heathen by David Bowie
+Done searching musicbrainz for album suggestions, have 16 to rank
+For the artist and album derived from the provided dir (David Bowie and Heathen respectively),
+the following artist and album was matched on musicbrains:
+Artist: David Bowie
+Album: Heathen
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: David Bowie
+Album: Heathen
+Original artists are: David Bowie
+Final artists are: David Bowie
+Popularity of artist David Bowie is 0.995506555406
+Done with artists
+Popularity of album Heathen is 0.579270158152
+Done with album
+album info for Heathen
+	album_id:14820 (no changes)
+	album:Heathen (no changes)
+	folder_path: (no changes)
+	spotify_popularity:13 (no changes)
+	lastfm_listeners:146393 (no changes)
+	lastfm_playcount:2016708 (no changes)
+	whatcd_seeders:849 (updated from 847)
+	whatcd_snatches:3507 (updated from 3506)
+	popularity:0.5792701581520701 (updated from 0.575574938969391)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:0 (no changes)
+artists info for David Bowie
+	artist_id:176 (no changes)
+	artist:David Bowie (no changes)
+	spotify_popularity:84 (no changes)
+	lastfm_listeners:3058316 (no changes)
+	lastfm_playcount:155839303 (no changes)
+	whatcd_seeders:121210 (updated from 117215)
+	whatcd_snatches:717153 (updated from 717076)
+	popularity:0.9955065554055117 (updated from 0.9954591783727735)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:13 (no changes)
+song:
+	song info for Sunday
+		song_id:17304 (inserted)
+		song:Sunday (inserted)
+		filename: (inserted)
+		album_id:14820 (inserted)
+		length:285 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:5 (inserted)
+		lastfm_listeners:63349 (inserted)
+		lastfm_playcount:231379 (inserted)
+		popularity:0.6492104166819179 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Cactus
+		song_id:17305 (inserted)
+		song:Cactus (inserted)
+		filename: (inserted)
+		album_id:14820 (inserted)
+		length:174 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:4 (inserted)
+		lastfm_listeners:74808 (inserted)
+		lastfm_playcount:272969 (inserted)
+		popularity:0.6605777177586124 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Slip Away
+		song_id:17306 (inserted)
+		song:Slip Away (inserted)
+		filename: (inserted)
+		album_id:14820 (inserted)
+		length:364 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:5 (inserted)
+		lastfm_listeners:57211 (inserted)
+		lastfm_playcount:204462 (inserted)
+		popularity:0.6387336077708514 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Slow Burn
+		song_id:17307 (inserted)
+		song:Slow Burn (inserted)
+		filename: (inserted)
+		album_id:14820 (inserted)
+		length:281 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:5 (inserted)
+		lastfm_listeners:71967 (inserted)
+		lastfm_playcount:280718 (inserted)
+		popularity:0.6635248538599394 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Afraid
+		song_id:17308 (inserted)
+		song:Afraid (inserted)
+		filename: (inserted)
+		album_id:14820 (inserted)
+		length:208 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:4 (inserted)
+		lastfm_listeners:66090 (inserted)
+		lastfm_playcount:229681 (inserted)
+		popularity:0.6475261109784607 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+Error: problem accessing and printing results
+'ascii' codec can't encode character '\u2019' in position 16: ordinal not in range(128)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Downloading song information for Let It Die by Feist
+Done searching musicbrainz for album suggestions, have 13 to rank
+For the artist and album derived from the provided dir (Feist and Let It Die respectively),
+the following artist and album was matched on musicbrains:
+Artist: Feist
+Album: Let It Die
+For the album and artist found on musicbrainz, the following torrent group was found on what:
+Artist: Feist
+Album: Let It Die
+Original artists are: Feist
+Final artists are: Feist
+Popularity of artist Feist is 0.990956198982
+Done with artists
+Popularity of album Let It Die is 0.942022665279
+Done with album
+album info for Let It Die
+	album_id:4840 (no changes)
+	album:Let It Die (no changes)
+	folder_path:Feist - 2004 - Let It Die {Canadian Version on Arts & Crafts} [v0] (no changes)
+	spotify_popularity:54 (no changes)
+	lastfm_listeners:802834 (no changes)
+	lastfm_playcount:15082612 (no changes)
+	whatcd_seeders:756 (updated from 758)
+	whatcd_snatches:25204 (updated from 25202)
+	popularity:0.9420226652788846 (updated from 0.9388692235378717)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:3 (no changes)
+artists info for Feist
+	artist_id:1387 (no changes)
+	artist:Feist (no changes)
+	spotify_popularity:67 (no changes)
+	lastfm_listeners:1854583 (no changes)
+	lastfm_playcount:64149886 (no changes)
+	whatcd_seeders:7311 (updated from 7422)
+	whatcd_snatches:121422 (updated from 121413)
+	popularity:0.9909561989821524 (updated from 0.9908935310082547)
+	pitchfork_rating:0 (no changes)
+	kups_playcount:26 (no changes)
+song:
+	song info for Gatekeeper
+		song_id:17320 (inserted)
+		song:Gatekeeper (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:136 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:29 (inserted)
+		lastfm_listeners:288955 (inserted)
+		lastfm_playcount:1621583 (inserted)
+		popularity:0.27853189132896644 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Mushaboom
+		song_id:17321 (inserted)
+		song:Mushaboom (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:224 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:29 (inserted)
+		lastfm_listeners:644247 (inserted)
+		lastfm_playcount:4133296 (inserted)
+		popularity:0.29386215305514085 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Let It Die
+		song_id:17322 (inserted)
+		song:Let It Die (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:175 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:41 (inserted)
+		lastfm_listeners:276383 (inserted)
+		lastfm_playcount:1501375 (inserted)
+		popularity:0.38857558053363106 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for One Evening
+		song_id:17323 (inserted)
+		song:One Evening (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:216 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:30 (inserted)
+		lastfm_listeners:314673 (inserted)
+		lastfm_playcount:1746185 (inserted)
+		popularity:0.2920865285284461 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Leisure Suite
+		song_id:17324 (inserted)
+		song:Leisure Suite (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:247 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:41 (inserted)
+		lastfm_listeners:244053 (inserted)
+		lastfm_playcount:1129987 (inserted)
+		popularity:0.37414686970589606 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Lonely Lonely
+		song_id:17325 (inserted)
+		song:Lonely Lonely (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:250 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:30 (inserted)
+		lastfm_listeners:226698 (inserted)
+		lastfm_playcount:1076585 (inserted)
+		popularity:0.2678442554177428 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for When I Was a Young Girl
+		song_id:13731 (no changes)
+		song:When I Was a Young Girl (no changes)
+		filename: (no changes)
+		album_id:4840 (no changes)
+		length:188 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:36 (no changes)
+		lastfm_listeners:239969 (no changes)
+		lastfm_playcount:1132099 (no changes)
+		popularity:0.928452077799384 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for Secret Heart
+		song_id:17326 (inserted)
+		song:Secret Heart (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:229 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:29 (inserted)
+		lastfm_listeners:264157 (inserted)
+		lastfm_playcount:1377013 (inserted)
+		popularity:0.2713310125661184 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Inside and Out
+		song_id:17327 (inserted)
+		song:Inside and Out (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:257 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:28 (inserted)
+		lastfm_listeners:253406 (inserted)
+		lastfm_playcount:1471033 (inserted)
+		popularity:0.2645645004986813 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Tout doucement
+		song_id:4262 (no changes)
+		song:Tout doucement (no changes)
+		filename: (no changes)
+		album_id:4840 (no changes)
+		length:151 (no changes)
+		explicit:False (no changes)
+		spotify_popularity:28 (updated from 30)
+		lastfm_listeners:210486 (updated from 212822)
+		lastfm_playcount:951449 (updated from 953578)
+		popularity:0.8253762521530433 (updated from None)
+		playcount:0 (no changes)
+		playlists:0 (no changes)
+		kups_playcount:1 (no changes)
+	song info for Now at Last
+		song_id:17328 (inserted)
+		song:Now at Last (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:226 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:36 (inserted)
+		lastfm_listeners:205279 (inserted)
+		lastfm_playcount:930137 (inserted)
+		popularity:0.32977390683514435 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+	song info for Amourissima
+		song_id:17329 (inserted)
+		song:Amourissima (inserted)
+		filename: (inserted)
+		album_id:4840 (inserted)
+		length:206 (inserted)
+		explicit:False (inserted)
+		spotify_popularity:38 (inserted)
+		lastfm_listeners:23793 (inserted)
+		lastfm_playcount:88253 (inserted)
+		popularity:0.17903676893443785 (inserted)
+		playcount:0 (inserted)
+		playlists:0 (inserted)
+		kups_playcount:0 (inserted)
+Error: problem accessing and printing results
+'ascii' codec can't encode character '\u2019' in position 16: ordinal not in range(128)
+Error with processSongs
+Error with processSongs
+'NoneType' object is not subscriptable
+  Occurred in downloader/everythingLookup.py on line 143
+  Occurred in downloader/everythingLookup.py on line 143
+
+
+Mostly done getting song info
+All done getting album and song info
+Done getting playlist info
+Best Playlist:
+>> Beck - Modern Guilt - Walls - 2:22 <<
+>> David Bowie - Heathen - Slow Burn - 4:41 <<
+>> Feist - Let It Die - When I Was a Young Girl - 3:08 <<
+
+
+1458629636417
