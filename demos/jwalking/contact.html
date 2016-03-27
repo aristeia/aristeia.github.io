@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      p{
+      font-size: 18pt;
+      font-family: Verdana, Tahoma, Geneva, sans-serif;
+      }
+
+      @font-face {
+      font-family: slogan;
+      src: url('fonts/Addis_Ababa.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      }
+
+      body {
+      background-color: #FFF;
+      font-size: 19pt;
+      }
+
+      .fancy-tabs {
+      display: block;
+      line-height: 22px;
+      padding: 5px 10px 3px 0;
+      }
+      
+      header {
+      display: block;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+      height: 277px;
+      }
+
+      header-banner{
+      position: absolute;
+      top: 170px;
+      left: 0px;
+      display: block;
+      background: url(pictures/banner.png) repeat-x 368px 0px;
+      width: 100%;
+      height: 40px;
+      }
+
+      middle{
+      position: relative;
+      top: -10px;
+      display: block;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;}
+      
+      middle-box {
+      width: 32%;
+      }
+
+      footer {
+      position: absolute;
+      bottom: vmax;
+      left: 0px;
+      right: 0px;
+      }
+
+      footer-banner {
+      display: block;
+      background: url(pictures/footer_sides_better.png) repeat-x center;
+      width: 100%;
+      height: 154px;
+      }
+
+
+
+       .fancy-tabs ul {
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+       }
+
+       .fancy-tabs ul li{
+       padding: 0;
+       margin: 0;
+       color: #000;
+       display: inline-block;
+       }
+
+       .fancy-tabs ul li a {
+       font-family:Verdana, Tahoma, Geneva, sans-serif;	
+       display: block;
+       cursor: pointer;
+       text-decoration: none;
+       padding: 5px 20px;
+       margin: 5px  25px 2px;
+       color: #000;
+       font-size: 14pt;
+       }
+
+       .fancy-tabs ul li a.link-catch-all {
+       color: #000;
+       background:#ddd;
+       }
+
+       .fancy-tabs ul li a.fancytab_on {
+       color:#fff;
+       background:#333;
+       }
+
+       .fancy-tabs ul li a:hover {	
+       color: #FFF;
+       background: rgb(235,40,20);
+       }
+
+     </style>
+   </head>
+   <body>
+       <p> 
+	 <div style="float: right;font-family: slogan, Tahoma, serif; font-style: italic; font-size: 1.8vw;">Our clients walk first - no bones about it!
+	 </div>
+       </p>
+       <header-banner>
+	 </header-banner>
+     <header>
+       <img src="pictures/logo.png" style="position: absolute; left: -5px; top: 0; height: 277px; width: 410px;"/>
+       <div class="fancy-tabs">
+	 <div style="position: absolute;top: 90px;left: 435px; width:calc(100% - 434px);height:70px;">
+	       <ul>
+		 <li><a href="index.html">Main Page</a></li>
+		 <li><a href="details.html">Details</a></li>
+		 <li><a href="contact.html">Contact Information</a></li>
+	       </ul>
+	     </div>
+	   </div>
+     </header>
+     <div style="position: relative; top: -18px; left: 4%; right: 4%; width: 92%; text-align: justify; font-size: 14pt;">
+       <table cellpadding=12pt>
+	 <tr>
+	   <td style="width: 70%">
+	     <div style="font-weight: bold; font-size: 20pt;">Contact</div>
+	     Jeanine's phone number is 630.667.8874 and email is jeanine@j-walking.biz<BR>
+	     Feel free to call, text, or email.
+	   </td>
+	   <td style="height: 300px; width: 30%;">
+	     <div style="right: 0; top: 0; width: 30%; height: 100%; position: absolute; background: url(pictures/photo2.JPG) no-repeat center; background-size: 100% auto;">
+	     </div>
+	   </td>
+	 </tr>
+       </table>
+     </div>
+     <footer>
+       <footer-banner/>
+       <img src="pictures/footer_center.png" style="height:116px; padding-top: 38px;display:block;margin-left: auto;margin-right: auto;"/>
+       <div style="position: absolute;width: 100%; text-align: center; top: 40px; z-index:1000; color: black;">
+	 <p>&nbsp&nbspJeanine&nbsp Schuster <BR>
+	   &nbsp&nbsp&nbsp&nbsp&nbsp(630) - 974 - 6773&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  jeanine@j-walking.biz</p>
+       </div>
+     </footer>
+   </body>
+</html>

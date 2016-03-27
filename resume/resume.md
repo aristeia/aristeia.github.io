@@ -53,7 +53,7 @@ Work Experience
     2012 - Present
 
     -   I set up an apache2 webserver for my home server with my personal website at the address [jonsims.me](http://www.jonsims.me), with a backup at [aristeia.github.io](http://aristeia.github.io/).
-    -   In the summer of 2014, I designed a website at [j-walking.biz]() for another client's dog-walking business (but has since been deactivated).
+    -   In the summer of 2014, I designed a website at [j-walking.biz](/demos/jwalking) for another client's dog-walking business (but has since been deactivated, however, a backup exists [here](/demos/jwalking)).
     -   In the fall of 2012, my uncle needed a website to show off his restaurant to the world. I wrote the website's code and set up its hosting, viewable at [tomsgrill.net](http://www.tomsgrill.net/).
     
 
