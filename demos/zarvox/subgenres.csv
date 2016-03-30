@@ -43,6 +43,8 @@ alternative,billy.childish,1357
 alternative,bluegrass,172
 alternative,blues.folk,1358
 alternative,breezerock,1119
+alternative,breton,1567
+alternative,british.folk.rock,1564
 alternative,britpop,134
 alternative,c86,352
 alternative,cabaret,660
@@ -70,14 +72,17 @@ alternative,crack.rock.steady,1152
 alternative,dancepunk,1194
 alternative,dance.punk,357
 alternative,dance.rock,1095
+alternative,dark.pop,1557
 alternative,darkwave,141
 alternative,dc,316
 alternative,deathrock,751
+alternative,decaydance,1538
 alternative,demon.records,1454
 alternative,diy,1057
 alternative,do.it.yourself,254
 alternative,dreampop,937
 alternative,dream.pop,93
+alternative,dream.punk,1544
 alternative,easycore,1535
 alternative,eleki,1397
 alternative,emo,159
@@ -121,6 +126,7 @@ alternative,gothic.rock,373
 alternative,gothrock,1064
 alternative,gypsy.punk,412
 alternative,halloween,283
+alternative,hardly.art,1550
 alternative,hasidic,1469
 alternative,hitchhike.records,1493
 alternative,horror.punk,1172
@@ -181,6 +187,7 @@ alternative,orchestral.pop,430
 alternative,outsider,501
 alternative,pdx,229
 alternative,pennsylvania,889
+alternative,pinoy,1543
 alternative,pirates,725
 alternative,political,216
 alternative,poppunk,1393
@@ -207,6 +214,7 @@ alternative,punk.covers,1268
 alternative,punk.funk,1322
 alternative,punkrock,987
 alternative,redscare,1378
+alternative,red.scare,1546
 alternative,reggae,63
 alternative,reggae.rock,1151
 alternative,reggea,1169
@@ -215,6 +223,7 @@ alternative,rocksteady,671
 alternative,roots,263
 alternative,roots.reggae,262
 alternative,rough.trade.records,1018
+alternative,saintjohn,1576
 alternative,scandinavia,618
 alternative,scotland,152
 alternative,see.thru.broadcasting,1294
@@ -244,6 +253,7 @@ alternative,synthpunk,935
 alternative,synth.punk,735
 alternative,synthrock,1368
 alternative,synth.rock,816
+alternative,teamlove,1545
 alternative,team.love,614
 alternative,tribute,361
 alternative,twee,285
@@ -287,6 +297,7 @@ electronic,berlin.school,325
 electronic,bigbeat,1084
 electronic,big.beat,15
 electronic,bitpop,1353
+electronic,bit.pop,1585
 electronic,bluetech,1515
 electronic,braindance,837
 electronic,brainwave,1451
@@ -301,6 +312,7 @@ electronic,broken.beats,1034
 electronic,bubblegum.bass,1173
 electronic,chicago.house,603
 electronic,chill,375
+electronic,chillcode,1581
 electronic,chill.gaze,1369
 electronic,chillout,214
 electronic,chillstep,506
@@ -327,6 +339,7 @@ electronic,dancey,1217
 electronic,dark,480
 electronic,dark.electro,1041
 electronic,dark.garage,392
+electronic,dark.progressive,1551
 electronic,darkpsy,1108
 electronic,dark.psytrance,732
 electronic,darkstep,607
@@ -360,12 +373,14 @@ electronic,dubstep,14
 electronic,dubtechno,1077
 electronic,dub.techno,321
 electronic,ebm,37
+electronic,echocord,1548
 electronic,edm,39
 electronic,ektoplazm,1150
 electronic,elctronic,979
 electronic,electonic,1142
 electronic,electornic,1344
 electronic,electroclash,500
+electronic,electro.crunk,1575
 electronic,electro.disco,404
 electronic,electrofolk,1282
 electronic,electrohouse,933
@@ -457,6 +472,7 @@ electronic,industrial.hardcore,1498
 electronic,innocence,1275
 electronic,instrumental.hip.hop,575
 electronic,italo,232
+electronic,italodisco,1561
 electronic,italo.disco,235
 electronic,jarring.effects,1349
 electronic,jazzdance,1082
@@ -512,6 +528,7 @@ electronic,new.rave,650
 electronic,new.retro.wave,201
 electronic,nintendocore,744
 electronic,noize,1352
+electronic,nu80s,1588
 electronic,nu.disco,200
 electronic,nujazz,1028
 electronic,nu.jazz,377
@@ -520,10 +537,12 @@ electronic,othermusic.featured,1420
 electronic,outrun,601
 electronic,picturesmusic,1320
 electronic,plunderphonics,97
+electronic,post.chillwave,1549
 electronic,post.disco,853
 electronic,postdubstep,1036
 electronic,post.dubstep,376
 electronic,post.industrial,170
+electronic,potty.mouth.music,1556
 electronic,progressive.breaks,963
 electronic,progressive.electronic,1127
 electronic,progressive.house,65
@@ -552,6 +571,7 @@ electronic,sample,969
 electronic,sampling,966
 electronic,schole,1336
 electronic,seapunk,927
+electronic,sfx,1552
 electronic,shangaan,1107
 electronic,shangaan.electro,1106
 electronic,sharpnelsound,1409
@@ -562,6 +582,7 @@ electronic,soulful.house,1128
 electronic,soundscape,503
 electronic,soundscapes,1020
 electronic,space,789
+electronic,spacedisco,1562
 electronic,space.disco,347
 electronic,street.bass,521
 electronic,street.sounds,1234
@@ -662,7 +683,9 @@ hip-hop,new.york,203
 hip-hop,noise.hop,1324
 hip-hop,north.carolina,475
 hip-hop,pilot.talk.2,1240
+hip-hop,quannum.projects,1539
 hip-hop,raggae,1333
+hip-hop,ragga.hip.hop,1558
 hip-hop,rap,936
 hip-hop,reggaeton,766
 hip-hop,rhythm.and.blues,5
@@ -684,12 +707,15 @@ hip-hop,westcoast,940
 hip-hop,west.coast,95
 hip-hop,wondaland,511
 hip-hop,zef,1153
+loud rock,1stpressing,1568
+loud rock,adipocere.records,1574
 loud rock,alternatative,1291
 loud rock,alternative.metal,275
 loud rock,alternativerocj,1494
 loud rock,alternative.rock,67
 loud rock,altrock,1187
 loud rock,ambient.black.metal,622
+loud rock,ambient.metal,1589
 loud rock,anarchist.black.metal,1476
 loud rock,anatolian.rock,1384
 loud rock,aor,177
@@ -743,12 +769,14 @@ loud rock,death.metal,72
 loud rock,depressive.black.metal,629
 loud rock,depressive.rock,1537
 loud rock,desert.rock,487
+loud rock,detroit.rock,1547
 loud rock,djent,368
 loud rock,doom,138
 loud rock,doom.death,1335
 loud rock,doom.metal,74
 loud rock,doom.rock,1423
 loud rock,dvd.audio,1449
+loud rock,eclectic.prog,1559
 loud rock,eighties,947
 loud rock,emo.violence,1309
 loud rock,england,366
@@ -757,6 +785,7 @@ loud rock,epic.metal,541
 loud rock,ethno.fusion,1412
 loud rock,extreme.metal,628
 loud rock,female.fronted.metal,279
+loud rock,folk.black.metal,1579
 loud rock,folk.metal,450
 loud rock,foo.fighters,1188
 loud rock,funeral.doom,986
@@ -769,6 +798,7 @@ loud rock,glam.funk,1292
 loud rock,glam.metal,536
 loud rock,glam.rock,165
 loud rock,godbluff,330
+loud rock,gore,1560
 loud rock,goth,477
 loud rock,gothenburg,150
 loud rock,gothic.metal,372
@@ -800,6 +830,7 @@ loud rock,jrock,228
 loud rock,kaizer.rock,1460
 loud rock,latin.rock,826
 loud rock,mall.emo,931
+loud rock,masterphile,1541
 loud rock,mathcore,491
 loud rock,math.metal,369
 loud rock,math.punk,1296
@@ -887,8 +918,10 @@ loud rock,rock.androll,1251
 loud rock,rock.and.roll,189
 loud rock,rocknroll,1122
 loud rock,rock.opera,860
+loud rock,rock.progressivo.italiano,1553
 loud rock,rod.stewart,1311
 loud rock,roots.rock,641
+loud rock,rpi,1554
 loud rock,screamo,223
 loud rock,shred,1483
 loud rock,skramz,1012
@@ -915,6 +948,7 @@ loud rock,symphonic.black.metal,631
 loud rock,symphonic.metal,385
 loud rock,symphonic.power.metal,418
 loud rock,symphonic.rock,426
+loud rock,technical.deathcore,1563
 loud rock,technical.death.metal,272
 loud rock,technical.metal,370
 loud rock,thall,872
@@ -928,10 +962,13 @@ loud rock,usbm,1428
 loud rock,viking.metal,428
 loud rock,vladimir.cochet,1437
 loud rock,wales,432
+loud rock,war.metal,1586
 loud rock,western.brit.pop,1301
 loud rock,west.virginia,1442
 loud rock,zeuhl,780
+specialty,12th.century,1571
 specialty,13th.century,1413
+specialty,15th.century,1569
 specialty,16th.century,1403
 specialty,17th.century,1416
 specialty,18th.century,1415
@@ -949,6 +986,7 @@ specialty,afro.cuban,803
 specialty,afrokraut,1470
 specialty,afropop,1381
 specialty,afro.pop,773
+specialty,afro.rock,1583
 specialty,aleatoric,1165
 specialty,ambiance,871
 specialty,ambient.rock,1441
@@ -988,6 +1026,7 @@ specialty,bop,210
 specialty,bossa.nova,582
 specialty,box.set,132
 specialty,brass,899
+specialty,cabo.verde,1590
 specialty,cajun,742
 specialty,calypso,817
 specialty,caribbean,517
@@ -1008,6 +1047,7 @@ specialty,classical.crossover,635
 specialty,classical.period,115
 specialty,club.rock,1407
 specialty,collaboration,1130
+specialty,colombia,1570
 specialty,commercials,1247
 specialty,concertino,1414
 specialty,concerto,344
@@ -1158,11 +1198,13 @@ specialty,modern.composition,877
 specialty,modern.creative,864
 specialty,modern.jazz,118
 specialty,monodrama,1468
+specialty,morna,1591
 specialty,motown,213
 specialty,mowtown,1261
 specialty,mpb,793
 specialty,musique.concrete,407
 specialty,mutant.jazz,1532
+specialty,neoclassic,1540
 specialty,neoclassical,92
 specialty,neofolk,496
 specialty,neosoul,1074
@@ -1172,9 +1214,11 @@ specialty,neu.rnb,1504
 specialty,new.york.school,1066
 specialty,nimbus,507
 specialty,noise,55
+specialty,nouba,1578
 specialty,no.wave,140
 specialty,nu.disco.house,1212
 specialty,numero.group,1075
+specialty,nww.list,1580
 specialty,obeah,515
 specialty,oldies,122
 specialty,opera,204
@@ -1184,10 +1228,12 @@ specialty,orchestral,35
 specialty,orchestral.suite,862
 specialty,orchestral.works,337
 specialty,organ,333
+specialty,orhodox.black.metal,1587
 specialty,ost,249
 specialty,otis.span,1252
 specialty,outlawcountry,1255
 specialty,outlaw.country,832
+specialty,palilalia,1573
 specialty,paradise.garage,1484
 specialty,partch.instruments,1534
 specialty,patterns,1209
@@ -1205,6 +1251,7 @@ specialty,poetry,844
 specialty,politics,1513
 specialty,polka,460
 specialty,polyphony,1402
+specialty,pop.2010s,1565
 specialty,post.bebop,1337
 specialty,post.bop,244
 specialty,post.jazz,881
@@ -1219,6 +1266,8 @@ specialty,psychadelic,1140
 specialty,psychedelic,2
 specialty,psychedelic.soul,856
 specialty,psychodelic,1110
+specialty,psyclarinet,1572
+specialty,punjabi,1566
 specialty,pythagorean,1531
 specialty,quadraphonic,239
 specialty,quartet,510
@@ -1250,6 +1299,7 @@ specialty,science.fiction,82
 specialty,scifi,1159
 specialty,score,31
 specialty,serenity,1435
+specialty,showtune,1555
 specialty,showtunes,896
 specialty,sitar,1117
 specialty,slide.guitar,399
@@ -1265,7 +1315,9 @@ specialty,soukous,1329
 specialty,soul,46
 specialty,souljazz,1050
 specialty,soul.jazz,588
+specialty,soundart,1584
 specialty,sound.collage,291
+specialty,soundway.records,1582
 specialty,space.age,901
 specialty,spacerock,1005
 specialty,space.rock,161
@@ -1311,7 +1363,9 @@ specialty,traditional.pop,894
 specialty,trailer,1030
 specialty,trailer.music,1200
 specialty,tropicalia,795
+specialty,tropicult,1577
 specialty,trumpet,121
+specialty,tuareg,1542
 specialty,turkish.pop,1485
 specialty,tuva,1363
 specialty,tv,1105
