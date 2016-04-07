@@ -1,0 +1,109 @@
+Performed 128 attempts totaling 448 iterations over 2.127 seconds
+Min hours of 5:20, Max hours of 7:54, Mean hours of 6:15,
+Standard Deviation of 1:13, Min time spent per thing of 0:30
+
+2015-12-04: 
+  2:00	(100% done)	prob proj monte carlo paper due 8-10 pages
+  1:00	(100% done)	putnam test study for putnam
+  0:40	(33% done)	todo weekly clean room & lights 
+  1:49	(23% done)	numanal proj presentation (15-20 min) (w/ all research done)
+  1:22	(17% done)	prob test test 3
+  1:01	(7% done)	scipoly proj paper 10-12 pages
+Daily total hours of work at 7:54
+
+2015-12-05: 
+  1:30	(100% done)	todo today putnam from 8ish to 4ish
+  0:40	(67% done)	todo weekly clean room & lights 
+  3:20	(65% done)	numanal proj presentation (15-20 min) (w/ all research done)
+  1:22	(35% done)	prob test test 3
+  1:01	(14% done)	scipoly proj paper 10-12 pages
+Daily total hours of work at 7:54
+
+2015-12-06: 
+  2:50	(100% done)	numanal proj presentation (15-20 min) (w/ all research done)
+  2:00	(100% done)	todo today brotherhood from 9ish to late
+  0:40	(100% done)	todo weekly clean room & lights 
+  1:22	(52% done)	prob test test 3
+  1:01	(20% done)	scipoly proj paper 10-12 pages
+Daily total hours of work at 7:54
+
+2015-12-07: 
+  1:55	(76% done)	prob test test 3
+  5:58	(60% done)	scipoly proj paper 10-12 pages
+Daily total hours of work at 7:54
+
+2015-12-08: 
+  5:58	(100% done)	scipoly proj paper 10-12 pages
+  1:55	(100% done)	prob test test 3
+Daily total hours of work at 7:54
+
+2015-12-09: 
+  0:30	(50% done)	numanal lab lab6
+  0:42	(14% done)	ai test final exam
+  2:14	(12% done)	ai proj NFL neural net
+  0:45	(12% done)	numanal test final exam
+  0:30	(8% done)	todo weekly pack up room back into 214 and pack for home
+  0:36	(5% done)	numanal proj sim annealing nelder meed monte carlo etc.
+Daily total hours of work at 5:20
+
+2015-12-10: 
+  0:30	(100% done)	numanal lab lab6
+  0:42	(29% done)	ai test final exam
+  2:14	(25% done)	ai proj NFL neural net
+  0:30	(21% done)	numanal test final exam
+  0:30	(17% done)	todo weekly pack up room back into 214 and pack for home
+  0:51	(12% done)	numanal proj sim annealing nelder meed monte carlo etc.
+Daily total hours of work at 5:20
+
+2015-12-11: 
+  0:42	(43% done)	ai test final exam
+  2:15	(37% done)	ai proj NFL neural net
+  0:30	(29% done)	numanal test final exam
+  0:30	(25% done)	todo weekly pack up room back into 214 and pack for home
+  1:21	(24% done)	numanal proj sim annealing nelder meed monte carlo etc.
+Daily total hours of work at 5:20
+
+2015-12-12: 
+  0:42	(57% done)	ai test final exam
+  2:15	(50% done)	ai proj NFL neural net
+  0:30	(38% done)	numanal test final exam
+  1:21	(35% done)	numanal proj sim annealing nelder meed monte carlo etc.
+  0:30	(34% done)	todo weekly pack up room back into 214 and pack for home
+Daily total hours of work at 5:20
+
+2015-12-13: 
+  0:42	(71% done)	ai test final exam
+  2:15	(63% done)	ai proj NFL neural net
+  1:21	(46% done)	numanal proj sim annealing nelder meed monte carlo etc.
+  0:30	(46% done)	numanal test final exam
+  0:30	(42% done)	todo weekly pack up room back into 214 and pack for home
+Daily total hours of work at 5:20
+
+2015-12-14: 
+  0:42	(86% done)	ai test final exam
+  2:15	(75% done)	ai proj NFL neural net
+  0:45	(58% done)	numanal test final exam
+  1:06	(56% done)	numanal proj sim annealing nelder meed monte carlo etc.
+  0:30	(50% done)	todo weekly pack up room back into 214 and pack for home
+Daily total hours of work at 5:20
+
+2015-12-15: 
+  0:42	(100% done)	ai test final exam
+  2:15	(88% done)	ai proj NFL neural net
+  0:45	(71% done)	numanal test final exam
+  1:06	(65% done)	numanal proj sim annealing nelder meed monte carlo etc.
+  0:30	(59% done)	todo weekly pack up room back into 214 and pack for home
+Daily total hours of work at 5:20
+
+2015-12-16: 
+  2:15	(100% done)	ai proj NFL neural net
+  0:45	(83% done)	numanal test final exam
+  1:31	(78% done)	numanal proj sim annealing nelder meed monte carlo etc.
+  0:48	(72% done)	todo weekly pack up room back into 214 and pack for home
+Daily total hours of work at 5:20
+
+2015-12-17: 
+  2:39	(100% done)	numanal proj sim annealing nelder meed monte carlo etc.
+  1:40	(100% done)	todo weekly pack up room back into 214 and pack for home
+  0:59	(100% done)	numanal test final exam
+Daily total hours of work at 5:20  
