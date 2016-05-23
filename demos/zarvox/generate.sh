@@ -47,6 +47,6 @@ elif [[ $ARG1 =~ $ARG1_REGEX  && $ARG2 =~ $ARG2_REGEX ]]
 	python3 -u playlist_generator/generator.py "$ARG1" "$ARG2" &> ../aristeia.github.io/demos/zarvox/zarvox_term.out &
 else
 	echo "66666666666666" > ../aristeia.github.io/demos/zarvox/zarvox_term.out
-	echo "Error: bad arguments. Please try again" >> ../aristeia.github.io/demos/zarvox/zarvox_term.out
+	echo "Error: bad arguments:$ARG1,$ARG2. Please try again" >> ../aristeia.github.io/demos/zarvox/zarvox_term.out
 fi
 echo "66666666666666" >> ../aristeia.github.io/demos/zarvox/zarvox_term.out

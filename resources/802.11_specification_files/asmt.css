@@ -1,0 +1,114 @@
+body {background-color: white}
+body {font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif}
+tt {font-size: 120%}
+h1 {font-size: 170%}
+h1 {font-family: "Futura", "Helvetica", Sans-Serif}
+/*h1 {font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif}*/
+h1 {text-align: center}
+h2 {font-size: 125%}
+h2 {font-family: "Futura", "Helvetica", Sans-Serif}
+/*
+h2 {
+border: 1px solid #0000FF;
+background: #EEF5FD;
+color: #A52A2A;
+border-bottom: 2px solid #000099;
+color: #039;
+*/
+}
+h3 {font-size: 95%}
+h3 {font-style: italic}
+h3 {font-family: "Futura", "Helvetica", Sans-Serif}
+p {font-size: 100%}
+pre {font-size: 120%}
+ol.decimal {list-style-type: decimal}
+ol.roman {list-style-type: lower-roman}
+ol.alpha {list-style-type: lower-alpha}
+.ss {font-family: "Futura", "Helvetica", Sans-Serif}
+.centeredImage
+  {
+	text-align:center;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+  }
+  
+.indent {
+	text-indent: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.vspace {
+	margin-top: 10px;
+}
+  	
+.code {
+	width: 650px;
+	border: 1px solid #5babf9;
+	background-color: #f0fbfb;
+	font-family: monospace;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+  	
+.widecode {
+	width: 800px;
+	border: 1px solid #5babf9;
+	background-color: #f0fbfb;
+	font-family: monospace;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+  	
+.narrowcode {
+	width: 500px;
+	border: 1px solid #5babf9;
+	background-color: #f0fbfb;
+	font-family: monospace;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+	
+.code2 {
+	font-family: monospace;
+	white-space: pre;
+	background-color: #ffffdd;
+	border-left: solid thin;
+	border-right: solid thin;
+}
+
+#hmin
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 45px;
+	width: 700px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#hmin th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#hmin td
+{
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+#hmin tbody tr:hover td
+{
+	color: #009;
+}

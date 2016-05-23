@@ -66,7 +66,7 @@ Education
 
     *B.S. in Computer Science and Mathematics (double major)*, May 2016
 
-    -   Courses include [compilers](/syllabi/cs481.pdf), [NLP](/syllabi/cs425.pdf), [AI](/syllabi/cs431.pdf), [networks](/syllabi/cs325.pdf), [abstract](/syllabi/math433.pdf) and [linear algebra](/syllabi/math290.pdf), [modeling](/syllabi/math471.pdf), [optimization](/syllabi/math335.pdf), [numerical analysis](/syllabi/math420.pdf), [probability](/syllabi/math375.pdf) and [stats](/syllabi/math376.pdf).
+    -   Courses include [compilers](/resources/syllabi/cs481.pdf), [NLP](/resources/syllabi/cs425.pdf), [AI](/resources/syllabi/cs431.pdf), [networks](/resources/syllabi/cs325.pdf), [abstract](/resources/syllabi/math433.pdf) and [linear algebra](/resources/syllabi/math290.pdf), [modeling](/resources/syllabi/math471.pdf), [optimization](/resources/syllabi/math335.pdf), [numerical analysis](/resources/syllabi/math420.pdf), [probability](/resources/syllabi/math375.pdf) and [stats](/resources/syllabi/math376.pdf).
     -   I've also tutored students for my university's computer science department for several hours per week, typically helping students of introductory and intermediate computer science classes, for the past two years.
 
 

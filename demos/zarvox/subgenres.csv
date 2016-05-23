@@ -90,6 +90,7 @@ alternative,emocore,300
 alternative,emotive.hardcore,1433
 alternative,english.folk,1182
 alternative,ethereal,443
+alternative,exlibris.musik,1602
 alternative,experimental.folk,1456
 alternative,falsetto,645
 alternative,female,863
@@ -122,6 +123,7 @@ alternative,geek.rock,1350
 alternative,go.discs,1463
 alternative,gothic,371
 alternative,gothic.country,1189
+alternative,gothic.ethereal,1603
 alternative,gothic.rock,373
 alternative,gothrock,1064
 alternative,gypsy.punk,412
@@ -174,11 +176,13 @@ alternative,new.romantic,535
 alternative,newwave,1161
 alternative,new.wave,30
 alternative,new.weird.america,421
+alternative,newzealand,1592
 alternative,nightliner,1364
 alternative,noisepop,1032
 alternative,noise.pop,219
 alternative,noise.punk,756
 alternative,noise.rock,218
+alternative,noodly,1600
 alternative,nz,1062
 alternative,ohio,854
 alternative,oldtime,1316
@@ -225,6 +229,7 @@ alternative,roots.reggae,262
 alternative,rough.trade.records,1018
 alternative,saintjohn,1576
 alternative,scandinavia,618
+alternative,scandinavian.folk,1607
 alternative,scotland,152
 alternative,see.thru.broadcasting,1294
 alternative,self.released,520
@@ -298,12 +303,14 @@ electronic,bigbeat,1084
 electronic,big.beat,15
 electronic,bitpop,1353
 electronic,bit.pop,1585
+electronic,black.ambient,1594
 electronic,bluetech,1515
 electronic,braindance,837
 electronic,brainwave,1451
 electronic,breakbeat,23
 electronic,breakbeat.hardcore,1061
 electronic,breakbeat.rock,1429
+electronic,breakbeats,1595
 electronic,breakcore,306
 electronic,breaks,13
 electronic,bristol.sound,806
@@ -346,6 +353,7 @@ electronic,darkstep,607
 electronic,deep,529
 electronic,deephouse,1060
 electronic,deep.house,261
+electronic,dekmantel,1593
 electronic,detroit.house,876
 electronic,detroit.techno,467
 electronic,digital.hardcore,1002
@@ -582,6 +590,7 @@ electronic,soulful.house,1128
 electronic,soundscape,503
 electronic,soundscapes,1020
 electronic,space,789
+electronic,space.ambient,1601
 electronic,spacedisco,1562
 electronic,space.disco,347
 electronic,street.bass,521
@@ -665,6 +674,7 @@ hip-hop,hiero,769
 hip-hop,hiphip,948
 hip-hop,hiphop,941
 hip-hop,hip.hop,12
+hip-hop,homerecording,1599
 hip-hop,horrorcore,195
 hip-hop,hyphy,820
 hip-hop,jazz.hip.hop,723
@@ -788,6 +798,7 @@ loud rock,female.fronted.metal,279
 loud rock,folk.black.metal,1579
 loud rock,folk.metal,450
 loud rock,foo.fighters,1188
+loud rock,franco,1606
 loud rock,funeral.doom,986
 loud rock,funeral.doom.metal,1326
 loud rock,funk.metal,461
@@ -844,6 +855,7 @@ loud rock,melodic.hardcore,434
 loud rock,melodic.hard.rock,1389
 loud rock,melodic.metal,280
 loud rock,melodic.metalcore,930
+loud rock,melodic.thrash.metal,1598
 loud rock,merseybeat,1131
 loud rock,metal,70
 loud rock,metalcore,144
@@ -898,11 +910,13 @@ loud rock,progressive.pop,320
 loud rock,progressive.rock,7
 loud rock,progressive.thrash.metal,1446
 loud rock,progrock,1124
+loud rock,proto.doom,1597
 loud rock,proto.metal,1398
 loud rock,proto.punk,298
 loud rock,psychedelic.black.metal,1366
 loud rock,psychedelic.rock,6
 loud rock,psychedelic.sludge,142
+loud rock,psychrock,1605
 loud rock,quebec,638
 loud rock,rac,1417
 loud rock,rapcore,627
@@ -924,6 +938,7 @@ loud rock,roots.rock,641
 loud rock,rpi,1554
 loud rock,screamo,223
 loud rock,shred,1483
+loud rock,shredding,1596
 loud rock,skramz,1012
 loud rock,sludge,81
 loud rock,sludge.metal,79
@@ -978,6 +993,7 @@ specialty,21st.century,498
 specialty,70ies,1246
 specialty,acid.rock,236
 specialty,acid.trip,1523
+specialty,acousmatic,1604
 specialty,africa,782
 specialty,african.folk,1448
 specialty,african.mass,1457
@@ -1268,6 +1284,7 @@ specialty,psychedelic.soul,856
 specialty,psychodelic,1110
 specialty,psyclarinet,1572
 specialty,punjabi,1566
+specialty,punk.jazz,1608
 specialty,pythagorean,1531
 specialty,quadraphonic,239
 specialty,quartet,510

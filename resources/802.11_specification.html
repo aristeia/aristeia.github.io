@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="802.11_specification_files/asmt.css">
+<link rel="stylesheet" type="text/css" href="802.11_specification_files/asmt.html">
+   <title>802.11~ Specification</title>
+</head>
+
+<body><h1>802.11~ Specification</h1>
+
+<center>
+<h2>An overview of the UPS 802.11 project</h2></center>
+
+
+<p><br>
+</p><h2>Introduction:</h2>
+
+The course project involves implementing a simplified version of the 
+802.11 LLC/MAC layer atop the virtual RF layer you used in the previous 
+assignment.  In other words, you will extend the broadcast-based 
+communication facilities of the RF layer to provide access control and 
+reliability, and offer these services to the layer above via a set of 
+interface routines.  We will make the following simplifying assumptions:
+<ol>
+<li>No base station or distribution system
+</li><li>All machines are within range of all others
+</li><li>No fragmentation or reassembly
+</li><li>No power management mechanisms
+</li><li>WEP will not be supported
+</li><li>Calls to interface routines will not be overlapped
+</li></ol>
+Your implementations will be expected to interoperate and share the RF 
+layer as specified in the 802.11 specification.  The interface routines 
+you implement will also be identical, so that a common test application 
+can be used atop any of your implementation projects.  We shall call our
+ version "802.11~", which is appropriate both because there are no more 
+unused letters to designate 802.11 standards, and because we're "sort of
+ 802.11".
+
+
+<h2>Contents:</h2>
+
+<ul>
+<li>802.11~ <a href="#frame">frame format</a> details</li>
+<li>The 802.11~ <a href="#interface">service interface</a></li>
+<li>Notes on the <a href="#code">project code</a></li>
+<li>Project <a href="#resources">resources</a></li>
+<li>Implementation <a href="#tips">tips</a></li>
+</ul>
+<p>
+
+<!-- ================================================================= -->
+<a name="frame"></a>
+</p><h2>Frame Format</h2>
+
+The simplifications assumed in 802.11~ allow for a much less complex 
+frame format than that required by the full 802.11.  The 802.11~ frame 
+is shown below (in bytes), with the Control field expanded to show its 
+contents (in bits):   
+
+<p>
+</p><center><img src="802.11_specification_files/frame.png" width="80%"></center>
+<p>
+
+
+</p><h3>Control Field</h3>
+<dl>
+<dt>Bits 0-2:
+</dt><dd>These three bits describe the frame's type, with the five frame types below currently defined:
+<blockquote><pre>000	Data
+001	ACK
+010	Beacon
+100	CTS
+101	RTS
+</pre></blockquote>
+</dd><dt>Bit 3:
+</dt><dd>This bit is set if the frame is a retransmission.<p>
+</p></dd><dt>Bits 4-15:
+</dt><dd>The remaining 12 bits constitute a sequence number (a 12-bit 
+unsigned integer) so that receiving stations can distinguish between and
+ properly order frames.  Sequence numbers always start at zero, and wrap
+ back to zero if they reach 2<sup>12</sup>-1.
+</dd></dl>
+
+<h3>Addresses</h3>
+
+MAC addresses in 802.11~ are unsigned 16-bit integers.  The address consisting of all 1's (2<sup>16</sup>-1)
+ is reserved as the broadcast address.  Both the destination and source 
+addresses are included in all frame types, for consistency, though 
+Beacon frames use the broadcast address as their destination.  
+
+<!--The 802.11~ committee has apportioned sections of the MAC address space to the following implementors:
+
+<ul>
+<li>DuBois: 101&mdash;200</li>
+<li>Finch: 201&mdash;300</li>
+<li>Livingston: 301&mdash;400</li>
+<li>Lund: 401&mdash;500</li>
+<li>Marx: 501&mdash;600</li>
+<li>Pastor: 601&mdash;700</li>
+<li>Salas: 701&mdash;800</li>
+<li>Spiegel: 801&mdash;900</li>
+<li>Swanson: 901&mdash;1000</li>
+<li>Taylor: 1001&mdash;1100</li>
+</ul>
+-->
+
+
+<h3>Data</h3>
+
+Data frames may carry up to 2038 bytes of data, giving a maximum frame size of 2048 (2K) bytes.
+
+<h3>CRC</h3>
+
+All frames carry a four-byte CRC checksum, computed using the same 
+polynomial specified in IEEE 802.11.  Implementing the CRC checksum will
+ be an extra-credit option for the 802.11~ project.  Packets sent from 
+802.11~ implementations that do <i>not</i> compute valid checksums should fill the CRC field with 1s.
+
+
+
+<!-- ================================================================= -->
+<a name="interface"></a>
+<h2>802.11~ Interface Routines — Java Versions</h2>
+
+See the Java <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/doc/index.html">Documentation</a> for more details on the Java code that's provided.  The <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/doc/wifi/Dot11Interface.html">Dot11Interface</a> describes the routines that must be implemented as part of your 802.11~ layer.  They're presented briefly below.  <b>Note:</b> The <a "doc="" rf="" rf.html"="">RF layer</a> defines a variety of physical-layer constants that your implementation should reference.
+
+<pre>int send(short&nbsp;dest, byte[]&nbsp;data, int&nbsp;len);
+</pre>
+<blockquote>
+Send <tt>len</tt> bytes from <tt>data</tt> to the address specified in <tt>dest</tt>.  If <tt>len</tt> exceeds the size of the byte array, send as many bytes as <tt>data</tt> contains.
+</blockquote>
+
+<pre>int recv(Transmission&nbsp;t);
+</pre>
+<blockquote>
+This function blocks until data arrives, at which point it writes the 
+incoming data and address information into the Transmission instance 
+passed as argument (respecting the size of the byte array in the 
+Transmission) and returns the number of bytes received.
+</blockquote>
+
+<pre>int status();
+</pre>
+<blockquote>
+This function returns a code representing the current status of the 
+802.11~ layer.  The code reflects the most recent error, or the status 
+of the most recent transmission or other operation.  Status codes 
+include:
+</blockquote>
+
+<blockquote>
+<table cellspacing="10">
+<tbody><tr><td><tt>1</tt></td><td><tt>SUCCESS</tt></td>
+<td>Initial value if <tt>802_init</tt> is successful</td></tr>
+<tr><td><tt>2</tt></td><td><tt>UNSPECIFIED_ERROR</tt></td>
+<td>General error code</td></tr>
+<tr><td><tt>3</tt></td><td><tt>RF_INIT_FAILED</tt></td>
+<td>Attempt to initialize RF layer failed</td></tr>
+<tr><td><tt>4</tt></td><td><tt>TX_DELIVERED</tt></td>
+<td>Last transmission was acknowledged</td></tr>
+<tr><td><tt>5</tt></td><td><tt>TX_FAILED</tt></td>
+<td>Last transmission was abandoned after unsuccessful delivery attempts</td></tr>
+<tr><td><tt>6</tt></td><td><tt>BAD_BUF_SIZE</tt></td>
+<td>Buffer size was negative</td></tr>
+<tr><td><tt>7</tt></td><td><tt>BAD_ADDRESS</tt></td>
+<td>Pointer to a buffer or address was NULL</td></tr>
+<tr><td><tt>8</tt></td><td><tt>BAD_MAC_ADDRESS</tt></td>
+<td>Illegal MAC address was specified</td></tr>
+<tr><td><tt>9</tt></td><td><tt>ILLEGAL_ARGUMENT</tt></td>
+<td>One or more arguments are invalid</td></tr>
+<tr><td><tt>10</tt></td><td><tt>INSUFFICIENT_BUFFER_SPACE</tt></td>
+<td>Outgoing transmission rejected due to insufficient buffer space</td></tr>
+</tbody></table>
+</blockquote>
+
+
+<pre>int command(int&nbsp;cmd, int&nbsp;val);
+</pre>
+<blockquote>
+This function provides a mechanism to pass command or configuration data
+ to an 802.11~ layer at runtime.  One could use it to enable or disable 
+debugging output on-the-fly, change system parameters, or prompt the 
+802.11~ layer to summarize network activity, for example.  <b>Note:</b> User-defined command code values should be greater than 10.  A compliant 802.11~ implementation <i>must</i> support the following commands:
+<p>
+
+
+</p><dl>
+<dt><b>Command 0</b>: Options and settings
+</dt><dd>Should summarize all command options and report their current settings.  The accompanying value parameter is ignored.
+<p>
+
+</p></dd><dt><b>Command 1</b>:  Debug level.
+</dt><dd>The meaning of non-zero values can be implementation dependent, but passing a value of 0 should disable all debugging output.
+<p>
+
+</p></dd><dt><b>Command 2</b>:  Slot selection.
+</dt><dd>If the accompanying value parameter is 0 the link layer should 
+select slots randomly.  Any other value should cause the link layer to 
+always select <tt>maxCW</tt>.
+<p>
+
+</p></dd><dt><b>Command 3</b>:  Beacon interval.
+</dt><dd>The accompanying value specifies the desired number of seconds between the <i>start</i> of beacon transmissions.  A value of -1 should disable the sending of beacon frames.
+<p>
+
+<!--
+<dt><b>Command 4</b>:  Beep interval.
+<dd>The accompanying value specifies the desired number of seconds between beeps.  A value of -1 should disable beeping.  When beeping is enabled, you should beep each time your local clock reaches a time value which is evenly divisible by the beep interval in milliseconds.
+-->
+</p></dd></dl>
+
+</blockquote>
+
+
+<h2>802.11~ Interface Routines — C++ Versions</h2>
+
+Note that none of these routines are <i>member functions</i> (methods).  Your implementation should be object oriented, but must still present a non-OO interface to the layer above.  <b>Note:</b>
+ The RF layer defines a variety of physical-layer constants that your 
+implementation should reference.  See lines 21 through 37 of <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/Code/C++/RF.h"><tt>RF.h</tt></a>.
+
+<pre>int dot11_init(short MACaddr, ostream *output);
+</pre>
+<blockquote>
+This routine must be called before any of the other 802.11~ routines are
+ used.  The station adopts the 16-bit MAC address passed as argument.  
+The second argument is an output stream to which diagnostic messages 
+should be printed, unless the argument is null.
+The call returns -1 on error and sets an internal error code.
+</blockquote>
+<p>
+
+</p><pre>int dot11_send(short destAddr, char *buf, int bufSize);
+</pre>
+<blockquote>
+This non-blocking function asks the 802.11~ layer to transmit <i>bufSize</i> bytes, starting at address <i>buf</i>,
+ to the specified destination address.  The function returns the number 
+of bytes queued for transmission, or -1 on error, in which case an 
+internal error code is set.  Once the queued data is successfully 
+transmitted and acknowledged, the internal status code is updated.
+</blockquote>
+<p>
+
+</p><pre>int dot11_recv(short *srcAddr, short *destAddr, char *buf, int bufSize);
+</pre>
+<blockquote>
+This function blocks until data arrives, at which point it returns the number of bytes of data copied into <i>buf</i>, respecting the size limit passed in via <i>bufSize</i>.
+  The source and destination addresses are filled in as a result of the 
+call.  (Only data addressed to this station is returned via <tt>802_recv</tt>, but <i>destAddr</i>
+ can help a station determine whether the frame was broadcast to all 
+stations, or addressed specifically to this station.)  If the buffer is 
+too small to hold the entire data payload of the incoming transmission, 
+the rest should be discarded.  The function returns -1 on error, and 
+sets an internal error code.
+</blockquote>
+<p>
+
+</p><pre>int dot11_status();
+</pre>
+<blockquote>
+This function returns a code representing the current status of the 
+802.11~ layer.  The code reflects the most recent error, or the status 
+of the most recent transmission or other operation.  (See Java version 
+above for list of status codes.)
+</blockquote>
+
+<p>
+
+</p><pre>int dot11_command(int cmd, int val);
+</pre>
+<blockquote>
+This function provides a mechanism to pass command or configuration data
+ to an 802.11~ layer at runtime.  One could use it to enable or disable 
+debugging output on-the-fly, change system parameters, or prompt the 
+802.11~ layer to summarize network activity, for example.  <b>Note:</b> 
+User-defined command code values should be greater than 10.   (See Java 
+comments above for list of command codes that should be supported.)
+<p>
+</p></blockquote>
+
+
+<!-- ================================================================= -->
+<a name="code"></a>
+<h2>Project Code:</h2>
+
+If you're writing in Java, you don't need to know much about the project
+ structure — just implement the 802.11~ interface routines in the <tt>LinkLayer</tt> class, add any additional classes you need to the <tt>wifi</tt> package, compile, then run the <tt>WiFiClient</tt> to <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/gui.png">test things out</a>.  The pieces will end up fitting together like this:
+
+<p>
+</p><center><img src="802.11_specification_files/layers_java.png" width="40%"></center>
+<p>
+
+Things get more complex if you implement your layer in C++.  The virtual
+ physical layer (RF) is written in Java, as is the client.  This means a
+ complete, running 802.11~ project really looks like a "C++ sandwich" — 
+there's a Java layer on top, your C++ code in the middle, and Java again
+ below your code:
+
+</p><p>
+</p><center><img src="802.11_specification_files/layers.png" width="40%"></center>
+<p>
+
+The good news is that whether you choose to work in C++ or Java, I'm giving you <i>all</i> you need except for the small matter of the code in <tt>LinkLayer</tt>, but even there I'm giving you a <i>starting point</i> — a file that compiles with the rest of the project to produce a running program.  (The current versions of <tt>linklayer.cpp</tt> and <tt>LinkLayer.java</tt> just call the RF layer directly when <tt>dot11</tt> interface routines are called.)  
+
+</p><p>
+
+
+
+<!-- ================================================================= -->
+<a name="resources"></a>
+</p><h2>Resources:</h2>
+
+<ul>
+<li><a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/doc/index.html">Documentation</a> for all Java code I'm supplying.</li>
+
+<li>Project files are available as an importable <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/Code/WiFiProject.zip">Eclipse project</a>.
+  You'll need to replace the routines in LinkLayer.java with your own.  
+At the moment, they pretty much do nothing, but at least there's enough 
+there that the whole project compiles and runs.  (C++ code framework is <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/Code/C++.zip">here</a>.)</li>
+
+<li>An <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/Code/monitor.jar">RF monitor</a> application that understands and displays 802.11~ packets and can help you debug your implementation.  It knows
+enough about the RF layer to be able to report on transmissions and collisions,
+and can wipe out transmissions if you tell it to.</li>
+
+<li>A <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/Code/wifi.jar">working implementation</a> of the project.  You can test yours against it as you add functionality to your own.</li>
+
+<li>You can download a free copy of the <a href="http://standards.ieee.org/getieee802/802.11.html">802.11 specification</a> document from the IEEE.</li>
+
+<li>Some helpful <a href="http://cs.pugetsound.edu/%7Ebrichards/Classes/325/Asmts/Project/PDFs">diagrams</a>, including the flow chart we went over in class.</li>
+
+</ul>
+<p>
+
+
+<!-- ================================================================= -->
+<a name="tips"></a>
+</p><h2>Tips:</h2>
+
+<ul>
+<li>Make sure you use a <tt>Packet</tt> class!  Hide all of those 
+bit-mangling operations so you never have to see them again (after 
+testing them thoroughly, of course.)  Make sure you implement a nice <tt>toString</tt> method (or overload the <tt>&lt;&lt;</tt> operator in C++) so you can print packets easily.</li>
+
+<li>Use a finite-state diagram to describe the MAC behavior before you 
+start implementing.  Be sure it includes details of where and when the 
+collision window is expanded as well as how ACKs are generated and sent.</li>
+
+<li>When desigining your implementation, think about classes first and 
+then threads — decompose the problem into classes, and then think about 
+which pieces of functionality within a class will need to be implemented
+ in separate threads.</li>
+
+<li>Use the "nuke" and "jam" settings on the latest version of the 
+monitor to help test your code:  Jam can be used to keep the channel 
+busy, and nuke can test how your code responds to collisions.
+</li></ul>
+
+
+<!-- ================================================================= -->
+<a name="grading"></a>
+<h2>Grading:</h2>
+
+The project will be divided into a series of checkpoints, to help guide 
+your implementation and ensure that no one falls behind.  Each of the 
+checkpoints is worth 5% of the overall project grade, and is pass/fail.
+
+<p>
+</p><hr width="100%">
+<i>Brad Richards, 2016</i>
+
+
+</body></html>
