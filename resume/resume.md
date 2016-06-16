@@ -15,7 +15,7 @@ Technical Skills
 Python, SQL/PLSQL, Java,     Rails,         PostgreSQL 9.3+,  Enterprise Linux Systems
 Ruby, Javascript, C/C++,     Node.js,       Oracle Database   (Debian, Fedora, Ubuntu),
 Bash, HTML/CSS, Haskell,     Bootstrap,     12c, SQLite,      Git /SVN, Oracle 
-Prolog, PHP, Assembly,       Express.js,    MySQL             Peopletools 8.53, RAID
+Prolog, PHP, Assembly,       Express.js,    MySQL             Peopletools 8.53
 Lisp, Batch                  jQuery                           
 -----------------------------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ Education
 
 *   **[University of Puget Sound](http://www.pugetsound.edu/)** (Tacoma, WA)
 
-    *B.S. in Computer Science and Mathematics (double major)*, May 2016
+    *B.S. in Computer Science and Mathematics (double major)*, 
 
     -   Courses include [compilers](/resources/syllabi/cs481.pdf), [NLP](/resources/syllabi/cs425.pdf), [AI](/resources/syllabi/cs431.pdf), [networks](/resources/syllabi/cs325.pdf), [abstract](/resources/syllabi/math433.pdf) and [linear algebra](/resources/syllabi/math290.pdf), [modeling](/resources/syllabi/math471.pdf), [optimization](/resources/syllabi/math335.pdf), [numerical analysis](/resources/syllabi/math420.pdf), [probability](/resources/syllabi/math375.pdf) and [stats](/resources/syllabi/math376.pdf).
     -   I've also tutored students for my university's computer science department for several hours per week, typically helping students of introductory and intermediate computer science classes, for the past two years.
@@ -75,7 +75,7 @@ Interests
 
 *   **[Association for Computing Machinery](http://acm.pugetsound.edu)** (University of Puget Sound)
 
-    *President and Project Organizer*, August 2013 - Present
+    *President and Project Organizer*, August 2013 - May 2016
 
     -   I've participated in this club through several projects since the beginning of freshman year, and have served as its project organizer and president for the past year.
     -   We've hosted several hackathons, including the [ACM's intercollegiate programming competition](http://mathcs.pugetsound.edu/acm-icpc/).
@@ -85,7 +85,7 @@ Interests
 
 *   **[KUPS 90.1FM](http://www.kups.net/)** (University of Puget Sound)
 
-    *Communications Engineer and Webmaster*, August 2015 - Present
+    *Communications Engineer and Webmaster*, August 2015 - May 2016
 
     -   Worked on several software projects for the station, most notably a new radio automation system/scheduling software as an open-source project. The software uses information from music files to datamine exact music metadata from online sources, and also finds currently-trending music to add to the rotation. After validating music files with this metadata, the software queries these same sources for several metrics of popularity (enabling the software to rank the frequency with which the music should be played) as well as for genres, subgenres, and similar artists. Using these various classification features, playlists of similar music are generated using a k-nearest-neighbors approach.
     -   Additionally, performed basic systems administration tasks on the various computer systems used within the station, as well as regular maintenance of the website [kups.net](http://www.kups.net/).
