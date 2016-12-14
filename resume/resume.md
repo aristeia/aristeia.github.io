@@ -1,7 +1,7 @@
 Jon Sims
 ===============
 
-239 - 994 - 3049
+206 - 487 - 9342
 [jon@jonsims.me](mailto:jon@jonsims.me)
 [jonsims.me](http://www.jonsims.me)
 
@@ -13,10 +13,10 @@ Technical Skills
                                                                Technologies**
 ---------------------------- -------------- ----------------- --------------------------
 Python, SQL/PLSQL, Java,     Rails,         PostgreSQL 9.3+,  Enterprise Linux Systems
-Ruby, Javascript, C/C++,     Node.js,       Oracle Database   (Debian, Fedora, Ubuntu),
-Bash, HTML/CSS, Haskell,     Bootstrap,     12c, SQLite,      Git /SVN, Oracle 
-Prolog, PHP, Assembly,       Express.js,    MySQL             Peopletools 8.53
-Lisp, Batch                  jQuery                           
+Ruby, Javascript, C/C++,     Node.js,       MongoDB 3.0,      (Debian, Fedora, Ubuntu),
+Bash, HTML/CSS, Haskell,     Bootstrap,     Oracle Database   Git /SVN, Oracle 
+Prolog, PHP, Assembly,       Express.js,    12c, SQLite,      Peopletools 8.53
+Lisp, Batch                  jQuery         MySQL                  
 -----------------------------------------------------------------------------------------
 
 
@@ -24,6 +24,15 @@ Lisp, Batch                  jQuery
 
 Work Experience
 ---------------
+
+*   **[T-Mobile](http://www.t-mobile.com/)** (Bellevue, WA)
+
+    *Machine Learning Engineer*, June 2016 - Present
+
+    -   Perform predictive analytics on customer data attributes using Python and its scikit-learn library.
+    -   Implemented a data cleansing and validation mechanism to make unstructured JSON data into feature vectors in a way that scales for 168,000 unique feature-value pairs to be persisted to disk for 118 million customers.
+    -   Tuned and automated training on predictive models using these feature vectors.
+    -   Implemented a prediction verification mechanism to determine the accuracy of the predictions over time.
 
 *   **[Tyemill](http://www.tyemill.com/)** (Seattle, WA)
 
@@ -38,19 +47,16 @@ Work Experience
 
     -   I was a work study student with the university's database team, helping replace queries and views from their legacy database structure using the newer Oracle Peoplesoft.
     -   Using PL/SQL for views and Oracle Peopletools for queries, I met the database needs for various academic and financial departments around campus.
-    -   I worked with the senior developers who build the university's SQL database in the first place. From them, I've learned a foundational understanding of database administration.
 
 *   **[Risk Technology Solutions](http://www.risktechnologysolutions.com/)** (Charlotte, NC)
 
     *Junior Linux Systems Administrator*, June 2013 - August 2013
 
-    -   Risktech writes customized software for individual firms based on their market analysis needs. Rather than rewriting redundant code for similar problems, they wanted to look into an open source platform on which to write customized software. 
-    -   My role was to install and test the [Opengamma platform](https://github.com/OpenGamma/OG-Platform) for them in order to achieve an open source solution. 
-    -   I analyzed the potential costs and benefits of developing atop Opengamma.
+    -   Risktech writes customized trading software atop different open-source solutions. My role was to install and test the [Opengamma platform](https://github.com/OpenGamma/OG-Platform) for them, analyzing the potential costs and benefits of developing atop it.
 
 *   **Freelance Web Developer**
 
-    2012 - Present
+    December 2012 - Present
 
     -   I set up an apache2 webserver for my home server with my personal website at the address [jonsims.me](http://www.jonsims.me), with a backup at [aristeia.github.io](http://aristeia.github.io/).
     -   In the summer of 2014, I designed a website at [j-walking.biz](/demos/jwalking) for another client's dog-walking business (but has since been deactivated, however, a backup exists [here](/demos/jwalking)).
