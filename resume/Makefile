@@ -24,7 +24,7 @@ else
 endif
 
 clean:
-	$(RM) *.html *.pdf
+	# $(RM) *.html *.pdf
 
 $(LATEX_TEMPLATE):
 	git submodule update --init
