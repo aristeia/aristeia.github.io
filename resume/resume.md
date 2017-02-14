@@ -9,8 +9,8 @@ Technical Skills
 ----------------
 
 ----------------------------------------------------------------------------------------
-**Computer Languages**       **Frameworks** **Databases**     **Other
-                                                               Technologies**
+**Computer Languages**       **Web          **Databases**     **Other
+                             Frameworks**                       Technologies**
 ---------------------------- -------------- ----------------- --------------------------
 Python, SQL/PLSQL, Java,     Rails,         PostgreSQL 9.3+,  Enterprise Linux Systems
 Ruby, Javascript, C/C++,     Node.js,       MongoDB 3.0,      (Debian, Fedora, Ubuntu),
@@ -27,12 +27,17 @@ Work Experience
 
 *   **[T-Mobile](http://www.t-mobile.com/)** (Bellevue, WA)
 
-    *Machine Learning Engineer*, June 2016 - Present
+    *Machine Learning Engineer*, June 2016 - December 2016
 
     -   Perform predictive analytics on customer data attributes using Python and its scikit-learn library.
     -   Implemented a data cleansing and validation mechanism to make unstructured JSON data into feature vectors in a way that scales for 168,000 unique feature-value pairs to be persisted to disk for 118 million customers.
     -   Tuned and automated training on predictive models using these feature vectors.
     -   Implemented a prediction verification mechanism to determine the accuracy of the predictions over time.
+
+    *Mobile Automation Testing Engineer*, January 2017 - Present
+
+    -   Scripted the setup and configuration of general Android devices using UI Automator and ADB frameworks such that they can be integrated into a device farm seamlessly.
+    -   Wrote and graphically-designed a website explaining our group's product at [cxlab.io](cxlab.io) using Hugo
 
 *   **[Tyemill](http://www.tyemill.com/)** (Seattle, WA)
 
