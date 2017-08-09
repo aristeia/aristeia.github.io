@@ -10,14 +10,14 @@
 
 
 		<title>Student Loan Calculator</title>
-		<link href="/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/css/cover.css" rel="stylesheet">
-		<link href="/css/bootstrap-combobox.css" rel="stylesheet">
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../css/cover.css" rel="stylesheet">
+		<link href="../../css/bootstrap-combobox.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
-		<script type="text/javascript" src="/js/bootstrap.js"></script>
-		<script type="text/javascript" src="/js/bootstrap-combobox.js"></script>
-		<script type="text/javascript" src="/js/papaparse.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap.js"></script>
+		<script type="text/javascript" src="../../js/bootstrap-combobox.js"></script>
+		<script type="text/javascript" src="../../js/papaparse.min.js"></script>
 
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,10 +48,11 @@
 
 	          <div class="inner cover" >
 	            
-	            <p> The purpose of this page is to simulate an optimal loans repayment plan with respect to minimizing the total amount of interest gained during repayment, given a fixed monthly payment amount. Enter each loan with its current ballence, interest rate, and minimum monthly payment, and enter your total monthly loan repayment amount as well. Check whichever options you'd like, and let the simulator run! For best results, recalculate this every time either (1) an adjustable rate loan changes its interest rate, (2) you change your total monthly loan repayment amount, or (3) you make a payment towards a loan differently than the one calculated by this calculator.</p>
+	            <p> The purpose of this page is to generate an optimal loans repayment plan with respect to minimizing the total amount of interest gained during repayment, given a fixed monthly payment amount. Enter each loan with its current ballence, interest rate, and minimum monthly payment, and enter your total monthly loan repayment amount as well. Check whichever options you'd like, and let the simulator run! For best results, recalculate this every time either (1) an adjustable rate loan changes its interest rate, (2) you change your total monthly loan repayment amount, or (3) you make a payment towards a loan differently than the one calculated by this calculator.</p>
+				<br><br><br>
 
 	            <div class="panel panel-default">
-				  <table class="table" id="loans_table">
+				  <table class="table" id="loans_table" style="color: #333">
 				  	<tr id="loan0">
 				  		<td>
 							<label for="loan_name">Loan name</label>
@@ -81,27 +82,44 @@
 							</div>
 						</td>
 				  		<td hidden>
-							<button type="button" class="btn btn-default" onclick="remove_loan();">Remove Loan</button>
+				  			<br>
+							<button type="button" class="btn btn-default btn-sm">
+					          <span class="glyphicon glyphicon-minus"></span> Remove
+					        </button>
 						</td>
 					</tr>
 				  </table>
 				</div>
 				<script type="text/javascript">
 				function add_loan() {
-					var old_row = $("#loans_table > tr:last");
+					var old_row = $("table#loans_table > tbody > tr:last");
 					var num = parseInt( old_row.prop("id").match(/\d+/g), 10 ) +1;
-					var new_row = old_row.clone().prop('id', 'klon'+num );
-					$("#loans_table").append(new_row);
-					$("#loans_table > tr:last > td:last").show();
+					var new_row = old_row.clone().prop('id', 'loan'+num );
+					$("table#loans_table > tbody").append(new_row);
+					new_row = $("table#loans_table > tbody > tr:last");
+					$("table#loans_table > tbody > tr:last > td:last").show();
+					$("table#loans_table > tbody > tr:last > td:last > button").on('click', function() {
+							new_row.remove();
+						});
 					}
-				function remove_loan() {
-					var old_row = $("#loans_table > tr:last");
-					var num = parseInt( old_row.prop("id").match(/\d+/g), 10 ) +1;
-					var new_row = old_row.clone().prop('id', 'klon'+num );
-					$("#loans_table").append(new_row);
-					$("#loans_table > tr:last > td:last").show();
+				function remove_loan(index) {
+					var old_row = $("table#loans_table > tbody > tr:nth-child("+index.toString()+")").remove();
 					}
 				function fill_loans_with_examples() {
+					var old_row = $("#loans_table > tr:last");
+					var num = parseInt( old_row.prop("id").match(/\d+/g), 10 ) +1;
+					var new_row = old_row.clone().prop('id', 'klon'+num );
+					$("#loans_table").append(new_row);
+					$("#loans_table > tr:last > td:last").show();
+					}
+				function import_loan_values() {
+					var old_row = $("#loans_table > tr:last");
+					var num = parseInt( old_row.prop("id").match(/\d+/g), 10 ) +1;
+					var new_row = old_row.clone().prop('id', 'klon'+num );
+					$("#loans_table").append(new_row);
+					$("#loans_table > tr:last > td:last").show();
+					}
+				function export_loan_values() {
 					var old_row = $("#loans_table > tr:last");
 					var num = parseInt( old_row.prop("id").match(/\d+/g), 10 ) +1;
 					var new_row = old_row.clone().prop('id', 'klon'+num );
@@ -112,8 +130,36 @@
 				<div class="btn-group" role="group" aria-label="Loans buttons">
 					<button type="button" class="btn btn-default" onclick="add_loan();">Add another loan</button>
 					<button type="button" class="btn btn-default" onclick="fill_loans_with_examples();">See some example values for loans</button>
-					<button type="button" class="btn btn-default" onclick="fill_loans_with_examples();">Import loan values from a CSV file</button>
-					<button type="button" class="btn btn-default" onclick="fill_loans_with_examples();">Export your loan values to a CSV file</button>
+					<button type="button" class="btn btn-default" onclick="import_loan_values();">Import loan values from a CSV file</button>
+					<button type="button" class="btn btn-default" onclick="export_loan_values();">Export your loan values to a CSV file</button>
+				</div>
+				<br><br><br>
+	            <div class="panel panel-default">
+				  <table class="table" id="loans_table" style="color: #333">
+				  	<tr id="properties">
+				  		<td>
+							<label for="loan_budget">Monthly loans budget</label>
+							<div class="input-group">
+							  <span class="input-group-addon">$</span>
+							  <input type="number" class="form-control" id="loan_budget" aria-label="Budget">
+							</div>
+				  		</td>
+				  		<td>
+							<label for="payraise">Assume a yearly payraise? of what percent?</label>
+							<div class="input-group">
+						      <span class="input-group-addon">
+						        <input type="checkbox" aria-label="...">
+						      </span>
+						      <input type="number" class="form-control" aria-label="...">
+							  <span class="input-group-addon">%</span>
+						    </div><!-- /input-group -->
+						</td>
+					</tr>
+				  </table>
+				<br><br><br>
+
+				  <button type="submit" class="btn btn-default">Calculate!</button>
+				<br><br><br>
 				</div>
 	          </div>
 
