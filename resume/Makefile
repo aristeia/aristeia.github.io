@@ -10,7 +10,7 @@ pdf:   clean $(PDFS)
 html:  clean $(HTML)
 
 %.html: %.md
-	python resume.py html $(GRAVATAR_OPTION) < $< | pandoc --email-obfuscation=none -t html -c resume.css -o $@
+	python resume.py html $(GRAVATAR_OPTION) < $< | pandoc --email-obfuscation=none -t html -c resume.css  | python -c "from sys import stdin; print(''.join([x.replace('width:100%', 'width: calc(100% - 350px)') for x in stdin.readlines()]))" > $@
 
 %.pdf:  %.md $(LATEX_TEMPLATE)
 	python resume.py tex < $< | pandoc $(PANDOCARGS) --template=$(LATEX_TEMPLATE) -H header.tex -o $@

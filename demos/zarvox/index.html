@@ -157,8 +157,8 @@
 
 				    if (start.getFullYear() > 2015) {
 				    	if (end.getFullYear() > 2015) {
-							$.get('./albums.csv', {}, dealWithCSV, 'text text');
 							$.get('./subgenres.csv', {}, dealWithCSV, 'text text');
+							$.get('./albums.csv', {}, dealWithCSV, 'text text');
 				    		$("#zarv-good").toggle();
 							$(document).ready(function () {
 				    			$('.combobox').combobox({bsVersion: '3'});
@@ -252,8 +252,9 @@
 								}
 								else
 									getStr += "1&id= "
-								if (getStr.length > 0)
+								if (getStr.length > 0) {
 									window.location.replace(getStr);
+								}
 								else
 									alert("Error with entered arguments. Could not validate input. Try selecting again from the dropdown menus.")
 							});
