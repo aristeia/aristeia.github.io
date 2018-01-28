@@ -27,13 +27,6 @@ Work Experience
 
 *   **[T-Mobile](http://www.t-mobile.com/) contracted through [Denali AI](https://www.denaliai.com/)** (Bellevue, WA)
 
-    *Software Engineer, Machine Learning*, June 2016 - December 2016
-
-    -   Perform predictive analytics on customer data attributes using Python and its scikit-learn library.
-    -   Implemented a data cleansing and validation mechanism to make unstructured JSON data into feature vectors in a way that scales for 168,000 unique feature-value pairs to be persisted to disk for 118 million customers.
-    -   Tuned and automated training on predictive models using these feature vectors.
-    -   Implemented a prediction verification mechanism to determine the accuracy of the predictions over time.
-
     *Software Engineer, Mobile Automation Testing*, January 2017 - Present
 
     -   Designed and implemented a system for functional testing, continuous integration, and deployment for iOS apps on real devices. 
@@ -41,6 +34,13 @@ Work Experience
     -   These tools and services include a flask-based dashboard for assigning performance tests to devices, webhooks and integrations communicating from Grafana's alerts to the dashboard for healing to slack for output, and many others running as systemd-initiated Docker containers. 
     -   Scripted the provisioning and configuration of general Android devices using Python's uiautomator and Android's ADB frameworks so that they can be integrated into our STF-based device farm seamlessly.
     -   Assisted T-Mobile Java app developers with integration into our device farm, instructing and documenting for them how to develop JUnit/TestNG tests with the UIAutomator/Espresso UI testing frameworks.
+
+    *Software Engineer, Machine Learning*, June 2016 - December 2016
+
+    -   Perform predictive analytics on customer data attributes using Python and its scikit-learn library.
+    -   Implemented a data cleansing and validation mechanism to make unstructured JSON data into feature vectors in a way that scales for 168,000 unique feature-value pairs to be persisted to disk for 118 million customers.
+    -   Tuned and automated training on predictive models using these feature vectors.
+    -   Implemented a prediction verification mechanism to determine the accuracy of the predictions over time.
 
 *   **[Tyemill](http://www.tyemill.com/)** (Seattle, WA)
 
